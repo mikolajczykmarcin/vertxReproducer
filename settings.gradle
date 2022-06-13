@@ -1,0 +1,4 @@
+rootProject.name = 'vertxReproducer'
+include 'vtx3'
+include 'vtx4'
+

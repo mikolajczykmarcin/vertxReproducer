@@ -1,0 +1,1 @@
+jmeter -n -t vertx.jmx -l result\result.csv -e -o result

@@ -1,0 +1,29 @@
+<!-- Don't forget to set system property
+     -DLog4jContextSelector=org.apache.logging.log4j.core.async.AsyncLoggerContextSelector
+     to make all loggers asynchronous. -->
+
+<Configuration status="INFO" name="test" packages="org.example">
+  <Properties>
+    <Property name="log_path">logs</Property>
+    <!-- see CategorizedTransactionTimer -->
+    <!-- fixme temporaray path, it also has to be changed in code -->
+    <Property name="log_path_categorized_transactions">logs</Property>
+    <Property name="log_path_backup">logs/backup</Property>
+    <!-- Default values -->
+    <Property name="file_size">512MB</Property>
+    <Property name="file_pattern">%d{yyyy-MM-dd-HHmmss}</Property>
+    <Property name="log_pattern">%d %p %c{1.} [%t] %X %m%n</Property>
+  </Properties>
+
+  <Appenders>
+    <Console name="console" target="SYSTEM_OUT" follow="true">
+      <PatternLayout pattern="${log_pattern}"/>
+    </Console>
+  </Appenders>
+
+  <Loggers>
+    <Root level="DEBUG">
+      <AppenderRef ref="console"/>
+    </Root>
+  </Loggers>
+</Configuration>

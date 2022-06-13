@@ -1,0 +1,2001 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1654895896580,143,foo,200,OK,vertx 1-3,,true,,74,110,7,7,http://localhost/foo,141,0,11
+1654895896724,17,bar,200,OK,vertx 1-3,,true,,74,110,8,8,http://localhost/bar,17,0,0
+1654895896675,114,foo,200,OK,vertx 1-6,,true,,74,110,9,9,http://localhost/foo,114,0,1
+1654895896790,57,bar,200,OK,vertx 1-6,,true,,74,110,11,11,http://localhost/bar,57,0,1
+1654895896797,79,foo,200,OK,vertx 1-10,,true,,74,110,12,12,http://localhost/foo,78,0,0
+1654895896733,147,foo,200,OK,vertx 1-8,,true,,74,110,12,12,http://localhost/foo,147,0,1
+1654895896566,326,foo,200,OK,vertx 1-1,,true,,74,110,13,13,http://localhost/foo,326,0,17
+1654895896748,161,foo,200,OK,vertx 1-3,,true,,74,110,13,13,http://localhost/foo,161,0,0
+1654895896857,75,foo,200,OK,vertx 1-12,,true,,74,110,14,14,http://localhost/foo,75,0,1
+1654895896922,14,foo,200,OK,vertx 1-14,,true,,74,110,14,14,http://localhost/foo,14,0,1
+1654895896566,373,foo,200,OK,vertx 1-2,,true,,74,110,14,14,http://localhost/foo,373,0,17
+1654895896936,12,bar,200,OK,vertx 1-14,,true,,74,110,14,14,http://localhost/bar,12,0,1
+1654895896705,265,foo,200,OK,vertx 1-7,,true,,74,110,15,15,http://localhost/foo,265,0,1
+1654895896610,364,foo,200,OK,vertx 1-4,,true,,74,110,15,15,http://localhost/foo,364,0,0
+1654895896902,79,bar,200,OK,vertx 1-1,,true,,74,110,16,16,http://localhost/bar,78,0,1
+1654895896951,52,foo,200,OK,vertx 1-15,,true,,74,110,16,16,http://localhost/foo,52,0,0
+1654895896643,392,foo,200,OK,vertx 1-5,,true,,74,110,17,17,http://localhost/foo,392,0,1
+1654895896948,121,foo,200,OK,vertx 1-14,,true,,74,110,18,18,http://localhost/foo,121,0,0
+1654895896947,129,bar,200,OK,vertx 1-2,,true,,74,110,19,19,http://localhost/bar,129,0,1
+1654895897076,6,foo,200,OK,vertx 1-2,,true,,74,110,19,19,http://localhost/foo,6,0,0
+1654895896970,128,bar,200,OK,vertx 1-7,,true,,74,110,19,19,http://localhost/bar,128,0,1
+1654895897104,1,foo,200,OK,vertx 1-20,,true,,74,110,20,20,http://localhost/foo,1,0,0
+1654895896974,132,bar,200,OK,vertx 1-4,,true,,74,110,20,20,http://localhost/bar,132,0,1
+1654895897105,2,bar,200,OK,vertx 1-20,,true,,74,110,20,20,http://localhost/bar,2,0,0
+1654895896981,132,foo,200,OK,vertx 1-16,,true,,74,110,20,20,http://localhost/foo,132,0,1
+1654895896766,350,foo,200,OK,vertx 1-9,,true,,74,110,20,20,http://localhost/foo,350,0,1
+1654895897082,39,bar,200,OK,vertx 1-2,,true,,74,110,20,20,http://localhost/bar,38,0,0
+1654895897074,56,foo,200,OK,vertx 1-19,,true,,74,110,19,19,http://localhost/foo,56,0,0
+1654895897036,135,bar,200,OK,vertx 1-5,,true,,74,110,21,21,http://localhost/bar,134,0,2
+1654895896829,352,foo,200,OK,vertx 1-11,,true,,74,110,21,21,http://localhost/foo,352,0,1
+1654895897117,69,bar,200,OK,vertx 1-9,,true,,74,110,21,21,http://localhost/bar,69,0,0
+1654895897004,234,bar,200,OK,vertx 1-15,,true,,74,110,23,23,http://localhost/bar,234,0,1
+1654895896848,403,foo,408,Request Timeout,vertx 1-6,,false,,70,110,24,24,http://localhost/foo,403,0,1
+1654895897230,27,foo,200,OK,vertx 1-24,,true,,74,110,24,24,http://localhost/foo,26,0,1
+1654895897012,245,foo,200,OK,vertx 1-17,,true,,74,110,24,24,http://localhost/foo,245,0,2
+1654895897107,151,foo,200,OK,vertx 1-20,,true,,74,110,24,24,http://localhost/foo,151,0,1
+1654895896888,370,foo,200,OK,vertx 1-13,,true,,74,110,24,24,http://localhost/foo,370,0,1
+1654895896876,403,bar,408,Request Timeout,vertx 1-10,,false,,70,110,25,25,http://localhost/bar,403,0,1
+1654895897099,181,foo,200,OK,vertx 1-7,,true,,74,110,25,25,http://localhost/foo,180,0,1
+1654895897171,110,foo,200,OK,vertx 1-5,,true,,74,110,25,25,http://localhost/foo,110,0,1
+1654895896880,402,bar,408,Request Timeout,vertx 1-8,,false,,70,110,25,25,http://localhost/bar,402,0,0
+1654895897168,132,foo,200,OK,vertx 1-22,,true,,74,110,26,26,http://localhost/foo,132,0,1
+1654895897197,110,foo,200,OK,vertx 1-23,,true,,74,110,27,27,http://localhost/foo,109,0,1
+1654895896910,403,bar,408,Request Timeout,vertx 1-3,,false,,70,110,27,27,http://localhost/bar,403,0,0
+1654895897258,58,bar,200,OK,vertx 1-20,,true,,74,110,26,26,http://localhost/bar,58,0,1
+1654895896932,402,bar,408,Request Timeout,vertx 1-12,,false,,70,110,26,26,http://localhost/bar,402,0,0
+1654895897259,76,bar,200,OK,vertx 1-13,,true,,74,110,26,26,http://localhost/bar,76,0,0
+1654895896981,404,foo,408,Request Timeout,vertx 1-1,,false,,70,110,29,29,http://localhost/foo,404,0,1
+1654895897336,57,foo,200,OK,vertx 1-13,,true,,74,110,29,29,http://localhost/foo,57,0,0
+1654895897305,90,foo,200,OK,vertx 1-28,,true,,74,110,29,29,http://localhost/foo,90,0,1
+1654895897069,358,bar,200,OK,vertx 1-14,,true,,74,110,31,31,http://localhost/bar,358,0,1
+1654895897043,402,foo,408,Request Timeout,vertx 1-18,,false,,70,110,31,31,http://localhost/foo,402,0,0
+1654895897136,309,foo,200,OK,vertx 1-21,,true,,74,110,31,31,http://localhost/foo,309,0,0
+1654895897307,146,bar,200,OK,vertx 1-23,,true,,74,110,31,31,http://localhost/bar,146,0,0
+1654895897114,342,bar,200,OK,vertx 1-16,,true,,74,110,31,31,http://localhost/bar,342,0,0
+1654895897130,335,bar,200,OK,vertx 1-19,,true,,74,110,32,32,http://localhost/bar,335,0,1
+1654895897385,109,foo,200,OK,vertx 1-32,,true,,74,110,33,33,http://localhost/foo,109,0,1
+1654895897280,228,bar,200,OK,vertx 1-7,,true,,74,110,34,34,http://localhost/bar,228,0,0
+1654895897106,402,foo,408,Request Timeout,vertx 1-4,,false,,70,110,34,34,http://localhost/foo,402,0,1
+1654895897267,244,foo,200,OK,vertx 1-26,,true,,74,110,33,33,http://localhost/foo,244,0,0
+1654895897286,236,foo,200,OK,vertx 1-27,,true,,74,110,34,34,http://localhost/foo,236,0,0
+1654895897181,346,bar,200,OK,vertx 1-11,,true,,74,110,34,34,http://localhost/bar,346,0,1
+1654895897363,175,foo,200,OK,vertx 1-31,,true,,74,110,35,35,http://localhost/foo,175,0,0
+1654895897283,274,foo,200,OK,vertx 1-8,,true,,74,110,35,35,http://localhost/foo,274,0,1
+1654895897511,47,bar,200,OK,vertx 1-26,,true,,74,110,36,36,http://localhost/bar,47,0,0
+1654895897509,54,bar,200,OK,vertx 1-4,,true,,74,110,36,36,http://localhost/bar,54,0,0
+1654895897257,318,bar,200,OK,vertx 1-24,,true,,74,110,35,35,http://localhost/bar,318,0,1
+1654895897500,76,foo,200,OK,vertx 1-38,,true,,74,110,35,35,http://localhost/foo,76,0,0
+1654895897446,132,bar,200,OK,vertx 1-21,,true,,74,110,36,36,http://localhost/bar,131,0,1
+1654895897577,6,foo,200,OK,vertx 1-42,,true,,74,110,36,36,http://localhost/foo,5,0,1
+1654895897187,401,foo,200,OK,vertx 1-9,,true,,74,110,36,36,http://localhost/foo,401,0,1
+1654895897538,64,foo,200,OK,vertx 1-40,,true,,74,110,37,37,http://localhost/foo,64,0,1
+1654895897576,33,bar,200,OK,vertx 1-38,,true,,74,110,37,37,http://localhost/bar,32,0,1
+1654895897239,375,foo,200,OK,vertx 1-15,,true,,74,110,37,37,http://localhost/foo,375,0,1
+1654895897385,236,bar,200,OK,vertx 1-1,,true,,74,110,38,38,http://localhost/bar,236,0,1
+1654895897557,65,bar,200,OK,vertx 1-8,,true,,74,110,37,37,http://localhost/bar,65,0,1
+1654895897456,167,foo,200,OK,vertx 1-16,,true,,74,110,36,36,http://localhost/foo,167,0,1
+1654895897344,279,foo,200,OK,vertx 1-30,,true,,74,110,36,36,http://localhost/foo,279,0,0
+1654895897249,376,foo,200,OK,vertx 1-25,,true,,74,110,36,36,http://localhost/foo,376,0,1
+1654895897494,139,bar,200,OK,vertx 1-32,,true,,74,110,36,36,http://localhost/bar,139,0,1
+1654895897446,189,bar,200,OK,vertx 1-18,,true,,74,110,36,36,http://localhost/bar,189,0,1
+1654895897279,357,foo,200,OK,vertx 1-10,,true,,74,110,37,37,http://localhost/foo,357,0,1
+1654895897335,304,foo,200,OK,vertx 1-12,,true,,74,110,37,37,http://localhost/foo,304,0,0
+1654895897258,383,bar,200,OK,vertx 1-17,,true,,74,110,37,37,http://localhost/bar,383,0,0
+1654895897558,84,foo,200,OK,vertx 1-41,,true,,74,110,37,37,http://localhost/foo,84,0,0
+1654895897325,318,foo,200,OK,vertx 1-29,,true,,74,110,37,37,http://localhost/foo,318,0,0
+1654895897252,402,bar,408,Request Timeout,vertx 1-6,,false,,70,110,37,37,http://localhost/bar,402,0,1
+1654895897396,284,bar,200,OK,vertx 1-28,,true,,74,110,38,38,http://localhost/bar,284,0,0
+1654895897281,403,bar,408,Request Timeout,vertx 1-5,,false,,70,110,38,38,http://localhost/bar,403,0,0
+1654895897597,93,foo,200,OK,vertx 1-43,,true,,74,110,37,37,http://localhost/foo,93,0,1
+1654895897623,69,bar,200,OK,vertx 1-30,,true,,74,110,37,37,http://localhost/bar,69,0,1
+1654895897636,59,foo,200,OK,vertx 1-45,,true,,74,110,38,38,http://localhost/foo,59,0,0
+1654895897617,80,foo,200,OK,vertx 1-44,,true,,74,110,38,38,http://localhost/foo,79,0,0
+1654895897693,8,foo,200,OK,vertx 1-30,,true,,74,110,38,38,http://localhost/foo,8,0,0
+1654895897301,401,bar,408,Request Timeout,vertx 1-22,,false,,70,110,38,38,http://localhost/bar,401,0,0
+1654895897696,9,foo,200,OK,vertx 1-48,,true,,74,110,38,38,http://localhost/foo,9,0,0
+1654895897422,292,foo,200,OK,vertx 1-34,,true,,74,110,38,38,http://localhost/foo,292,0,0
+1654895897588,143,bar,200,OK,vertx 1-9,,true,,74,110,39,39,http://localhost/bar,143,0,0
+1654895897639,94,bar,200,OK,vertx 1-12,,true,,74,110,38,38,http://localhost/bar,94,0,1
+1654895897575,162,foo,200,OK,vertx 1-24,,true,,74,110,38,38,http://localhost/foo,162,0,1
+1654895897702,35,bar,200,OK,vertx 1-30,,true,,74,110,38,38,http://localhost/bar,35,0,0
+1654895897527,220,foo,200,OK,vertx 1-11,,true,,74,110,37,37,http://localhost/foo,220,0,0
+1654895897519,235,foo,200,OK,vertx 1-39,,true,,74,110,38,38,http://localhost/foo,235,0,0
+1654895897737,23,bar,200,OK,vertx 1-24,,true,,74,110,38,38,http://localhost/bar,23,0,1
+1654895897453,320,foo,200,OK,vertx 1-23,,true,,74,110,38,38,http://localhost/foo,320,0,1
+1654895897394,384,bar,200,OK,vertx 1-13,,true,,74,110,38,38,http://localhost/bar,384,0,0
+1654895897578,211,foo,200,OK,vertx 1-21,,true,,74,110,37,37,http://localhost/foo,211,0,0
+1654895897755,43,bar,200,OK,vertx 1-39,,true,,74,110,38,38,http://localhost/bar,43,0,0
+1654895897402,402,foo,408,Request Timeout,vertx 1-33,,false,,70,110,38,38,http://localhost/foo,402,0,1
+1654895897695,128,bar,200,OK,vertx 1-45,,true,,74,110,39,39,http://localhost/bar,128,0,1
+1654895897538,306,bar,200,OK,vertx 1-31,,true,,74,110,40,40,http://localhost/bar,305,0,1
+1654895897441,403,foo,408,Request Timeout,vertx 1-35,,false,,70,110,40,40,http://localhost/foo,403,0,1
+1654895897480,367,foo,200,OK,vertx 1-37,,true,,74,110,40,40,http://localhost/foo,367,0,0
+1654895897715,139,foo,200,OK,vertx 1-49,,true,,74,110,41,41,http://localhost/foo,139,0,0
+1654895897460,403,foo,408,Request Timeout,vertx 1-36,,false,,70,110,41,41,http://localhost/foo,403,0,1
+1654895897465,401,foo,408,Request Timeout,vertx 1-19,,false,,70,110,41,41,http://localhost/foo,401,0,0
+1654895897641,227,foo,200,OK,vertx 1-17,,true,,74,110,42,42,http://localhost/foo,227,0,1
+1654895897844,25,foo,200,OK,vertx 1-31,,true,,74,110,42,42,http://localhost/foo,25,0,1
+1654895897602,267,bar,200,OK,vertx 1-40,,true,,74,110,42,42,http://localhost/bar,267,0,0
+1654895897773,111,bar,200,OK,vertx 1-23,,true,,74,110,42,42,http://localhost/bar,111,0,0
+1654895897734,150,foo,200,OK,vertx 1-50,,true,,74,110,42,42,http://localhost/foo,150,0,1
+1654895897681,204,foo,200,OK,vertx 1-28,,true,,74,110,41,41,http://localhost/foo,204,0,0
+1654895897848,52,bar,200,OK,vertx 1-37,,true,,74,110,42,42,http://localhost/bar,52,0,0
+1654895897625,278,bar,200,OK,vertx 1-25,,true,,74,110,42,42,http://localhost/bar,278,0,0
+1654895897522,403,bar,408,Request Timeout,vertx 1-27,,false,,70,110,43,43,http://localhost/bar,403,0,0
+1654895897609,325,foo,200,OK,vertx 1-38,,true,,74,110,44,44,http://localhost/foo,325,0,0
+1654895897789,146,bar,200,OK,vertx 1-21,,true,,74,110,44,44,http://localhost/bar,146,0,0
+1654895897901,39,foo,200,OK,vertx 1-37,,true,,74,110,43,43,http://localhost/foo,39,0,0
+1654895897798,143,foo,200,OK,vertx 1-39,,true,,74,110,43,43,http://localhost/foo,143,0,0
+1654895897583,374,bar,200,OK,vertx 1-42,,true,,74,110,44,44,http://localhost/bar,374,0,0
+1654895897559,400,foo,408,Request Timeout,vertx 1-26,,false,,70,110,44,44,http://localhost/foo,400,0,0
+1654895897811,157,foo,200,OK,vertx 1-54,,true,,74,110,45,45,http://localhost/foo,157,0,0
+1654895897614,359,bar,200,OK,vertx 1-15,,true,,74,110,45,45,http://localhost/bar,359,0,1
+1654895897942,33,bar,200,OK,vertx 1-37,,true,,74,110,44,44,http://localhost/bar,33,0,1
+1654895897868,129,bar,200,OK,vertx 1-17,,true,,74,110,44,44,http://localhost/bar,128,0,1
+1654895897643,358,bar,200,OK,vertx 1-29,,true,,74,110,43,43,http://localhost/bar,358,0,0
+1654895897690,327,bar,200,OK,vertx 1-43,,true,,74,110,44,44,http://localhost/bar,327,0,0
+1654895897623,403,bar,408,Request Timeout,vertx 1-16,,false,,70,110,45,45,http://localhost/bar,403,0,0
+1654895897753,277,foo,200,OK,vertx 1-51,,true,,74,110,44,44,http://localhost/foo,277,0,1
+1654895897855,177,bar,200,OK,vertx 1-49,,true,,74,110,44,44,http://localhost/bar,177,0,0
+1654895897633,403,foo,408,Request Timeout,vertx 1-32,,false,,70,110,44,44,http://localhost/foo,403,0,1
+1654895897635,402,foo,408,Request Timeout,vertx 1-18,,false,,70,110,44,44,http://localhost/foo,402,0,1
+1654895897636,402,bar,408,Request Timeout,vertx 1-10,,false,,70,110,44,44,http://localhost/bar,402,0,1
+1654895897702,338,foo,200,OK,vertx 1-22,,true,,74,110,43,43,http://localhost/foo,338,0,0
+1654895897655,386,foo,200,OK,vertx 1-46,,true,,74,110,43,43,http://localhost/foo,385,0,1
+1654895897643,402,bar,408,Request Timeout,vertx 1-41,,false,,70,110,43,43,http://localhost/bar,402,0,1
+1654895898041,10,bar,200,OK,vertx 1-46,,true,,74,110,44,44,http://localhost/bar,10,0,0
+1654895897714,342,bar,200,OK,vertx 1-34,,true,,74,110,44,44,http://localhost/bar,342,0,1
+1654895897907,154,foo,200,OK,vertx 1-59,,true,,74,110,44,44,http://localhost/foo,154,0,1
+1654895897705,363,bar,200,OK,vertx 1-48,,true,,74,110,45,45,http://localhost/bar,363,0,0
+1654895897675,397,foo,200,OK,vertx 1-47,,true,,74,110,45,45,http://localhost/foo,397,0,1
+1654895897957,126,foo,200,OK,vertx 1-42,,true,,74,110,45,45,http://localhost/foo,126,0,0
+1654895897697,387,bar,200,OK,vertx 1-44,,true,,74,110,46,46,http://localhost/bar,387,0,0
+1654895898030,57,bar,200,OK,vertx 1-51,,true,,74,110,46,46,http://localhost/bar,57,0,0
+1654895898072,19,bar,200,OK,vertx 1-47,,true,,74,110,46,46,http://localhost/bar,19,0,1
+1654895898037,68,bar,200,OK,vertx 1-18,,true,,74,110,47,47,http://localhost/bar,68,0,1
+1654895897885,221,bar,200,OK,vertx 1-28,,true,,74,110,46,46,http://localhost/bar,221,0,1
+1654895898084,35,foo,200,OK,vertx 1-68,,true,,74,110,45,45,http://localhost/foo,35,0,1
+1654895897772,352,foo,200,OK,vertx 1-52,,true,,74,110,46,46,http://localhost/foo,352,0,1
+1654895897869,271,bar,200,OK,vertx 1-31,,true,,74,110,46,46,http://localhost/bar,271,0,1
+1654895898088,59,foo,200,OK,vertx 1-51,,true,,74,110,46,46,http://localhost/foo,59,0,0
+1654895897747,401,bar,408,Request Timeout,vertx 1-11,,false,,70,110,46,46,http://localhost/bar,401,0,0
+1654895897926,232,foo,200,OK,vertx 1-27,,true,,74,110,45,45,http://localhost/foo,232,0,1
+1654895897804,359,bar,200,OK,vertx 1-33,,true,,74,110,46,46,http://localhost/bar,359,0,0
+1654895897884,284,bar,200,OK,vertx 1-50,,true,,74,110,46,46,http://localhost/bar,284,0,1
+1654895898119,58,bar,200,OK,vertx 1-68,,true,,74,110,46,46,http://localhost/bar,58,0,0
+1654895898085,97,foo,200,OK,vertx 1-44,,true,,74,110,47,47,http://localhost/foo,97,0,0
+1654895897791,402,foo,408,Request Timeout,vertx 1-53,,false,,70,110,47,47,http://localhost/foo,402,0,1
+1654895898025,176,foo,200,OK,vertx 1-65,,true,,74,110,48,48,http://localhost/foo,176,0,1
+1654895898084,124,bar,200,OK,vertx 1-42,,true,,74,110,48,48,http://localhost/bar,124,0,0
+1654895897987,222,foo,200,OK,vertx 1-63,,true,,74,110,47,47,http://localhost/foo,222,0,1
+1654895897903,310,foo,200,OK,vertx 1-25,,true,,74,110,47,47,http://localhost/foo,310,0,1
+1654895897849,367,foo,200,OK,vertx 1-56,,true,,74,110,47,47,http://localhost/foo,367,0,0
+1654895897946,277,foo,200,OK,vertx 1-61,,true,,74,110,48,48,http://localhost/foo,277,0,1
+1654895897823,402,foo,408,Request Timeout,vertx 1-45,,false,,70,110,48,48,http://localhost/foo,402,0,1
+1654895898124,103,bar,200,OK,vertx 1-52,,true,,74,110,48,48,http://localhost/bar,103,0,1
+1654895897830,401,foo,408,Request Timeout,vertx 1-55,,false,,70,110,48,48,http://localhost/foo,401,0,0
+1654895897928,311,foo,200,OK,vertx 1-60,,true,,74,110,48,48,http://localhost/foo,311,0,1
+1654895898065,178,foo,200,OK,vertx 1-67,,true,,74,110,49,49,http://localhost/foo,178,0,0
+1654895897844,402,bar,408,Request Timeout,vertx 1-35,,false,,70,110,49,49,http://localhost/bar,402,0,1
+1654895897868,382,foo,200,OK,vertx 1-57,,true,,74,110,49,49,http://localhost/foo,382,0,0
+1654895897870,382,foo,200,OK,vertx 1-40,,true,,74,110,49,49,http://localhost/foo,382,0,0
+1654895898213,48,bar,200,OK,vertx 1-25,,true,,74,110,50,50,http://localhost/bar,48,0,0
+1654895898068,196,foo,200,OK,vertx 1-48,,true,,74,110,49,49,http://localhost/foo,196,0,1
+1654895897863,402,bar,408,Request Timeout,vertx 1-36,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895897968,297,bar,200,OK,vertx 1-54,,true,,74,110,49,49,http://localhost/bar,297,0,0
+1654895898169,97,foo,200,OK,vertx 1-50,,true,,74,110,49,49,http://localhost/foo,96,0,0
+1654895898032,234,foo,200,OK,vertx 1-49,,true,,74,110,49,49,http://localhost/foo,234,0,0
+1654895897866,401,bar,200,OK,vertx 1-19,,true,,74,110,49,49,http://localhost/bar,400,0,1
+1654895898036,242,bar,200,OK,vertx 1-32,,true,,74,110,49,49,http://localhost/bar,242,0,0
+1654895898124,156,foo,200,OK,vertx 1-70,,true,,74,110,48,48,http://localhost/foo,156,0,1
+1654895898143,138,foo,200,OK,vertx 1-71,,true,,74,110,48,48,http://localhost/foo,137,0,0
+1654895897888,402,foo,408,Request Timeout,vertx 1-58,,false,,70,110,48,48,http://localhost/foo,402,0,0
+1654895898267,23,bar,200,OK,vertx 1-49,,true,,74,110,48,48,http://localhost/bar,23,0,0
+1654895897934,358,bar,200,OK,vertx 1-38,,true,,74,110,47,47,http://localhost/bar,358,0,1
+1654895898216,85,bar,200,OK,vertx 1-56,,true,,74,110,47,47,http://localhost/bar,85,0,1
+1654895897960,348,bar,200,OK,vertx 1-26,,true,,74,110,47,47,http://localhost/bar,347,0,0
+1654895898008,334,foo,200,OK,vertx 1-64,,true,,74,110,48,48,http://localhost/foo,334,0,1
+1654895897942,402,bar,408,Request Timeout,vertx 1-39,,false,,70,110,48,48,http://localhost/bar,402,0,0
+1654895898220,125,foo,200,OK,vertx 1-75,,true,,74,110,47,47,http://localhost/foo,125,0,0
+1654895897966,403,foo,408,Request Timeout,vertx 1-62,,false,,70,110,48,48,http://localhost/foo,403,0,1
+1654895898092,279,foo,200,OK,vertx 1-47,,true,,74,110,48,48,http://localhost/foo,279,0,0
+1654895898201,172,bar,200,OK,vertx 1-65,,true,,74,110,48,48,http://localhost/bar,172,0,0
+1654895898247,131,foo,200,OK,vertx 1-35,,true,,74,110,49,49,http://localhost/foo,131,0,0
+1654895898373,13,foo,200,OK,vertx 1-65,,true,,74,110,49,49,http://localhost/foo,13,0,1
+1654895898104,284,foo,200,OK,vertx 1-69,,true,,74,110,49,49,http://localhost/foo,284,0,0
+1654895898266,131,bar,200,OK,vertx 1-50,,true,,74,110,50,50,http://localhost/bar,131,0,0
+1654895898158,240,bar,200,OK,vertx 1-27,,true,,74,110,49,49,http://localhost/bar,240,0,0
+1654895898302,96,foo,200,OK,vertx 1-56,,true,,74,110,49,49,http://localhost/foo,96,0,0
+1654895898243,162,bar,200,OK,vertx 1-67,,true,,74,110,48,48,http://localhost/bar,162,0,1
+1654895898002,404,foo,408,Request Timeout,vertx 1-29,,false,,70,110,48,48,http://localhost/foo,404,0,1
+1654895898017,402,foo,408,Request Timeout,vertx 1-43,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895898253,167,bar,200,OK,vertx 1-40,,true,,74,110,49,49,http://localhost/bar,167,0,0
+1654895898040,381,bar,200,OK,vertx 1-22,,true,,74,110,49,49,http://localhost/bar,380,0,0
+1654895898386,46,bar,200,OK,vertx 1-65,,true,,74,110,47,47,http://localhost/bar,46,0,1
+1654895898201,232,foo,200,OK,vertx 1-74,,true,,74,110,46,46,http://localhost/foo,232,0,0
+1654895898342,92,bar,200,OK,vertx 1-64,,true,,74,110,47,47,http://localhost/bar,92,0,1
+1654895898045,401,foo,408,Request Timeout,vertx 1-41,,false,,70,110,47,47,http://localhost/foo,401,0,0
+1654895898183,264,bar,200,OK,vertx 1-44,,true,,74,110,47,47,http://localhost/bar,264,0,0
+1654895898046,402,foo,408,Request Timeout,vertx 1-66,,false,,70,110,46,46,http://localhost/foo,401,0,0
+1654895898051,402,foo,200,OK,vertx 1-46,,true,,74,110,46,46,http://localhost/foo,402,0,0
+1654895898056,403,foo,408,Request Timeout,vertx 1-34,,false,,70,110,47,47,http://localhost/foo,403,0,1
+1654895898061,402,bar,408,Request Timeout,vertx 1-59,,false,,70,110,47,47,http://localhost/bar,402,0,1
+1654895898290,189,bar,200,OK,vertx 1-58,,true,,74,110,48,48,http://localhost/bar,189,0,1
+1654895898240,243,bar,200,OK,vertx 1-60,,true,,74,110,48,48,http://localhost/bar,243,0,1
+1654895898147,337,bar,200,OK,vertx 1-51,,true,,74,110,48,48,http://localhost/bar,337,0,1
+1654895898264,224,bar,200,OK,vertx 1-48,,true,,74,110,47,47,http://localhost/bar,224,0,0
+1654895898433,72,bar,200,OK,vertx 1-74,,true,,74,110,47,47,http://localhost/bar,72,0,1
+1654895898345,170,bar,200,OK,vertx 1-75,,true,,74,110,48,48,http://localhost/bar,170,0,0
+1654895898251,266,bar,200,OK,vertx 1-57,,true,,74,110,48,48,http://localhost/bar,266,0,0
+1654895898370,149,bar,200,OK,vertx 1-62,,true,,74,110,48,48,http://localhost/bar,149,0,0
+1654895898483,40,foo,200,OK,vertx 1-60,,true,,74,110,48,48,http://localhost/foo,40,0,0
+1654895898281,260,bar,200,OK,vertx 1-70,,true,,74,110,49,49,http://localhost/bar,259,0,0
+1654895898376,168,foo,200,OK,vertx 1-83,,true,,74,110,49,49,http://localhost/foo,168,0,1
+1654895898388,162,bar,200,OK,vertx 1-69,,true,,74,110,50,50,http://localhost/bar,162,0,1
+1654895898227,326,foo,200,OK,vertx 1-52,,true,,74,110,50,50,http://localhost/foo,326,0,0
+1654895898454,100,foo,200,OK,vertx 1-87,,true,,74,110,50,50,http://localhost/foo,99,0,0
+1654895898453,109,bar,200,OK,vertx 1-46,,true,,74,110,50,50,http://localhost/bar,108,0,0
+1654895898162,402,foo,408,Request Timeout,vertx 1-72,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895898163,401,foo,408,Request Timeout,vertx 1-33,,false,,70,110,49,49,http://localhost/foo,401,0,0
+1654895898515,51,foo,200,OK,vertx 1-75,,true,,74,110,49,49,http://localhost/foo,50,0,0
+1654895898241,337,foo,200,OK,vertx 1-76,,true,,74,110,50,50,http://localhost/foo,336,0,1
+1654895898177,402,foo,408,Request Timeout,vertx 1-68,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895898550,30,foo,200,OK,vertx 1-69,,true,,74,110,50,50,http://localhost/foo,30,0,1
+1654895898183,404,foo,408,Request Timeout,vertx 1-73,,false,,70,110,50,50,http://localhost/foo,404,0,1
+1654895898434,159,foo,200,OK,vertx 1-86,,true,,74,110,51,51,http://localhost/foo,159,0,1
+1654895898209,384,bar,200,OK,vertx 1-63,,true,,74,110,51,51,http://localhost/bar,384,0,0
+1654895898193,402,bar,408,Request Timeout,vertx 1-53,,false,,70,110,51,51,http://localhost/bar,402,0,0
+1654895898299,300,foo,200,OK,vertx 1-79,,true,,74,110,51,51,http://localhost/foo,299,0,0
+1654895898226,373,bar,200,OK,vertx 1-45,,true,,74,110,51,51,http://localhost/bar,373,0,0
+1654895898378,231,bar,200,OK,vertx 1-35,,true,,74,110,50,50,http://localhost/bar,231,0,1
+1654895898224,394,bar,200,OK,vertx 1-61,,true,,74,110,50,50,http://localhost/bar,394,0,0
+1654895898464,163,foo,200,OK,vertx 1-59,,true,,74,110,50,50,http://localhost/foo,163,0,0
+1654895898511,121,foo,200,OK,vertx 1-90,,true,,74,110,51,51,http://localhost/foo,121,0,0
+1654895898231,402,bar,408,Request Timeout,vertx 1-55,,false,,70,110,51,51,http://localhost/bar,402,0,0
+1654895898281,353,bar,200,OK,vertx 1-71,,true,,74,110,51,51,http://localhost/bar,353,0,0
+1654895898618,23,foo,200,OK,vertx 1-61,,true,,74,110,51,51,http://localhost/foo,23,0,0
+1654895898337,305,foo,200,OK,vertx 1-81,,true,,74,110,51,51,http://localhost/foo,305,0,0
+1654895898435,215,foo,200,OK,vertx 1-64,,true,,74,110,52,52,http://localhost/foo,214,0,0
+1654895898278,372,foo,200,OK,vertx 1-78,,true,,74,110,52,52,http://localhost/foo,371,0,1
+1654895898627,28,bar,200,OK,vertx 1-59,,true,,74,110,52,52,http://localhost/bar,28,0,1
+1654895898259,402,foo,408,Request Timeout,vertx 1-77,,false,,70,110,51,51,http://localhost/foo,402,0,1
+1654895898609,55,foo,200,OK,vertx 1-95,,true,,74,110,51,51,http://localhost/foo,55,0,1
+1654895898265,401,foo,408,Request Timeout,vertx 1-36,,false,,70,110,51,51,http://localhost/foo,401,0,0
+1654895898564,103,bar,200,OK,vertx 1-72,,true,,74,110,52,52,http://localhost/bar,103,0,0
+1654895898266,401,foo,408,Request Timeout,vertx 1-54,,false,,70,110,52,52,http://localhost/foo,401,0,0
+1654895898578,90,bar,200,OK,vertx 1-76,,true,,74,110,52,52,http://localhost/bar,90,0,0
+1654895898544,130,bar,200,OK,vertx 1-83,,true,,74,110,52,52,http://localhost/bar,130,0,0
+1654895898446,236,bar,200,OK,vertx 1-41,,true,,74,110,52,52,http://localhost/bar,236,0,0
+1654895898579,103,bar,200,OK,vertx 1-68,,true,,74,110,52,52,http://localhost/bar,103,0,0
+1654895898371,313,bar,200,OK,vertx 1-47,,true,,74,110,50,50,http://localhost/bar,313,0,0
+1654895898448,239,bar,200,OK,vertx 1-66,,true,,74,110,50,50,http://localhost/bar,239,0,0
+1654895898491,205,foo,200,OK,vertx 1-89,,true,,74,110,50,50,http://localhost/foo,205,0,1
+1654895898406,301,bar,200,OK,vertx 1-29,,true,,74,110,51,51,http://localhost/bar,301,0,0
+1654895898593,115,foo,200,OK,vertx 1-63,,true,,74,110,50,50,http://localhost/foo,115,0,0
+1654895898669,41,foo,200,OK,vertx 1-76,,true,,74,110,50,50,http://localhost/foo,41,0,0
+1654895898666,51,bar,200,OK,vertx 1-36,,true,,74,110,50,50,http://localhost/bar,51,0,1
+1654895898318,402,foo,408,Request Timeout,vertx 1-80,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895898399,344,bar,200,OK,vertx 1-56,,true,,74,110,50,50,http://localhost/bar,344,0,0
+1654895898647,103,foo,200,OK,vertx 1-97,,true,,74,110,50,50,http://localhost/foo,103,0,1
+1654895898570,181,foo,200,OK,vertx 1-93,,true,,74,110,50,50,http://localhost/foo,181,0,0
+1654895898517,237,foo,200,OK,vertx 1-57,,true,,74,110,50,50,http://localhost/foo,237,0,0
+1654895898687,69,foo,200,OK,vertx 1-99,,true,,74,110,50,50,http://localhost/foo,69,0,0
+1654895898356,403,foo,408,Request Timeout,vertx 1-82,,false,,70,110,50,50,http://localhost/foo,403,0,1
+1654895898505,256,foo,200,OK,vertx 1-74,,true,,74,110,50,50,http://localhost/foo,255,0,1
+1654895898650,128,bar,200,OK,vertx 1-78,,true,,74,110,51,51,http://localhost/bar,128,0,0
+1654895898688,97,foo,200,OK,vertx 1-66,,true,,74,110,52,52,http://localhost/foo,97,0,0
+1654895898459,335,bar,200,OK,vertx 1-34,,true,,74,110,52,52,http://localhost/bar,335,0,1
+1654895898395,402,foo,408,Request Timeout,vertx 1-84,,false,,70,110,51,51,http://localhost/foo,402,0,1
+1654895898667,135,bar,200,OK,vertx 1-54,,true,,74,110,51,51,http://localhost/bar,135,0,1
+1654895898406,402,foo,408,Request Timeout,vertx 1-67,,false,,70,110,51,51,http://localhost/foo,402,0,0
+1654895898523,291,bar,200,OK,vertx 1-60,,true,,74,110,51,51,http://localhost/bar,291,0,1
+1654895898554,260,bar,200,OK,vertx 1-87,,true,,74,110,51,51,http://localhost/bar,260,0,0
+1654895898414,402,foo,408,Request Timeout,vertx 1-85,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895898420,396,bar,200,OK,vertx 1-43,,true,,74,110,50,50,http://localhost/bar,396,0,0
+1654895898541,280,foo,200,OK,vertx 1-70,,true,,74,110,49,49,http://localhost/foo,280,0,0
+1654895898564,260,bar,200,OK,vertx 1-33,,true,,74,110,50,50,http://localhost/bar,260,0,1
+1654895898633,194,foo,200,OK,vertx 1-55,,true,,74,110,49,49,http://localhost/foo,194,0,1
+1654895898599,231,bar,200,OK,vertx 1-79,,true,,74,110,49,49,http://localhost/bar,231,0,0
+1654895898761,77,bar,200,OK,vertx 1-74,,true,,74,110,49,49,http://localhost/bar,77,0,0
+1654895898750,90,bar,200,OK,vertx 1-97,,true,,74,110,48,48,http://localhost/bar,90,0,1
+1654895898530,312,foo,200,OK,vertx 1-91,,true,,74,110,48,48,http://localhost/foo,311,0,1
+1654895898765,87,foo,200,OK,vertx 1-103,,true,,74,110,49,49,http://localhost/foo,87,0,0
+1654895898797,60,bar,200,OK,vertx 1-84,,true,,74,110,49,49,http://localhost/bar,60,0,1
+1654895898587,274,bar,200,OK,vertx 1-73,,true,,74,110,49,49,http://localhost/bar,274,0,0
+1654895898472,391,foo,200,OK,vertx 1-88,,true,,74,110,50,50,http://localhost/foo,391,0,1
+1654895898479,384,foo,200,OK,vertx 1-58,,true,,74,110,50,50,http://localhost/foo,384,0,0
+1654895898809,55,bar,200,OK,vertx 1-67,,true,,74,110,50,50,http://localhost/bar,55,0,0
+1654895898827,53,bar,200,OK,vertx 1-55,,true,,74,110,49,49,http://localhost/bar,53,0,0
+1654895898553,328,bar,200,OK,vertx 1-52,,true,,74,110,48,48,http://localhost/bar,328,0,1
+1654895898589,317,foo,200,OK,vertx 1-94,,true,,74,110,49,49,http://localhost/foo,317,0,1
+1654895898863,47,bar,200,OK,vertx 1-88,,true,,74,110,49,49,http://localhost/bar,47,0,0
+1654895898667,248,foo,200,OK,vertx 1-72,,true,,74,110,49,49,http://localhost/foo,248,0,1
+1654895898519,402,foo,408,Request Timeout,vertx 1-62,,false,,70,110,49,49,http://localhost/foo,402,0,1
+1654895898593,349,bar,200,OK,vertx 1-86,,true,,74,110,51,51,http://localhost/bar,348,0,0
+1654895898852,90,bar,200,OK,vertx 1-103,,true,,74,110,51,51,http://localhost/bar,90,0,1
+1654895898823,123,foo,200,OK,vertx 1-106,,true,,74,110,51,51,http://localhost/foo,123,0,1
+1654895898550,401,foo,408,Request Timeout,vertx 1-92,,false,,70,110,51,51,http://localhost/foo,401,0,0
+1654895898566,391,bar,200,OK,vertx 1-75,,true,,74,110,51,51,http://localhost/bar,391,0,0
+1654895898595,375,foo,200,OK,vertx 1-53,,true,,74,110,51,51,http://localhost/foo,375,0,0
+1654895898910,66,foo,200,OK,vertx 1-88,,true,,74,110,51,51,http://localhost/foo,66,0,1
+1654895898581,397,bar,200,OK,vertx 1-69,,true,,74,110,51,51,http://localhost/bar,396,0,0
+1654895898751,228,bar,200,OK,vertx 1-93,,true,,74,110,50,50,http://localhost/bar,228,0,0
+1654895898662,317,bar,200,OK,vertx 1-77,,true,,74,110,50,50,http://localhost/bar,317,0,0
+1654895898650,337,bar,200,OK,vertx 1-64,,true,,74,110,51,51,http://localhost/bar,337,0,0
+1654895898708,287,bar,200,OK,vertx 1-63,,true,,74,110,50,50,http://localhost/bar,287,0,1
+1654895898861,137,foo,200,OK,vertx 1-73,,true,,74,110,49,49,http://localhost/foo,137,0,0
+1654895898632,374,bar,200,OK,vertx 1-90,,true,,74,110,50,50,http://localhost/bar,374,0,0
+1654895898754,257,bar,200,OK,vertx 1-57,,true,,74,110,50,50,http://localhost/bar,257,0,0
+1654895898815,205,foo,200,OK,vertx 1-87,,true,,74,110,50,50,http://localhost/foo,205,0,0
+1654895898667,353,foo,200,OK,vertx 1-98,,true,,74,110,50,50,http://localhost/foo,353,0,1
+1654895898942,78,foo,200,OK,vertx 1-86,,true,,74,110,50,50,http://localhost/foo,78,0,0
+1654895898946,75,bar,200,OK,vertx 1-106,,true,,74,110,50,50,http://localhost/bar,74,0,1
+1654895898976,49,bar,200,OK,vertx 1-88,,true,,74,110,50,50,http://localhost/bar,49,0,0
+1654895898635,393,foo,200,OK,vertx 1-71,,true,,74,110,49,49,http://localhost/foo,393,0,0
+1654895898664,366,bar,200,OK,vertx 1-95,,true,,74,110,49,49,http://localhost/bar,366,0,1
+1654895898629,401,foo,408,Request Timeout,vertx 1-96,,false,,70,110,49,49,http://localhost/foo,401,0,1
+1654895899020,14,bar,200,OK,vertx 1-86,,true,,74,110,49,49,http://localhost/bar,14,0,1
+1654895898979,63,foo,200,OK,vertx 1-93,,true,,74,110,49,49,http://localhost/foo,63,0,0
+1654895898960,83,foo,200,OK,vertx 1-113,,true,,74,110,49,49,http://localhost/foo,83,0,0
+1654895898642,402,bar,408,Request Timeout,vertx 1-61,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895898642,402,bar,408,Request Timeout,vertx 1-81,,false,,70,110,48,48,http://localhost/bar,402,0,0
+1654895898941,106,foo,200,OK,vertx 1-112,,true,,74,110,48,48,http://localhost/foo,106,0,1
+1654895898821,227,bar,200,OK,vertx 1-70,,true,,74,110,48,48,http://localhost/bar,227,0,1
+1654895898884,165,foo,200,OK,vertx 1-109,,true,,74,110,47,47,http://localhost/foo,165,0,1
+1654895898863,199,bar,200,OK,vertx 1-58,,true,,74,110,48,48,http://localhost/bar,199,0,1
+1654895898707,357,foo,200,OK,vertx 1-100,,true,,74,110,47,47,http://localhost/foo,357,0,1
+1654895898816,254,bar,200,OK,vertx 1-85,,true,,74,110,47,47,http://localhost/bar,254,0,0
+1654895898675,401,foo,408,Request Timeout,vertx 1-83,,false,,70,110,47,47,http://localhost/foo,401,0,0
+1654895898756,332,bar,200,OK,vertx 1-99,,true,,74,110,48,48,http://localhost/bar,331,0,0
+1654895898726,367,foo,200,OK,vertx 1-101,,true,,74,110,48,48,http://localhost/foo,366,0,1
+1654895898804,290,foo,200,OK,vertx 1-105,,true,,74,110,48,48,http://localhost/foo,290,0,0
+1654895898697,402,bar,408,Request Timeout,vertx 1-89,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895899095,3,bar,200,OK,vertx 1-105,,true,,74,110,49,49,http://localhost/bar,3,0,0
+1654895898745,357,foo,200,OK,vertx 1-102,,true,,74,110,49,49,http://localhost/foo,357,0,1
+1654895898842,262,bar,200,OK,vertx 1-91,,true,,74,110,49,49,http://localhost/bar,262,0,1
+1654895898785,323,foo,200,OK,vertx 1-104,,true,,74,110,49,49,http://localhost/foo,323,0,1
+1654895898710,403,bar,408,Request Timeout,vertx 1-76,,false,,70,110,49,49,http://localhost/bar,403,0,1
+1654895898903,218,foo,200,OK,vertx 1-110,,true,,74,110,49,49,http://localhost/foo,218,0,0
+1654895898721,401,bar,408,Request Timeout,vertx 1-80,,false,,70,110,49,49,http://localhost/bar,401,0,0
+1654895899043,81,bar,200,OK,vertx 1-113,,true,,74,110,49,49,http://localhost/bar,81,0,1
+1654895898916,213,bar,200,OK,vertx 1-72,,true,,74,110,49,49,http://localhost/bar,213,0,1
+1654895899031,101,bar,200,OK,vertx 1-96,,true,,74,110,48,48,http://localhost/bar,101,0,0
+1654895898922,214,foo,200,OK,vertx 1-111,,true,,74,110,49,49,http://localhost/foo,214,0,0
+1654895899047,98,bar,200,OK,vertx 1-112,,true,,74,110,49,49,http://localhost/bar,98,0,0
+1654895899021,127,foo,200,OK,vertx 1-106,,true,,74,110,49,49,http://localhost/foo,127,0,1
+1654895898778,373,foo,200,OK,vertx 1-78,,true,,74,110,49,49,http://localhost/foo,373,0,1
+1654895899038,113,foo,200,OK,vertx 1-117,,true,,74,110,49,49,http://localhost/foo,113,0,0
+1654895899099,55,foo,200,OK,vertx 1-89,,true,,74,110,49,49,http://localhost/foo,55,0,0
+1654895898759,401,bar,408,Request Timeout,vertx 1-82,,false,,70,110,50,50,http://localhost/bar,401,0,0
+1654895899108,67,bar,200,OK,vertx 1-104,,true,,74,110,51,51,http://localhost/bar,66,0,0
+1654895899145,33,foo,200,OK,vertx 1-112,,true,,74,110,51,51,http://localhost/foo,33,0,0
+1654895898785,402,bar,408,Request Timeout,vertx 1-66,,false,,70,110,51,51,http://localhost/bar,402,0,1
+1654895899099,96,foo,200,OK,vertx 1-105,,true,,74,110,51,51,http://localhost/foo,96,0,0
+1654895899031,171,foo,200,OK,vertx 1-95,,true,,74,110,51,51,http://localhost/foo,171,0,0
+1654895899049,155,bar,200,OK,vertx 1-109,,true,,74,110,51,51,http://localhost/bar,155,0,0
+1654895898843,367,foo,200,OK,vertx 1-107,,true,,74,110,51,51,http://localhost/foo,366,0,0
+1654895898921,292,bar,200,OK,vertx 1-62,,true,,74,110,52,52,http://localhost/bar,291,0,1
+1654895898840,382,foo,200,OK,vertx 1-97,,true,,74,110,51,51,http://localhost/foo,381,0,1
+1654895899205,20,foo,200,OK,vertx 1-109,,true,,74,110,51,51,http://localhost/foo,20,0,0
+1654895898830,403,foo,408,Request Timeout,vertx 1-79,,false,,70,110,52,52,http://localhost/foo,403,0,0
+1654895899064,181,bar,200,OK,vertx 1-100,,true,,74,110,52,52,http://localhost/bar,181,0,0
+1654895899116,138,foo,200,OK,vertx 1-121,,true,,74,110,53,53,http://localhost/foo,138,0,0
+1654895899154,101,bar,200,OK,vertx 1-89,,true,,74,110,53,53,http://localhost/bar,101,0,0
+1654895898857,402,foo,408,Request Timeout,vertx 1-84,,false,,70,110,52,52,http://localhost/foo,402,0,0
+1654895899154,109,foo,200,OK,vertx 1-123,,true,,74,110,52,52,http://localhost/foo,109,0,1
+1654895899132,131,foo,200,OK,vertx 1-96,,true,,74,110,52,52,http://localhost/foo,131,0,1
+1654895898863,402,foo,408,Request Timeout,vertx 1-108,,false,,70,110,52,52,http://localhost/foo,402,0,1
+1654895899160,107,foo,200,OK,vertx 1-82,,true,,74,110,52,52,http://localhost/foo,107,0,1
+1654895899265,2,bar,200,OK,vertx 1-108,,true,,74,110,52,52,http://localhost/bar,2,0,0
+1654895899135,144,foo,200,OK,vertx 1-122,,true,,74,110,53,53,http://localhost/foo,144,0,0
+1654895899006,293,foo,200,OK,vertx 1-90,,true,,74,110,54,54,http://localhost/foo,293,0,0
+1654895899263,38,bar,200,OK,vertx 1-123,,true,,74,110,54,54,http://localhost/bar,38,0,1
+1654895898980,326,foo,200,OK,vertx 1-114,,true,,74,110,54,54,http://localhost/foo,326,0,0
+1654895898906,401,bar,200,OK,vertx 1-94,,true,,74,110,54,54,http://localhost/bar,401,0,1
+1654895899195,113,bar,200,OK,vertx 1-105,,true,,74,110,54,54,http://localhost/bar,113,0,0
+1654895899263,49,bar,200,OK,vertx 1-96,,true,,74,110,53,53,http://localhost/bar,49,0,1
+1654895899029,291,bar,200,OK,vertx 1-71,,true,,74,110,53,53,http://localhost/bar,291,0,1
+1654895899137,185,bar,200,OK,vertx 1-111,,true,,74,110,52,52,http://localhost/bar,185,0,0
+1654895899173,153,foo,200,OK,vertx 1-124,,true,,74,110,52,52,http://localhost/foo,153,0,1
+1654895899019,310,foo,200,OK,vertx 1-116,,true,,74,110,52,52,http://localhost/foo,309,0,0
+1654895899175,167,foo,200,OK,vertx 1-104,,true,,74,110,53,53,http://localhost/foo,167,0,0
+1654895899222,121,bar,200,OK,vertx 1-97,,true,,74,110,53,53,http://localhost/bar,120,0,0
+1654895898942,402,foo,408,Request Timeout,vertx 1-103,,false,,70,110,52,52,http://localhost/foo,402,0,1
+1654895898951,402,bar,408,Request Timeout,vertx 1-92,,false,,70,110,52,52,http://localhost/bar,402,0,1
+1654895899077,279,foo,200,OK,vertx 1-119,,true,,74,110,52,52,http://localhost/foo,279,0,0
+1654895899093,278,bar,200,OK,vertx 1-101,,true,,74,110,53,53,http://localhost/bar,277,0,0
+1654895898970,402,bar,408,Request Timeout,vertx 1-53,,false,,70,110,53,53,http://localhost/bar,402,0,1
+1654895898979,402,foo,408,Request Timeout,vertx 1-77,,false,,70,110,53,53,http://localhost/foo,402,0,0
+1654895899077,304,bar,200,OK,vertx 1-83,,true,,74,110,53,53,http://localhost/bar,304,0,0
+1654895899088,295,foo,200,OK,vertx 1-99,,true,,74,110,52,52,http://localhost/foo,295,0,0
+1654895899122,263,bar,200,OK,vertx 1-110,,true,,74,110,52,52,http://localhost/bar,263,0,0
+1654895898999,398,foo,200,OK,vertx 1-115,,true,,74,110,52,52,http://localhost/foo,397,0,0
+1654895898998,404,bar,408,Request Timeout,vertx 1-73,,false,,70,110,53,53,http://localhost/bar,404,0,1
+1654895899104,310,foo,200,OK,vertx 1-91,,true,,74,110,52,52,http://localhost/foo,310,0,0
+1654895899290,127,foo,200,OK,vertx 1-130,,true,,74,110,53,53,http://localhost/foo,127,0,0
+1654895899102,317,bar,200,OK,vertx 1-102,,true,,74,110,53,53,http://localhost/bar,317,0,0
+1654895899320,100,foo,200,OK,vertx 1-131,,true,,74,110,53,53,http://localhost/foo,100,0,0
+1654895899020,404,bar,408,Request Timeout,vertx 1-87,,false,,70,110,53,53,http://localhost/bar,404,0,1
+1654895899021,403,bar,408,Request Timeout,vertx 1-98,,false,,70,110,52,52,http://localhost/bar,403,0,0
+1654895899233,194,bar,200,OK,vertx 1-79,,true,,74,110,52,52,http://localhost/bar,194,0,0
+1654895899151,282,bar,200,OK,vertx 1-78,,true,,74,110,51,51,http://localhost/bar,282,0,0
+1654895899342,95,bar,200,OK,vertx 1-104,,true,,74,110,51,51,http://localhost/bar,95,0,0
+1654895899058,381,foo,200,OK,vertx 1-118,,true,,74,110,50,50,http://localhost/foo,381,0,0
+1654895899202,237,bar,200,OK,vertx 1-95,,true,,74,110,50,50,http://localhost/bar,237,0,1
+1654895899251,191,foo,200,OK,vertx 1-128,,true,,74,110,49,49,http://localhost/foo,191,0,1
+1654895899255,187,bar,200,OK,vertx 1-121,,true,,74,110,49,49,http://localhost/bar,187,0,0
+1654895899398,45,foo,200,OK,vertx 1-135,,true,,74,110,49,49,http://localhost/foo,45,0,1
+1654895899042,402,bar,408,Request Timeout,vertx 1-93,,false,,70,110,49,49,http://localhost/bar,402,0,1
+1654895899044,401,foo,408,Request Timeout,vertx 1-81,,false,,70,110,48,48,http://localhost/foo,401,0,1
+1654895899124,325,foo,200,OK,vertx 1-113,,true,,74,110,48,48,http://localhost/foo,325,0,1
+1654895899232,218,foo,200,OK,vertx 1-127,,true,,74,110,48,48,http://localhost/foo,218,0,1
+1654895899353,103,foo,200,OK,vertx 1-92,,true,,74,110,49,49,http://localhost/foo,103,0,0
+1654895899070,387,foo,200,OK,vertx 1-85,,true,,74,110,49,49,http://localhost/foo,387,0,0
+1654895899383,78,bar,200,OK,vertx 1-99,,true,,74,110,49,49,http://localhost/bar,78,0,0
+1654895899443,24,bar,200,OK,vertx 1-135,,true,,74,110,48,48,http://localhost/bar,23,0,1
+1654895899420,47,bar,200,OK,vertx 1-131,,true,,74,110,48,48,http://localhost/bar,47,0,0
+1654895899344,133,bar,200,OK,vertx 1-103,,true,,74,110,49,49,http://localhost/bar,133,0,0
+1654895899445,47,bar,200,OK,vertx 1-81,,true,,74,110,48,48,http://localhost/bar,47,0,1
+1654895899442,53,bar,200,OK,vertx 1-128,,true,,74,110,48,48,http://localhost/bar,53,0,0
+1654895899096,401,foo,408,Request Timeout,vertx 1-120,,false,,70,110,48,48,http://localhost/foo,401,0,0
+1654895899123,402,foo,408,Request Timeout,vertx 1-80,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895899299,232,bar,200,OK,vertx 1-90,,true,,74,110,49,49,http://localhost/bar,231,0,1
+1654895899456,75,foo,200,OK,vertx 1-138,,true,,74,110,48,48,http://localhost/foo,75,0,0
+1654895899385,147,foo,200,OK,vertx 1-110,,true,,74,110,48,48,http://localhost/foo,147,0,0
+1654895899495,44,foo,200,OK,vertx 1-128,,true,,74,110,49,49,http://localhost/foo,44,0,0
+1654895899371,170,foo,200,OK,vertx 1-101,,true,,74,110,49,49,http://localhost/foo,170,0,0
+1654895899475,74,foo,200,OK,vertx 1-139,,true,,74,110,49,49,http://localhost/foo,74,0,0
+1654895899148,402,bar,408,Request Timeout,vertx 1-106,,false,,70,110,49,49,http://localhost/bar,402,0,1
+1654895899151,402,bar,408,Request Timeout,vertx 1-117,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895899267,299,bar,200,OK,vertx 1-82,,true,,74,110,49,49,http://localhost/bar,299,0,0
+1654895899178,401,bar,408,Request Timeout,vertx 1-112,,false,,70,110,49,49,http://localhost/bar,401,0,0
+1654895899279,304,bar,200,OK,vertx 1-122,,true,,74,110,48,48,http://localhost/bar,304,0,0
+1654895899193,402,foo,408,Request Timeout,vertx 1-125,,false,,70,110,49,49,http://localhost/foo,402,0,1
+1654895899301,308,foo,200,OK,vertx 1-123,,true,,74,110,49,49,http://localhost/foo,308,0,1
+1654895899210,402,bar,408,Request Timeout,vertx 1-107,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895899327,286,bar,200,OK,vertx 1-124,,true,,74,110,50,50,http://localhost/bar,286,0,0
+1654895899214,403,foo,408,Request Timeout,vertx 1-126,,false,,70,110,50,50,http://localhost/foo,403,0,0
+1654895899245,373,foo,200,OK,vertx 1-100,,true,,74,110,50,50,http://localhost/foo,373,0,1
+1654895899322,298,foo,200,OK,vertx 1-111,,true,,74,110,50,50,http://localhost/foo,298,0,0
+1654895899225,402,bar,408,Request Timeout,vertx 1-109,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895899631,18,foo,200,OK,vertx 1-147,,true,,74,110,50,50,http://localhost/foo,18,0,0
+1654895899467,187,foo,200,OK,vertx 1-135,,true,,74,110,51,51,http://localhost/foo,187,0,0
+1654895899329,326,bar,200,OK,vertx 1-116,,true,,74,110,51,51,http://localhost/bar,326,0,0
+1654895899259,402,bar,408,Request Timeout,vertx 1-84,,false,,70,110,51,51,http://localhost/bar,402,0,1
+1654895899549,114,bar,200,OK,vertx 1-139,,true,,74,110,50,50,http://localhost/bar,114,0,0
+1654895899494,169,foo,200,OK,vertx 1-140,,true,,74,110,50,50,http://localhost/foo,169,0,1
+1654895899554,110,foo,200,OK,vertx 1-143,,true,,74,110,50,50,http://localhost/foo,110,0,0
+1654895899270,395,foo,200,OK,vertx 1-129,,true,,74,110,50,50,http://localhost/foo,395,0,0
+1654895899267,402,foo,408,Request Timeout,vertx 1-108,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895899583,99,foo,200,OK,vertx 1-122,,true,,74,110,51,51,http://localhost/foo,99,0,1
+1654895899419,263,foo,200,OK,vertx 1-102,,true,,74,110,51,51,http://localhost/foo,263,0,0
+1654895899663,19,foo,200,OK,vertx 1-139,,true,,74,110,51,51,http://localhost/foo,19,0,1
+1654895899414,280,bar,200,OK,vertx 1-91,,true,,74,110,52,52,http://localhost/bar,280,0,0
+1654895899424,284,foo,200,OK,vertx 1-98,,true,,74,110,51,51,http://localhost/foo,284,0,0
+1654895899306,402,bar,408,Request Timeout,vertx 1-114,,false,,70,110,51,51,http://localhost/bar,402,0,1
+1654895899307,402,foo,408,Request Timeout,vertx 1-94,,false,,70,110,51,51,http://localhost/foo,402,0,1
+1654895899609,102,bar,200,OK,vertx 1-123,,true,,74,110,52,52,http://localhost/bar,102,0,1
+1654895899708,6,bar,200,OK,vertx 1-98,,true,,74,110,51,51,http://localhost/bar,6,0,1
+1654895899525,194,bar,200,OK,vertx 1-80,,true,,74,110,50,50,http://localhost/bar,194,0,1
+1654895899652,82,foo,200,OK,vertx 1-148,,true,,74,110,50,50,http://localhost/foo,82,0,1
+1654895899456,278,bar,200,OK,vertx 1-92,,true,,74,110,50,50,http://localhost/bar,278,0,1
+1654895899358,377,foo,200,OK,vertx 1-133,,true,,74,110,49,49,http://localhost/foo,377,0,1
+1654895899682,59,bar,200,OK,vertx 1-122,,true,,74,110,49,49,http://localhost/bar,59,0,0
+1654895899339,403,foo,408,Request Timeout,vertx 1-132,,false,,70,110,48,48,http://localhost/foo,403,0,1
+1654895899541,202,bar,200,OK,vertx 1-101,,true,,74,110,48,48,http://localhost/bar,202,0,0
+1654895899356,400,bar,200,OK,vertx 1-119,,true,,74,110,48,48,http://localhost/bar,399,0,0
+1654895899416,342,foo,200,OK,vertx 1-136,,true,,74,110,48,48,http://localhost/foo,342,0,1
+1654895899442,319,foo,200,OK,vertx 1-121,,true,,74,110,48,48,http://localhost/foo,319,0,1
+1654895899397,375,bar,200,OK,vertx 1-115,,true,,74,110,49,49,http://localhost/bar,375,0,0
+1654895899378,402,foo,408,Request Timeout,vertx 1-134,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895899381,402,bar,408,Request Timeout,vertx 1-77,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895899709,77,bar,200,OK,vertx 1-94,,true,,74,110,48,48,http://localhost/bar,77,0,1
+1654895899539,250,bar,200,OK,vertx 1-128,,true,,74,110,48,48,http://localhost/bar,250,0,1
+1654895899450,340,bar,200,OK,vertx 1-127,,true,,74,110,47,47,http://localhost/bar,340,0,0
+1654895899595,213,bar,200,OK,vertx 1-125,,true,,74,110,48,48,http://localhost/bar,213,0,1
+1654895899612,206,foo,200,OK,vertx 1-107,,true,,74,110,48,48,http://localhost/foo,206,0,0
+1654895899417,401,bar,408,Request Timeout,vertx 1-130,,false,,70,110,48,48,http://localhost/bar,401,0,0
+1654895899449,378,bar,200,OK,vertx 1-113,,true,,74,110,49,49,http://localhost/bar,378,0,1
+1654895899772,55,foo,200,OK,vertx 1-115,,true,,74,110,48,48,http://localhost/foo,55,0,0
+1654895899790,39,foo,200,OK,vertx 1-127,,true,,74,110,48,48,http://localhost/foo,39,0,0
+1654895899655,175,foo,200,OK,vertx 1-116,,true,,74,110,48,48,http://localhost/foo,175,0,0
+1654895899436,396,foo,200,OK,vertx 1-137,,true,,74,110,48,48,http://localhost/foo,396,0,1
+1654895899787,52,foo,200,OK,vertx 1-155,,true,,74,110,48,48,http://localhost/foo,52,0,1
+1654895899532,307,bar,200,OK,vertx 1-138,,true,,74,110,48,48,http://localhost/bar,307,0,0
+1654895899439,401,bar,408,Request Timeout,vertx 1-118,,false,,70,110,48,48,http://localhost/bar,401,0,0
+1654895899532,314,bar,200,OK,vertx 1-110,,true,,74,110,49,49,http://localhost/bar,314,0,1
+1654895899708,140,foo,200,OK,vertx 1-114,,true,,74,110,48,48,http://localhost/foo,140,0,1
+1654895899711,147,foo,200,OK,vertx 1-151,,true,,74,110,48,48,http://localhost/foo,146,0,0
+1654895899769,89,foo,200,OK,vertx 1-154,,true,,74,110,48,48,http://localhost/foo,89,0,0
+1654895899457,403,bar,408,Request Timeout,vertx 1-85,,false,,70,110,48,48,http://localhost/bar,403,0,1
+1654895899761,103,bar,200,OK,vertx 1-121,,true,,74,110,47,47,http://localhost/bar,102,0,1
+1654895899858,11,bar,200,OK,vertx 1-154,,true,,74,110,47,47,http://localhost/bar,11,0,0
+1654895899468,401,foo,408,Request Timeout,vertx 1-131,,false,,70,110,47,47,http://localhost/foo,401,0,0
+1654895899749,129,foo,200,OK,vertx 1-153,,true,,74,110,47,47,http://localhost/foo,129,0,0
+1654895899690,188,foo,200,OK,vertx 1-150,,true,,74,110,47,47,http://localhost/foo,188,0,0
+1654895899818,64,bar,200,OK,vertx 1-107,,true,,74,110,47,47,http://localhost/bar,64,0,0
+1654895899612,273,foo,200,OK,vertx 1-146,,true,,74,110,47,47,http://localhost/foo,273,0,1
+1654895899665,223,bar,200,OK,vertx 1-129,,true,,74,110,47,47,http://localhost/bar,223,0,0
+1654895899808,91,foo,200,OK,vertx 1-125,,true,,74,110,47,47,http://localhost/foo,91,0,0
+1654895899497,402,bar,200,OK,vertx 1-120,,true,,74,110,47,47,http://localhost/bar,402,0,1
+1654895899758,142,bar,200,OK,vertx 1-136,,true,,74,110,47,47,http://localhost/bar,142,0,1
+1654895899613,290,foo,200,OK,vertx 1-124,,true,,74,110,47,47,http://localhost/foo,290,0,1
+1654895899669,242,bar,200,OK,vertx 1-108,,true,,74,110,48,48,http://localhost/bar,242,0,0
+1654895899513,403,foo,408,Request Timeout,vertx 1-141,,false,,70,110,47,47,http://localhost/foo,403,0,1
+1654895899829,91,bar,200,OK,vertx 1-127,,true,,74,110,47,47,http://localhost/bar,91,0,0
+1654895899682,248,bar,200,OK,vertx 1-139,,true,,74,110,47,47,http://localhost/bar,248,0,0
+1654895899533,403,foo,408,Request Timeout,vertx 1-142,,false,,70,110,46,46,http://localhost/foo,403,0,0
+1654895899554,386,foo,200,OK,vertx 1-117,,true,,74,110,46,46,http://localhost/foo,385,0,0
+1654895899903,41,bar,200,OK,vertx 1-124,,true,,74,110,47,47,http://localhost/bar,41,0,0
+1654895899807,138,foo,200,OK,vertx 1-156,,true,,74,110,46,46,http://localhost/foo,138,0,1
+1654895899682,264,bar,200,OK,vertx 1-102,,true,,74,110,46,46,http://localhost/bar,264,0,1
+1654895899884,70,foo,200,OK,vertx 1-160,,true,,74,110,45,45,http://localhost/foo,70,0,0
+1654895899904,50,foo,200,OK,vertx 1-161,,true,,74,110,45,45,http://localhost/foo,50,0,0
+1654895899845,109,foo,200,OK,vertx 1-158,,true,,74,110,45,45,http://localhost/foo,109,0,1
+1654895899618,341,bar,200,OK,vertx 1-100,,true,,74,110,45,45,http://localhost/bar,341,0,1
+1654895899848,112,bar,200,OK,vertx 1-114,,true,,74,110,44,44,http://localhost/bar,112,0,0
+1654895899865,104,foo,200,OK,vertx 1-159,,true,,74,110,44,44,http://localhost/foo,104,0,0
+1654895899573,402,foo,408,Request Timeout,vertx 1-144,,false,,70,110,44,44,http://localhost/foo,402,0,0
+1654895899592,390,foo,200,OK,vertx 1-145,,true,,74,110,44,44,http://localhost/foo,390,0,0
+1654895899650,355,bar,200,OK,vertx 1-147,,true,,74,110,46,46,http://localhost/bar,355,0,3
+1654895899819,201,foo,200,OK,vertx 1-130,,true,,74,110,46,46,http://localhost/foo,201,0,0
+1654895899617,403,bar,408,Request Timeout,vertx 1-126,,false,,70,110,46,46,http://localhost/bar,403,0,1
+1654895899663,358,bar,200,OK,vertx 1-140,,true,,74,110,46,46,http://localhost/bar,358,0,1
+1654895899620,401,bar,408,Request Timeout,vertx 1-111,,false,,70,110,46,46,http://localhost/bar,401,0,1
+1654895899916,110,bar,200,OK,vertx 1-141,,true,,74,110,46,46,http://localhost/bar,110,0,0
+1654895899734,305,bar,200,OK,vertx 1-148,,true,,74,110,46,46,http://localhost/bar,305,0,1
+1654895899888,167,foo,200,OK,vertx 1-129,,true,,74,110,47,47,http://localhost/foo,167,0,0
+1654895899654,402,bar,408,Request Timeout,vertx 1-135,,false,,70,110,47,47,http://localhost/bar,402,0,1
+1654895899664,396,bar,200,OK,vertx 1-143,,true,,74,110,46,46,http://localhost/bar,396,0,1
+1654895899839,229,bar,200,OK,vertx 1-155,,true,,74,110,47,47,http://localhost/bar,229,0,1
+1654895899945,126,bar,200,OK,vertx 1-156,,true,,74,110,47,47,http://localhost/bar,125,0,0
+1654895899671,401,foo,408,Request Timeout,vertx 1-149,,false,,70,110,47,47,http://localhost/foo,401,0,0
+1654895899899,173,bar,200,OK,vertx 1-125,,true,,74,110,47,47,http://localhost/bar,173,0,0
+1654895900004,78,foo,200,OK,vertx 1-166,,true,,74,110,47,47,http://localhost/foo,78,0,0
+1654895899827,255,bar,200,OK,vertx 1-115,,true,,74,110,47,47,http://localhost/bar,255,0,0
+1654895899839,271,foo,200,OK,vertx 1-138,,true,,74,110,47,47,http://localhost/foo,270,0,1
+1654895900055,55,bar,200,OK,vertx 1-129,,true,,74,110,47,47,http://localhost/bar,55,0,1
+1654895900072,43,bar,200,OK,vertx 1-149,,true,,74,110,46,46,http://localhost/bar,43,0,0
+1654895900060,59,foo,200,OK,vertx 1-143,,true,,74,110,46,46,http://localhost/foo,59,0,0
+1654895899780,345,bar,200,OK,vertx 1-134,,true,,74,110,47,47,http://localhost/bar,345,0,0
+1654895899869,256,bar,200,OK,vertx 1-131,,true,,74,110,47,47,http://localhost/bar,256,0,2
+1654895899969,158,bar,200,OK,vertx 1-159,,true,,74,110,46,46,http://localhost/bar,158,0,0
+1654895900041,87,foo,200,OK,vertx 1-168,,true,,74,110,46,46,http://localhost/foo,87,0,1
+1654895899730,402,foo,408,Request Timeout,vertx 1-152,,false,,70,110,46,46,http://localhost/foo,402,0,0
+1654895899869,266,foo,200,OK,vertx 1-154,,true,,74,110,46,46,http://localhost/foo,266,0,1
+1654895899936,200,bar,200,OK,vertx 1-142,,true,,74,110,46,46,http://localhost/bar,200,0,0
+1654895899735,401,bar,408,Request Timeout,vertx 1-133,,false,,70,110,46,46,http://localhost/bar,401,0,0
+1654895900071,70,foo,200,OK,vertx 1-156,,true,,74,110,47,47,http://localhost/foo,70,0,0
+1654895899975,167,bar,200,OK,vertx 1-144,,true,,74,110,47,47,http://localhost/bar,167,0,1
+1654895899742,401,bar,408,Request Timeout,vertx 1-132,,false,,70,110,47,47,http://localhost/bar,401,0,0
+1654895900102,47,foo,200,OK,vertx 1-171,,true,,74,110,47,47,http://localhost/foo,46,0,0
+1654895899900,250,foo,200,OK,vertx 1-136,,true,,74,110,47,47,http://localhost/foo,250,0,0
+1654895899756,402,foo,408,Request Timeout,vertx 1-119,,false,,70,110,47,47,http://localhost/foo,402,0,0
+1654895899954,208,bar,200,OK,vertx 1-160,,true,,74,110,48,48,http://localhost/bar,208,0,0
+1654895900115,50,foo,200,OK,vertx 1-149,,true,,74,110,48,48,http://localhost/foo,50,0,1
+1654895899899,267,foo,200,OK,vertx 1-120,,true,,74,110,48,48,http://localhost/foo,267,0,1
+1654895900162,11,foo,200,OK,vertx 1-160,,true,,74,110,48,48,http://localhost/foo,10,0,0
+1654895900020,153,bar,200,OK,vertx 1-130,,true,,74,110,48,48,http://localhost/bar,153,0,1
+1654895899924,262,foo,200,OK,vertx 1-162,,true,,74,110,48,48,http://localhost/foo,262,0,1
+1654895899858,336,bar,200,OK,vertx 1-151,,true,,74,110,48,48,http://localhost/bar,336,0,0
+1654895899832,363,bar,200,OK,vertx 1-137,,true,,74,110,48,48,http://localhost/bar,362,0,1
+1654895899826,369,foo,200,OK,vertx 1-157,,true,,74,110,48,48,http://localhost/foo,369,0,1
+1654895900121,77,foo,200,OK,vertx 1-172,,true,,74,110,48,48,http://localhost/foo,77,0,1
+1654895900127,73,foo,200,OK,vertx 1-159,,true,,74,110,49,49,http://localhost/foo,73,0,1
+1654895900125,77,foo,200,OK,vertx 1-134,,true,,74,110,49,49,http://localhost/foo,77,0,1
+1654895899840,365,foo,200,OK,vertx 1-118,,true,,74,110,49,49,http://localhost/foo,365,0,1
+1654895899885,335,bar,200,OK,vertx 1-146,,true,,74,110,50,50,http://localhost/bar,335,0,0
+1654895899830,395,bar,200,OK,vertx 1-116,,true,,74,110,50,50,http://localhost/bar,395,0,0
+1654895900198,28,foo,200,OK,vertx 1-176,,true,,74,110,49,49,http://localhost/foo,28,0,1
+1654895900136,97,foo,200,OK,vertx 1-133,,true,,74,110,49,49,http://localhost/foo,97,0,1
+1654895899879,354,bar,200,OK,vertx 1-150,,true,,74,110,49,49,http://localhost/bar,354,0,0
+1654895900149,84,bar,200,OK,vertx 1-171,,true,,74,110,49,49,http://localhost/bar,84,0,0
+1654895900173,71,bar,200,OK,vertx 1-160,,true,,74,110,50,50,http://localhost/bar,71,0,0
+1654895899879,368,bar,200,OK,vertx 1-153,,true,,74,110,49,49,http://localhost/bar,367,0,0
+1654895899943,306,foo,200,OK,vertx 1-163,,true,,74,110,49,49,http://localhost/foo,306,0,0
+1654895900160,90,foo,200,OK,vertx 1-174,,true,,74,110,49,49,http://localhost/foo,90,0,0
+1654895899983,291,foo,200,OK,vertx 1-165,,true,,74,110,50,50,http://localhost/foo,291,0,1
+1654895900128,148,bar,200,OK,vertx 1-168,,true,,74,110,51,51,http://localhost/bar,148,0,1
+1654895899982,312,bar,200,OK,vertx 1-145,,true,,74,110,51,51,http://localhost/bar,312,0,0
+1654895900039,257,foo,200,OK,vertx 1-148,,true,,74,110,52,52,http://localhost/foo,257,0,0
+1654895899954,363,bar,200,OK,vertx 1-161,,true,,74,110,53,53,http://localhost/bar,363,0,1
+1654895900082,236,bar,200,OK,vertx 1-166,,true,,74,110,53,53,http://localhost/bar,236,0,1
+1654895900023,307,foo,200,OK,vertx 1-167,,true,,74,110,53,53,http://localhost/foo,307,0,0
+1654895899954,377,bar,200,OK,vertx 1-158,,true,,74,110,53,53,http://localhost/bar,377,0,1
+1654895900110,223,bar,200,OK,vertx 1-138,,true,,74,110,53,53,http://localhost/bar,223,0,1
+1654895900234,99,bar,200,OK,vertx 1-133,,true,,74,110,53,53,http://localhost/bar,99,0,0
+1654895900142,191,foo,200,OK,vertx 1-144,,true,,74,110,51,51,http://localhost/foo,191,0,1
+1654895899940,403,bar,408,Request Timeout,vertx 1-117,,false,,70,110,52,52,http://localhost/bar,403,0,0
+1654895900021,322,foo,200,OK,vertx 1-140,,true,,74,110,51,51,http://localhost/foo,322,0,0
+1654895900249,103,bar,200,OK,vertx 1-163,,true,,74,110,51,51,http://localhost/bar,103,0,0
+1654895900139,222,foo,200,OK,vertx 1-173,,true,,74,110,52,52,http://localhost/foo,222,0,1
+1654895900205,157,bar,200,OK,vertx 1-118,,true,,74,110,52,52,http://localhost/bar,157,0,0
+1654895900061,302,foo,200,OK,vertx 1-169,,true,,74,110,51,51,http://localhost/foo,302,0,1
+1654895899963,401,foo,408,Request Timeout,vertx 1-164,,false,,70,110,51,51,http://localhost/foo,401,0,0
+1654895900150,226,bar,200,OK,vertx 1-136,,true,,74,110,52,52,http://localhost/bar,226,0,0
+1654895900294,93,foo,200,OK,vertx 1-181,,true,,74,110,51,51,http://localhost/foo,93,0,1
+1654895900119,270,bar,200,OK,vertx 1-143,,true,,74,110,51,51,http://localhost/bar,270,0,1
+1654895900158,232,bar,200,OK,vertx 1-119,,true,,74,110,50,50,http://localhost/bar,232,0,0
+1654895900195,196,bar,200,OK,vertx 1-157,,true,,74,110,49,49,http://localhost/bar,196,0,0
+1654895900186,218,bar,200,OK,vertx 1-162,,true,,74,110,50,50,http://localhost/bar,218,0,0
+1654895900005,402,foo,408,Request Timeout,vertx 1-147,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895900141,271,bar,200,OK,vertx 1-156,,true,,74,110,51,51,http://localhost/bar,271,0,0
+1654895900020,402,foo,408,Request Timeout,vertx 1-126,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895900412,11,foo,200,OK,vertx 1-187,,true,,74,110,50,50,http://localhost/foo,11,0,0
+1654895900220,206,foo,200,OK,vertx 1-146,,true,,74,110,50,50,http://localhost/foo,206,0,0
+1654895900026,401,foo,408,Request Timeout,vertx 1-141,,false,,70,110,50,50,http://localhost/foo,401,0,0
+1654895900200,230,bar,200,OK,vertx 1-159,,true,,74,110,50,50,http://localhost/bar,230,0,0
+1654895900198,238,bar,200,OK,vertx 1-172,,true,,74,110,50,50,http://localhost/bar,238,0,0
+1654895900422,16,bar,200,OK,vertx 1-126,,true,,74,110,50,50,http://localhost/bar,16,0,0
+1654895900250,191,bar,200,OK,vertx 1-174,,true,,74,110,49,49,http://localhost/bar,191,0,0
+1654895900353,89,foo,200,OK,vertx 1-184,,true,,74,110,49,49,http://localhost/foo,89,0,1
+1654895900294,150,foo,200,OK,vertx 1-145,,true,,74,110,49,49,http://localhost/foo,150,0,0
+1654895900166,281,bar,200,OK,vertx 1-120,,true,,74,110,49,49,http://localhost/bar,281,0,1
+1654895900407,50,bar,200,OK,vertx 1-147,,true,,74,110,49,49,http://localhost/bar,50,0,0
+1654895900202,256,bar,200,OK,vertx 1-134,,true,,74,110,48,48,http://localhost/bar,256,0,0
+1654895900392,71,foo,200,OK,vertx 1-186,,true,,74,110,47,47,http://localhost/foo,71,0,1
+1654895900194,271,foo,200,OK,vertx 1-151,,true,,74,110,47,47,http://localhost/foo,271,0,0
+1654895900318,152,foo,200,OK,vertx 1-166,,true,,74,110,47,47,http://localhost/foo,152,0,1
+1654895900068,402,foo,408,Request Timeout,vertx 1-155,,false,,70,110,48,48,http://localhost/foo,402,0,1
+1654895900275,202,foo,200,OK,vertx 1-180,,true,,74,110,48,48,http://localhost/foo,202,0,1
+1654895900082,402,foo,408,Request Timeout,vertx 1-170,,false,,70,110,48,48,http://localhost/foo,402,0,1
+1654895900247,238,foo,200,OK,vertx 1-153,,true,,74,110,48,48,http://localhost/foo,238,0,0
+1654895900363,134,bar,200,OK,vertx 1-169,,true,,74,110,49,49,http://localhost/bar,134,0,1
+1654895900477,26,bar,200,OK,vertx 1-180,,true,,74,110,49,49,http://localhost/bar,26,0,0
+1654895900166,344,bar,200,OK,vertx 1-149,,true,,74,110,50,50,http://localhost/bar,344,0,0
+1654895900423,88,bar,200,OK,vertx 1-187,,true,,74,110,49,49,http://localhost/bar,88,0,0
+1654895900343,173,bar,200,OK,vertx 1-140,,true,,74,110,49,49,http://localhost/bar,173,0,1
+1654895900185,333,foo,200,OK,vertx 1-175,,true,,74,110,48,48,http://localhost/foo,333,0,0
+1654895900444,85,bar,200,OK,vertx 1-145,,true,,74,110,49,49,http://localhost/bar,85,0,1
+1654895900132,402,bar,408,Request Timeout,vertx 1-152,,false,,70,110,48,48,http://localhost/bar,402,0,0
+1654895900135,402,bar,408,Request Timeout,vertx 1-154,,false,,70,110,48,48,http://localhost/bar,402,0,0
+1654895900136,401,foo,408,Request Timeout,vertx 1-142,,false,,70,110,47,47,http://localhost/foo,401,0,0
+1654895900226,316,bar,200,OK,vertx 1-176,,true,,74,110,47,47,http://localhost/bar,316,0,0
+1654895900144,401,foo,408,Request Timeout,vertx 1-132,,false,,70,110,47,47,http://localhost/foo,401,0,0
+1654895900441,111,foo,200,OK,vertx 1-174,,true,,74,110,48,48,http://localhost/foo,111,0,1
+1654895900233,346,foo,200,OK,vertx 1-150,,true,,74,110,49,49,http://localhost/foo,346,0,1
+1654895900542,39,foo,200,OK,vertx 1-176,,true,,74,110,49,49,http://localhost/foo,39,0,0
+1654895900489,96,foo,200,OK,vertx 1-191,,true,,74,110,49,49,http://localhost/foo,96,0,0
+1654895900195,402,foo,408,Request Timeout,vertx 1-137,,false,,70,110,50,50,http://localhost/foo,402,0,0
+1654895900511,92,foo,200,OK,vertx 1-187,,true,,74,110,50,50,http://localhost/foo,92,0,0
+1654895900518,89,bar,200,OK,vertx 1-175,,true,,74,110,51,51,http://localhost/bar,89,0,0
+1654895900463,146,bar,200,OK,vertx 1-186,,true,,74,110,51,51,http://localhost/bar,146,0,0
+1654895900606,8,foo,200,OK,vertx 1-197,,true,,74,110,51,51,http://localhost/foo,8,0,0
+1654895900218,402,foo,408,Request Timeout,vertx 1-177,,false,,70,110,51,51,http://localhost/foo,402,0,1
+1654895900317,304,foo,200,OK,vertx 1-161,,true,,74,110,51,51,http://localhost/foo,304,0,1
+1654895900256,369,foo,200,OK,vertx 1-179,,true,,74,110,51,51,http://localhost/foo,369,0,0
+1654895900537,95,bar,200,OK,vertx 1-142,,true,,74,110,52,52,http://localhost/bar,95,0,1
+1654895900233,403,foo,408,Request Timeout,vertx 1-171,,false,,70,110,51,51,http://localhost/foo,403,0,2
+1654895900238,401,foo,408,Request Timeout,vertx 1-178,,false,,70,110,51,51,http://localhost/foo,401,0,0
+1654895900607,37,foo,200,OK,vertx 1-175,,true,,74,110,51,51,http://localhost/foo,37,0,0
+1654895900585,59,bar,200,OK,vertx 1-191,,true,,74,110,51,51,http://localhost/bar,59,0,0
+1654895900330,320,bar,200,OK,vertx 1-167,,true,,74,110,52,52,http://localhost/bar,320,0,0
+1654895900387,263,bar,200,OK,vertx 1-181,,true,,74,110,52,52,http://localhost/bar,263,0,0
+1654895900331,324,foo,200,OK,vertx 1-158,,true,,74,110,52,52,http://localhost/foo,324,0,0
+1654895900442,219,bar,200,OK,vertx 1-184,,true,,74,110,52,52,http://localhost/bar,219,0,0
+1654895900534,130,foo,200,OK,vertx 1-152,,true,,74,110,52,52,http://localhost/foo,130,0,0
+1654895900655,12,bar,200,OK,vertx 1-158,,true,,74,110,53,53,http://localhost/bar,12,0,1
+1654895900334,333,foo,200,OK,vertx 1-183,,true,,74,110,52,52,http://localhost/foo,333,0,0
+1654895900296,373,bar,200,OK,vertx 1-148,,true,,74,110,52,52,http://localhost/bar,373,0,0
+1654895900373,297,foo,200,OK,vertx 1-185,,true,,74,110,51,51,http://localhost/foo,297,0,0
+1654895900274,401,bar,408,Request Timeout,vertx 1-165,,false,,70,110,51,51,http://localhost/bar,401,0,0
+1654895900276,401,foo,408,Request Timeout,vertx 1-168,,false,,70,110,51,51,http://localhost/foo,401,0,0
+1654895900645,33,foo,200,OK,vertx 1-191,,true,,74,110,51,51,http://localhost/foo,33,0,0
+1654895900426,258,bar,200,OK,vertx 1-146,,true,,74,110,52,52,http://localhost/bar,258,0,0
+1654895900470,219,bar,200,OK,vertx 1-166,,true,,74,110,51,51,http://localhost/bar,219,0,0
+1654895900361,335,bar,200,OK,vertx 1-173,,true,,74,110,50,50,http://localhost/bar,335,0,1
+1654895900315,389,foo,200,OK,vertx 1-182,,true,,74,110,51,51,http://localhost/foo,389,0,0
+1654895900704,16,bar,200,OK,vertx 1-182,,true,,74,110,51,51,http://localhost/bar,16,0,1
+1654895900391,333,foo,200,OK,vertx 1-157,,true,,74,110,52,52,http://localhost/foo,333,0,0
+1654895900427,303,bar,200,OK,vertx 1-141,,true,,74,110,52,52,http://localhost/bar,303,0,0
+1654895900621,112,bar,200,OK,vertx 1-161,,true,,74,110,51,51,http://localhost/bar,112,0,0
+1654895900581,153,bar,200,OK,vertx 1-176,,true,,74,110,50,50,http://localhost/bar,153,0,1
+1654895900333,402,bar,408,Request Timeout,vertx 1-144,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895900650,94,foo,200,OK,vertx 1-167,,true,,74,110,49,49,http://localhost/foo,94,0,1
+1654895900678,69,bar,200,OK,vertx 1-168,,true,,74,110,49,49,http://localhost/bar,69,0,0
+1654895900352,402,foo,408,Request Timeout,vertx 1-163,,false,,70,110,48,48,http://localhost/foo,402,0,0
+1654895900364,403,bar,408,Request Timeout,vertx 1-164,,false,,70,110,49,49,http://localhost/bar,403,0,1
+1654895900696,88,foo,200,OK,vertx 1-173,,true,,74,110,50,50,http://localhost/foo,88,0,0
+1654895900722,72,foo,200,OK,vertx 1-203,,true,,74,110,50,50,http://localhost/foo,72,0,0
+1654895900597,198,bar,200,OK,vertx 1-137,,true,,74,110,50,50,http://localhost/bar,198,0,0
+1654895900404,402,foo,408,Request Timeout,vertx 1-162,,false,,70,110,50,50,http://localhost/foo,402,0,0
+1654895900645,164,foo,200,OK,vertx 1-199,,true,,74,110,50,50,http://localhost/foo,164,0,0
+1654895900614,196,bar,200,OK,vertx 1-197,,true,,74,110,50,50,http://localhost/bar,196,0,0
+1654895900664,153,foo,200,OK,vertx 1-200,,true,,74,110,50,50,http://localhost/foo,153,0,0
+1654895900545,272,bar,200,OK,vertx 1-132,,true,,74,110,50,50,http://localhost/bar,272,0,0
+1654895900452,372,foo,200,OK,vertx 1-189,,true,,74,110,50,50,http://localhost/foo,372,0,0
+1654895900644,185,bar,200,OK,vertx 1-175,,true,,74,110,50,50,http://localhost/bar,185,0,1
+1654895900484,350,bar,200,OK,vertx 1-170,,true,,74,110,49,49,http://localhost/bar,350,0,0
+1654895900432,402,foo,408,Request Timeout,vertx 1-188,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895900437,401,foo,408,Request Timeout,vertx 1-172,,false,,70,110,49,49,http://localhost/foo,401,0,0
+1654895900503,336,foo,200,OK,vertx 1-180,,true,,74,110,49,49,http://localhost/foo,336,0,1
+1654895900470,370,bar,200,OK,vertx 1-155,,true,,74,110,50,50,http://localhost/bar,370,0,0
+1654895900817,24,bar,200,OK,vertx 1-200,,true,,74,110,49,49,http://localhost/bar,24,0,0
+1654895900742,102,foo,200,OK,vertx 1-204,,true,,74,110,49,49,http://localhost/foo,102,0,0
+1654895900667,178,bar,200,OK,vertx 1-183,,true,,74,110,49,49,http://localhost/bar,178,0,1
+1654895900497,355,foo,200,OK,vertx 1-169,,true,,74,110,49,49,http://localhost/foo,355,0,0
+1654895900809,51,bar,200,OK,vertx 1-199,,true,,74,110,50,50,http://localhost/bar,51,0,0
+1654895900567,293,foo,200,OK,vertx 1-195,,true,,74,110,50,50,http://localhost/foo,293,0,0
+1654895900509,355,foo,200,OK,vertx 1-192,,true,,74,110,50,50,http://localhost/foo,354,0,0
+1654895900670,195,bar,200,OK,vertx 1-185,,true,,74,110,50,50,http://localhost/bar,195,0,1
+1654895900465,401,bar,408,Request Timeout,vertx 1-151,,false,,70,110,50,50,http://localhost/bar,401,0,0
+1654895900470,402,foo,408,Request Timeout,vertx 1-190,,false,,70,110,49,49,http://localhost/foo,402,0,1
+1654895900528,349,foo,200,OK,vertx 1-193,,true,,74,110,49,49,http://localhost/foo,349,0,1
+1654895900678,200,bar,200,OK,vertx 1-191,,true,,74,110,50,50,http://localhost/bar,200,0,1
+1654895900664,214,bar,200,OK,vertx 1-152,,true,,74,110,50,50,http://localhost/bar,214,0,0
+1654895900720,160,foo,200,OK,vertx 1-182,,true,,74,110,48,48,http://localhost/foo,160,0,0
+1654895900768,116,foo,200,OK,vertx 1-164,,true,,74,110,48,48,http://localhost/foo,116,0,0
+1654895900485,403,bar,408,Request Timeout,vertx 1-153,,false,,70,110,48,48,http://localhost/bar,403,0,0
+1654895900580,313,bar,200,OK,vertx 1-150,,true,,74,110,47,47,http://localhost/bar,313,0,0
+1654895900626,284,foo,200,OK,vertx 1-198,,true,,74,110,47,47,http://localhost/foo,284,0,1
+1654895900806,105,bar,200,OK,vertx 1-162,,true,,74,110,47,47,http://localhost/bar,105,0,0
+1654895900640,276,bar,200,OK,vertx 1-178,,true,,74,110,46,46,http://localhost/bar,276,0,0
+1654895900834,85,foo,200,OK,vertx 1-170,,true,,74,110,47,47,http://localhost/foo,85,0,0
+1654895900603,316,bar,200,OK,vertx 1-187,,true,,74,110,47,47,http://localhost/bar,316,0,0
+1654895900675,246,foo,200,OK,vertx 1-165,,true,,74,110,46,46,http://localhost/foo,246,0,1
+1654895900625,308,bar,200,OK,vertx 1-179,,true,,74,110,46,46,http://localhost/bar,308,0,0
+1654895900754,179,bar,200,OK,vertx 1-163,,true,,74,110,46,46,http://localhost/bar,179,0,1
+1654895900548,397,foo,200,OK,vertx 1-194,,true,,74,110,46,46,http://localhost/foo,397,0,1
+1654895900552,402,bar,408,Request Timeout,vertx 1-174,,false,,70,110,46,46,http://localhost/bar,402,0,1
+1654895900918,38,foo,200,OK,vertx 1-213,,true,,74,110,46,46,http://localhost/foo,38,0,0
+1654895900609,362,foo,200,OK,vertx 1-186,,true,,74,110,46,46,http://localhost/foo,362,0,0
+1654895900933,48,foo,200,OK,vertx 1-179,,true,,74,110,47,47,http://localhost/foo,48,0,0
+1654895900840,142,foo,200,OK,vertx 1-209,,true,,74,110,47,47,http://localhost/foo,142,0,0
+1654895900860,123,bar,200,OK,vertx 1-195,,true,,74,110,47,47,http://localhost/bar,123,0,1
+1654895900587,402,foo,408,Request Timeout,vertx 1-196,,false,,70,110,47,47,http://localhost/foo,402,0,0
+1654895900834,161,bar,200,OK,vertx 1-188,,true,,74,110,48,48,http://localhost/bar,161,0,0
+1654895900781,214,foo,200,OK,vertx 1-206,,true,,74,110,48,48,http://localhost/foo,214,0,0
+1654895900620,376,bar,200,OK,vertx 1-177,,true,,74,110,48,48,http://localhost/bar,376,0,0
+1654895900661,347,foo,200,OK,vertx 1-184,,true,,74,110,48,48,http://localhost/foo,347,0,1
+1654895900910,116,bar,200,OK,vertx 1-198,,true,,74,110,49,49,http://localhost/bar,116,0,0
+1654895900636,402,bar,408,Request Timeout,vertx 1-171,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895900839,199,bar,200,OK,vertx 1-180,,true,,74,110,49,49,http://localhost/bar,199,0,0
+1654895900994,45,foo,200,OK,vertx 1-217,,true,,74,110,48,48,http://localhost/foo,45,0,1
+1654895900800,250,foo,200,OK,vertx 1-207,,true,,74,110,48,48,http://localhost/foo,250,0,0
+1654895900650,402,foo,408,Request Timeout,vertx 1-181,,false,,70,110,49,49,http://localhost/foo,402,0,1
+1654895900996,58,foo,200,OK,vertx 1-177,,true,,74,110,49,49,http://localhost/foo,58,0,0
+1654895900761,294,foo,200,OK,vertx 1-205,,true,,74,110,49,49,http://localhost/foo,294,0,1
+1654895900981,77,bar,200,OK,vertx 1-179,,true,,74,110,49,49,http://localhost/bar,77,0,0
+1654895900971,95,bar,200,OK,vertx 1-186,,true,,74,110,48,48,http://localhost/bar,95,0,1
+1654895900919,148,bar,200,OK,vertx 1-170,,true,,74,110,47,47,http://localhost/bar,148,0,0
+1654895900683,402,foo,408,Request Timeout,vertx 1-201,,false,,70,110,47,47,http://localhost/foo,402,0,1
+1654895900936,150,foo,200,OK,vertx 1-214,,true,,74,110,47,47,http://localhost/foo,149,0,1
+1654895900810,277,foo,200,OK,vertx 1-197,,true,,74,110,47,47,http://localhost/foo,277,0,0
+1654895900880,223,bar,200,OK,vertx 1-182,,true,,74,110,48,48,http://localhost/bar,223,0,0
+1654895900703,402,foo,408,Request Timeout,vertx 1-202,,false,,70,110,47,47,http://localhost/foo,402,0,1
+1654895900878,230,foo,200,OK,vertx 1-211,,true,,74,110,47,47,http://localhost/foo,230,0,0
+1654895900864,245,bar,200,OK,vertx 1-192,,true,,74,110,47,47,http://localhost/bar,245,0,1
+1654895900744,373,bar,200,OK,vertx 1-167,,true,,74,110,48,48,http://localhost/bar,373,0,0
+1654895900956,162,bar,200,OK,vertx 1-213,,true,,74,110,47,47,http://localhost/bar,162,0,0
+1654895900897,226,foo,200,OK,vertx 1-212,,true,,74,110,47,47,http://localhost/foo,226,0,1
+1654895900724,401,bar,408,Request Timeout,vertx 1-157,,false,,70,110,47,47,http://localhost/bar,401,0,0
+1654895900841,288,foo,200,OK,vertx 1-200,,true,,74,110,46,46,http://localhost/foo,288,0,0
+1654895901052,85,bar,200,OK,vertx 1-181,,true,,74,110,47,47,http://localhost/bar,85,0,0
+1654895900866,274,foo,200,OK,vertx 1-185,,true,,74,110,46,46,http://localhost/foo,274,0,0
+1654895901040,100,bar,200,OK,vertx 1-217,,true,,74,110,46,46,http://localhost/bar,100,0,0
+1654895900819,336,foo,200,OK,vertx 1-208,,true,,74,110,47,47,http://localhost/foo,336,0,1
+1654895900838,322,bar,200,OK,vertx 1-172,,true,,74,110,47,47,http://localhost/bar,322,0,0
+1654895901140,21,bar,200,OK,vertx 1-185,,true,,74,110,46,46,http://localhost/bar,21,0,1
+1654895900955,224,foo,200,OK,vertx 1-215,,true,,74,110,46,46,http://localhost/foo,224,0,1
+1654895900784,402,bar,408,Request Timeout,vertx 1-173,,false,,70,110,46,46,http://localhost/bar,402,0,0
+1654895900794,402,bar,408,Request Timeout,vertx 1-203,,false,,70,110,46,46,http://localhost/bar,402,0,1
+1654895901052,146,foo,200,OK,vertx 1-220,,true,,74,110,46,46,http://localhost/foo,146,0,1
+1654895900853,366,bar,200,OK,vertx 1-169,,true,,74,110,47,47,http://localhost/bar,366,0,0
+1654895901091,134,foo,200,OK,vertx 1-222,,true,,74,110,46,46,http://localhost/foo,134,0,0
+1654895900824,402,bar,408,Request Timeout,vertx 1-189,,false,,70,110,46,46,http://localhost/bar,402,0,0
+1654895900872,358,bar,200,OK,vertx 1-190,,true,,74,110,47,47,http://localhost/bar,358,0,1
+1654895900858,381,foo,200,OK,vertx 1-210,,true,,74,110,47,47,http://localhost/foo,381,0,1
+1654895900844,401,bar,408,Request Timeout,vertx 1-204,,false,,70,110,47,47,http://localhost/bar,401,0,0
+1654895900845,401,foo,408,Request Timeout,vertx 1-183,,false,,70,110,48,48,http://localhost/foo,401,0,0
+1654895901014,233,foo,200,OK,vertx 1-218,,true,,74,110,48,48,http://localhost/foo,232,0,0
+1654895900989,260,bar,200,OK,vertx 1-196,,true,,74,110,48,48,http://localhost/bar,259,0,0
+1654895901110,148,foo,200,OK,vertx 1-223,,true,,74,110,48,48,http://localhost/foo,148,0,1
+1654895900860,403,foo,408,Request Timeout,vertx 1-199,,false,,70,110,48,48,http://localhost/foo,403,0,1
+1654895900995,272,foo,200,OK,vertx 1-188,,true,,74,110,49,49,http://localhost/foo,272,0,0
+1654895901196,79,foo,200,OK,vertx 1-203,,true,,74,110,49,49,http://localhost/foo,79,0,1
+1654895901266,9,foo,200,OK,vertx 1-231,,true,,74,110,49,49,http://localhost/foo,9,0,0
+1654895900877,403,bar,408,Request Timeout,vertx 1-193,,false,,70,110,49,49,http://localhost/bar,403,0,1
+1654895901188,95,foo,200,OK,vertx 1-227,,true,,74,110,49,49,http://localhost/foo,95,0,1
+1654895900884,401,bar,408,Request Timeout,vertx 1-164,,false,,70,110,50,50,http://localhost/bar,401,0,0
+1654895901072,215,foo,200,OK,vertx 1-221,,true,,74,110,49,49,http://localhost/foo,215,0,0
+1654895901155,138,bar,200,OK,vertx 1-208,,true,,74,110,49,49,http://localhost/bar,138,0,0
+1654895900921,380,bar,200,OK,vertx 1-165,,true,,74,110,49,49,http://localhost/bar,380,0,0
+1654895900983,321,foo,200,OK,vertx 1-195,,true,,74,110,48,48,http://localhost/foo,321,0,0
+1654895900916,402,foo,408,Request Timeout,vertx 1-178,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895900982,339,bar,200,OK,vertx 1-209,,true,,74,110,49,49,http://localhost/bar,339,0,0
+1654895901227,99,foo,200,OK,vertx 1-229,,true,,74,110,50,50,http://localhost/foo,99,0,1
+1654895901141,193,foo,200,OK,vertx 1-217,,true,,74,110,50,50,http://localhost/foo,193,0,0
+1654895901026,313,foo,200,OK,vertx 1-198,,true,,74,110,50,50,http://localhost/foo,313,0,1
+1654895900945,402,bar,408,Request Timeout,vertx 1-194,,false,,70,110,51,51,http://localhost/bar,402,0,0
+1654895901130,219,foo,200,OK,vertx 1-224,,true,,74,110,51,51,http://localhost/foo,219,0,0
+1654895901230,122,foo,200,OK,vertx 1-190,,true,,74,110,51,51,http://localhost/foo,122,0,1
+1654895901258,103,bar,200,OK,vertx 1-223,,true,,74,110,51,51,http://localhost/bar,103,0,0
+1654895901347,24,foo,200,OK,vertx 1-194,,true,,74,110,52,52,http://localhost/foo,24,0,0
+1654895900976,403,foo,408,Request Timeout,vertx 1-216,,false,,70,110,52,52,http://localhost/foo,403,0,1
+1654895901349,35,bar,200,OK,vertx 1-224,,true,,74,110,53,53,http://localhost/bar,35,0,0
+1654895901129,258,bar,200,OK,vertx 1-200,,true,,74,110,53,53,http://localhost/bar,258,0,1
+1654895901321,77,foo,200,OK,vertx 1-209,,true,,74,110,52,52,http://localhost/foo,77,0,0
+1654895900995,403,bar,408,Request Timeout,vertx 1-206,,false,,70,110,52,52,http://localhost/bar,403,0,1
+1654895901246,155,foo,200,OK,vertx 1-230,,true,,74,110,52,52,http://localhost/foo,155,0,0
+1654895901225,185,bar,200,OK,vertx 1-222,,true,,74,110,53,53,http://localhost/bar,185,0,1
+1654895901008,402,bar,408,Request Timeout,vertx 1-184,,false,,70,110,53,53,http://localhost/bar,402,0,1
+1654895901344,73,foo,200,OK,vertx 1-235,,true,,74,110,52,52,http://localhost/foo,73,0,0
+1654895901371,50,bar,200,OK,vertx 1-194,,true,,74,110,53,53,http://localhost/bar,50,0,0
+1654895901402,27,foo,200,OK,vertx 1-238,,true,,74,110,52,52,http://localhost/foo,27,0,0
+1654895901086,346,bar,200,OK,vertx 1-214,,true,,74,110,52,52,http://localhost/bar,346,0,0
+1654895901035,402,foo,408,Request Timeout,vertx 1-219,,false,,70,110,52,52,http://localhost/foo,402,0,1
+1654895901339,99,bar,200,OK,vertx 1-198,,true,,74,110,52,52,http://localhost/bar,99,0,0
+1654895901361,83,foo,200,OK,vertx 1-223,,true,,74,110,52,52,http://localhost/foo,83,0,0
+1654895901226,218,foo,200,OK,vertx 1-189,,true,,74,110,52,52,http://localhost/foo,218,0,0
+1654895901432,19,foo,200,OK,vertx 1-214,,true,,74,110,52,52,http://localhost/foo,19,0,0
+1654895901050,401,bar,408,Request Timeout,vertx 1-207,,false,,70,110,52,52,http://localhost/bar,401,0,0
+1654895901324,130,foo,200,OK,vertx 1-234,,true,,74,110,52,52,http://localhost/foo,129,0,0
+1654895901088,366,bar,200,OK,vertx 1-197,,true,,74,110,52,52,http://localhost/bar,366,0,0
+1654895901054,401,bar,408,Request Timeout,vertx 1-177,,false,,70,110,51,51,http://localhost/bar,401,0,0
+1654895901055,403,bar,408,Request Timeout,vertx 1-205,,false,,70,110,50,50,http://localhost/bar,403,0,1
+1654895901442,17,foo,200,OK,vertx 1-240,,true,,74,110,50,50,http://localhost/foo,17,0,0
+1654895901304,157,bar,200,OK,vertx 1-195,,true,,74,110,51,51,http://localhost/bar,157,0,0
+1654895901198,275,bar,200,OK,vertx 1-220,,true,,74,110,50,50,http://localhost/bar,275,0,0
+1654895901421,54,foo,200,OK,vertx 1-239,,true,,74,110,50,50,http://localhost/foo,54,0,0
+1654895901276,205,bar,200,OK,vertx 1-231,,true,,74,110,51,51,http://localhost/bar,205,0,0
+1654895901108,374,bar,200,OK,vertx 1-211,,true,,74,110,51,51,http://localhost/bar,374,0,0
+1654895901085,401,bar,408,Request Timeout,vertx 1-201,,false,,70,110,51,51,http://localhost/bar,401,0,0
+1654895901326,168,bar,200,OK,vertx 1-229,,true,,74,110,51,51,http://localhost/bar,168,0,1
+1654895901475,27,bar,200,OK,vertx 1-239,,true,,74,110,52,52,http://localhost/bar,27,0,1
+1654895901169,333,foo,200,OK,vertx 1-226,,true,,74,110,52,52,http://localhost/foo,332,0,0
+1654895901118,384,foo,200,OK,vertx 1-213,,true,,74,110,52,52,http://localhost/foo,384,0,0
+1654895901105,398,bar,200,OK,vertx 1-202,,true,,74,110,52,52,http://localhost/bar,398,0,0
+1654895901208,299,foo,200,OK,vertx 1-228,,true,,74,110,52,52,http://localhost/foo,299,0,0
+1654895901293,217,foo,200,OK,vertx 1-208,,true,,74,110,52,52,http://localhost/foo,217,0,0
+1654895901109,401,foo,408,Request Timeout,vertx 1-192,,false,,70,110,52,52,http://localhost/foo,401,0,0
+1654895901507,5,bar,200,OK,vertx 1-228,,true,,74,110,52,52,http://localhost/bar,5,0,1
+1654895901123,395,bar,200,OK,vertx 1-212,,true,,74,110,53,53,http://localhost/bar,395,0,0
+1654895901352,166,bar,200,OK,vertx 1-190,,true,,74,110,53,53,http://localhost/bar,166,0,0
+1654895901276,268,bar,200,OK,vertx 1-203,,true,,74,110,53,53,http://localhost/bar,268,0,0
+1654895901149,402,foo,200,OK,vertx 1-225,,true,,74,110,52,52,http://localhost/foo,402,0,1
+1654895901482,81,foo,200,OK,vertx 1-211,,true,,74,110,53,53,http://localhost/foo,81,0,1
+1654895901382,183,foo,200,OK,vertx 1-237,,true,,74,110,53,53,http://localhost/foo,183,0,0
+1654895901179,402,bar,408,Request Timeout,vertx 1-215,,false,,70,110,54,54,http://localhost/bar,402,0,0
+1654895901502,79,bar,200,OK,vertx 1-213,,true,,74,110,54,54,http://localhost/bar,79,0,0
+1654895901283,302,bar,200,OK,vertx 1-227,,true,,74,110,53,53,http://localhost/bar,302,0,0
+1654895901454,144,bar,200,OK,vertx 1-234,,true,,74,110,54,54,http://localhost/bar,144,0,0
+1654895901552,53,bar,200,OK,vertx 1-225,,true,,74,110,54,54,http://localhost/bar,53,0,0
+1654895901249,366,foo,200,OK,vertx 1-196,,true,,74,110,55,55,http://localhost/foo,366,0,0
+1654895901451,164,bar,200,OK,vertx 1-214,,true,,74,110,55,55,http://localhost/bar,164,0,1
+1654895901398,221,foo,200,OK,vertx 1-206,,true,,74,110,54,54,http://localhost/foo,221,0,1
+1654895901452,179,foo,200,OK,vertx 1-207,,true,,74,110,54,54,http://localhost/foo,179,0,0
+1654895901494,138,foo,200,OK,vertx 1-229,,true,,74,110,54,54,http://localhost/foo,138,0,0
+1654895901563,71,bar,200,OK,vertx 1-211,,true,,74,110,55,55,http://localhost/bar,71,0,1
+1654895901280,357,foo,200,OK,vertx 1-193,,true,,74,110,54,54,http://localhost/foo,357,0,0
+1654895901595,44,foo,200,OK,vertx 1-248,,true,,74,110,54,54,http://localhost/foo,44,0,0
+1654895901239,402,bar,408,Request Timeout,vertx 1-210,,false,,70,110,54,54,http://localhost/bar,402,0,1
+1654895901285,362,foo,200,OK,vertx 1-232,,true,,74,110,54,54,http://localhost/foo,362,0,0
+1654895901246,402,foo,408,Request Timeout,vertx 1-204,,false,,70,110,54,54,http://localhost/foo,402,0,0
+1654895901247,401,bar,408,Request Timeout,vertx 1-218,,false,,70,110,54,54,http://localhost/bar,401,0,0
+1654895901246,402,bar,408,Request Timeout,vertx 1-183,,false,,70,110,54,54,http://localhost/bar,402,0,0
+1654895901398,261,bar,200,OK,vertx 1-209,,true,,74,110,54,54,http://localhost/bar,261,0,0
+1654895901263,402,bar,408,Request Timeout,vertx 1-199,,false,,70,110,53,53,http://localhost/bar,402,0,0
+1654895901267,402,bar,408,Request Timeout,vertx 1-188,,false,,70,110,52,52,http://localhost/bar,402,0,0
+1654895901598,73,foo,200,OK,vertx 1-234,,true,,74,110,51,51,http://localhost/foo,73,0,0
+1654895901417,255,bar,200,OK,vertx 1-235,,true,,74,110,52,52,http://localhost/bar,255,0,0
+1654895901487,200,foo,200,OK,vertx 1-201,,true,,74,110,52,52,http://localhost/foo,200,0,0
+1654895901518,170,foo,200,OK,vertx 1-244,,true,,74,110,52,52,http://localhost/foo,170,0,1
+1654895901287,401,bar,408,Request Timeout,vertx 1-221,,false,,70,110,52,52,http://localhost/bar,401,0,0
+1654895901362,327,foo,200,OK,vertx 1-236,,true,,74,110,52,52,http://localhost/foo,327,0,0
+1654895901633,56,foo,200,OK,vertx 1-250,,true,,74,110,52,52,http://localhost/foo,56,0,0
+1654895901672,19,foo,200,OK,vertx 1-235,,true,,74,110,52,52,http://localhost/foo,19,0,1
+1654895901637,54,bar,200,OK,vertx 1-193,,true,,74,110,52,52,http://localhost/bar,54,0,0
+1654895901459,244,bar,200,OK,vertx 1-240,,true,,74,110,52,52,http://localhost/bar,244,0,1
+1654895901460,245,foo,200,OK,vertx 1-241,,true,,74,110,52,52,http://localhost/foo,245,0,0
+1654895901305,401,foo,408,Request Timeout,vertx 1-233,,false,,70,110,52,52,http://localhost/foo,401,0,0
+1654895901318,398,bar,200,OK,vertx 1-178,,true,,74,110,53,53,http://localhost/bar,397,0,0
+1654895901647,73,bar,200,OK,vertx 1-232,,true,,74,110,52,52,http://localhost/bar,73,0,0
+1654895901688,35,bar,200,OK,vertx 1-244,,true,,74,110,52,52,http://localhost/bar,35,0,1
+1654895901438,289,bar,200,OK,vertx 1-219,,true,,74,110,52,52,http://localhost/bar,288,0,0
+1654895901429,300,bar,200,OK,vertx 1-238,,true,,74,110,52,52,http://localhost/bar,299,0,0
+1654895901458,275,foo,200,OK,vertx 1-205,,true,,74,110,53,53,http://localhost/foo,274,0,0
+1654895901576,157,foo,200,OK,vertx 1-247,,true,,74,110,53,53,http://localhost/foo,157,0,1
+1654895901615,119,bar,200,OK,vertx 1-196,,true,,74,110,53,53,http://localhost/bar,119,0,0
+1654895901334,401,bar,408,Request Timeout,vertx 1-217,,false,,70,110,52,52,http://localhost/bar,401,0,0
+1654895901481,259,foo,200,OK,vertx 1-231,,true,,74,110,51,51,http://localhost/foo,259,0,1
+1654895901410,331,foo,200,OK,vertx 1-222,,true,,74,110,51,51,http://localhost/foo,331,0,0
+1654895901648,106,foo,200,OK,vertx 1-218,,true,,74,110,52,52,http://localhost/foo,106,0,1
+1654895901499,262,foo,200,OK,vertx 1-243,,true,,74,110,52,52,http://localhost/foo,262,0,0
+1654895901510,258,bar,200,OK,vertx 1-192,,true,,74,110,52,52,http://localhost/bar,258,0,1
+1654895901741,28,bar,200,OK,vertx 1-222,,true,,74,110,51,51,http://localhost/bar,28,0,1
+1654895901512,260,foo,200,OK,vertx 1-228,,true,,74,110,51,51,http://localhost/foo,260,0,0
+1654895901502,272,bar,200,OK,vertx 1-226,,true,,74,110,51,51,http://localhost/bar,272,0,0
+1654895901379,401,bar,408,Request Timeout,vertx 1-216,,false,,70,110,51,51,http://localhost/bar,401,0,0
+1654895901733,47,bar,200,OK,vertx 1-205,,true,,74,110,51,51,http://localhost/bar,47,0,0
+1654895901605,178,foo,200,OK,vertx 1-225,,true,,74,110,50,50,http://localhost/foo,178,0,0
+1654895901557,229,foo,200,OK,vertx 1-246,,true,,74,110,50,50,http://localhost/foo,229,0,0
+1654895901384,403,foo,408,Request Timeout,vertx 1-224,,false,,70,110,50,50,http://localhost/foo,403,0,1
+1654895901641,147,foo,200,OK,vertx 1-210,,true,,74,110,50,50,http://localhost/foo,147,0,0
+1654895901631,170,bar,200,OK,vertx 1-207,,true,,74,110,51,51,http://localhost/bar,170,0,0
+1654895901401,402,bar,408,Request Timeout,vertx 1-230,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895901703,102,foo,200,OK,vertx 1-240,,true,,74,110,50,50,http://localhost/foo,102,0,1
+1654895901444,369,bar,200,OK,vertx 1-189,,true,,74,110,51,51,http://localhost/bar,369,0,1
+1654895901619,198,bar,200,OK,vertx 1-206,,true,,74,110,50,50,http://localhost/bar,198,0,0
+1654895901444,403,bar,408,Request Timeout,vertx 1-223,,false,,70,110,50,50,http://localhost/bar,403,0,1
+1654895901732,121,foo,200,OK,vertx 1-255,,true,,74,110,50,50,http://localhost/foo,121,0,0
+1654895901774,79,foo,200,OK,vertx 1-226,,true,,74,110,50,50,http://localhost/foo,79,0,0
+1654895901729,128,foo,200,OK,vertx 1-238,,true,,74,110,50,50,http://localhost/foo,128,0,0
+1654895901805,57,bar,200,OK,vertx 1-240,,true,,74,110,50,50,http://localhost/bar,57,0,0
+1654895901479,392,foo,200,OK,vertx 1-242,,true,,74,110,50,50,http://localhost/foo,392,0,0
+1654895901503,373,foo,200,OK,vertx 1-202,,true,,74,110,50,50,http://localhost/foo,373,0,1
+1654895901474,402,foo,408,Request Timeout,vertx 1-220,,false,,70,110,50,50,http://localhost/foo,402,0,0
+1654895901689,191,bar,200,OK,vertx 1-236,,true,,74,110,50,50,http://localhost/bar,191,0,0
+1654895901510,373,bar,200,OK,vertx 1-208,,true,,74,110,50,50,http://localhost/bar,373,0,0
+1654895901849,34,foo,200,OK,vertx 1-261,,true,,74,110,49,49,http://localhost/foo,34,0,1
+1654895901615,270,foo,200,OK,vertx 1-249,,true,,74,110,49,49,http://localhost/foo,270,0,0
+1654895901786,117,bar,200,OK,vertx 1-246,,true,,74,110,50,50,http://localhost/bar,117,0,0
+1654895901502,402,foo,408,Request Timeout,vertx 1-239,,false,,70,110,50,50,http://localhost/foo,402,0,0
+1654895901706,199,bar,200,OK,vertx 1-233,,true,,74,110,50,50,http://localhost/bar,199,0,0
+1654895901876,31,bar,200,OK,vertx 1-220,,true,,74,110,50,50,http://localhost/bar,30,0,1
+1654895901581,328,foo,200,OK,vertx 1-215,,true,,74,110,50,50,http://localhost/foo,328,0,1
+1654895901565,345,bar,200,OK,vertx 1-237,,true,,74,110,50,50,http://localhost/bar,345,0,1
+1654895901691,226,bar,200,OK,vertx 1-235,,true,,74,110,50,50,http://localhost/bar,225,0,0
+1654895901712,208,foo,200,OK,vertx 1-254,,true,,74,110,49,49,http://localhost/foo,208,0,0
+1654895901518,402,foo,408,Request Timeout,vertx 1-212,,false,,70,110,49,49,http://localhost/foo,402,0,1
+1654895901687,234,bar,200,OK,vertx 1-201,,true,,74,110,49,49,http://localhost/bar,234,0,1
+1654895901751,174,foo,200,OK,vertx 1-256,,true,,74,110,48,48,http://localhost/foo,174,0,0
+1654895901537,403,foo,408,Request Timeout,vertx 1-245,,false,,70,110,49,49,http://localhost/foo,403,0,1
+1654895901887,58,foo,200,OK,vertx 1-263,,true,,74,110,49,49,http://localhost/foo,58,0,0
+1654895901880,75,foo,200,OK,vertx 1-236,,true,,74,110,50,50,http://localhost/foo,75,0,0
+1654895901927,38,foo,200,OK,vertx 1-265,,true,,74,110,50,50,http://localhost/foo,37,0,0
+1654895901903,78,foo,200,OK,vertx 1-246,,true,,74,110,51,51,http://localhost/foo,78,0,1
+1654895901585,402,foo,408,Request Timeout,vertx 1-227,,false,,70,110,52,52,http://localhost/foo,402,0,1
+1654895901761,226,bar,200,OK,vertx 1-243,,true,,74,110,52,52,http://localhost/bar,226,0,1
+1654895901648,342,bar,200,OK,vertx 1-204,,true,,74,110,52,52,http://localhost/bar,342,0,0
+1654895901723,270,foo,200,OK,vertx 1-244,,true,,74,110,51,51,http://localhost/foo,270,0,0
+1654895901639,355,bar,200,OK,vertx 1-248,,true,,74,110,51,51,http://localhost/bar,354,0,0
+1654895901772,222,bar,200,OK,vertx 1-228,,true,,74,110,51,51,http://localhost/bar,222,0,0
+1654895901920,76,bar,200,OK,vertx 1-212,,true,,74,110,50,50,http://localhost/bar,76,0,0
+1654895901688,311,foo,200,OK,vertx 1-221,,true,,74,110,49,49,http://localhost/foo,311,0,1
+1654895901672,333,foo,200,OK,vertx 1-252,,true,,74,110,50,50,http://localhost/foo,333,0,1
+1654895901633,382,bar,200,OK,vertx 1-229,,true,,74,110,50,50,http://localhost/bar,382,0,0
+1654895901705,316,bar,200,OK,vertx 1-241,,true,,74,110,49,49,http://localhost/bar,316,0,0
+1654895901741,301,bar,200,OK,vertx 1-231,,true,,74,110,51,51,http://localhost/bar,301,0,0
+1654895901787,256,bar,200,OK,vertx 1-224,,true,,74,110,50,50,http://localhost/bar,256,0,0
+1654895901885,162,bar,200,OK,vertx 1-249,,true,,74,110,49,49,http://localhost/bar,162,0,1
+1654895901955,92,bar,200,OK,vertx 1-236,,true,,74,110,49,49,http://localhost/bar,92,0,1
+1654895902047,1,foo,200,OK,vertx 1-249,,true,,74,110,48,48,http://localhost/foo,1,0,0
+1654895901853,196,bar,200,OK,vertx 1-255,,true,,74,110,48,48,http://localhost/bar,196,0,0
+1654895901653,399,foo,200,OK,vertx 1-251,,true,,74,110,48,48,http://localhost/foo,399,0,0
+1654895902022,35,foo,200,OK,vertx 1-270,,true,,74,110,48,48,http://localhost/foo,35,0,1
+1654895901733,326,bar,200,OK,vertx 1-247,,true,,74,110,48,48,http://localhost/bar,326,0,1
+1654895901671,403,bar,408,Request Timeout,vertx 1-234,,false,,70,110,49,49,http://localhost/bar,403,0,1
+1654895901883,202,bar,200,OK,vertx 1-261,,true,,74,110,49,49,http://localhost/bar,202,0,1
+1654895901853,238,bar,200,OK,vertx 1-226,,true,,74,110,49,49,http://localhost/bar,238,0,1
+1654895901689,402,bar,408,Request Timeout,vertx 1-250,,false,,70,110,48,48,http://localhost/bar,402,0,1
+1654895901693,401,foo,408,Request Timeout,vertx 1-253,,false,,70,110,48,48,http://localhost/foo,401,0,0
+1654895901809,286,foo,200,OK,vertx 1-259,,true,,74,110,48,48,http://localhost/foo,286,0,1
+1654895901780,331,foo,200,OK,vertx 1-216,,true,,74,110,49,49,http://localhost/foo,331,0,0
+1654895901720,403,foo,408,Request Timeout,vertx 1-232,,false,,70,110,50,50,http://localhost/foo,403,0,1
+1654895901727,401,foo,408,Request Timeout,vertx 1-219,,false,,70,110,50,50,http://localhost/foo,401,0,0
+1654895901987,144,foo,200,OK,vertx 1-243,,true,,74,110,50,50,http://localhost/foo,144,0,0
+1654895902131,1,bar,200,OK,vertx 1-243,,true,,74,110,50,50,http://localhost/bar,1,0,0
+1654895901904,229,bar,200,OK,vertx 1-239,,true,,74,110,49,49,http://localhost/bar,229,0,1
+1654895902003,131,foo,200,OK,vertx 1-269,,true,,74,110,48,48,http://localhost/foo,131,0,1
+1654895901788,357,bar,200,OK,vertx 1-210,,true,,74,110,49,49,http://localhost/bar,357,0,0
+1654895902061,85,foo,200,OK,vertx 1-272,,true,,74,110,48,48,http://localhost/foo,85,0,0
+1654895901754,393,bar,200,OK,vertx 1-218,,true,,74,110,48,48,http://localhost/bar,393,0,0
+1654895902135,13,bar,200,OK,vertx 1-269,,true,,74,110,47,47,http://localhost/bar,13,0,0
+1654895901783,373,bar,200,OK,vertx 1-225,,true,,74,110,47,47,http://localhost/bar,373,0,1
+1654895901965,200,foo,200,OK,vertx 1-267,,true,,74,110,47,47,http://localhost/foo,200,0,0
+1654895901770,403,foo,408,Request Timeout,vertx 1-257,,false,,70,110,47,47,http://localhost/foo,403,0,0
+1654895901789,402,foo,408,Request Timeout,vertx 1-258,,false,,70,110,48,48,http://localhost/foo,402,0,1
+1654895902091,107,foo,200,OK,vertx 1-250,,true,,74,110,49,49,http://localhost/foo,106,0,0
+1654895902111,90,bar,200,OK,vertx 1-216,,true,,74,110,49,49,http://localhost/bar,90,0,1
+1654895901987,215,bar,200,OK,vertx 1-227,,true,,74,110,49,49,http://localhost/bar,215,0,0
+1654895901803,402,foo,408,Request Timeout,vertx 1-230,,false,,70,110,47,47,http://localhost/foo,402,0,0
+1654895901994,227,foo,200,OK,vertx 1-248,,true,,74,110,48,48,http://localhost/foo,227,0,0
+1654895901909,314,bar,200,OK,vertx 1-215,,true,,74,110,48,48,http://localhost/bar,314,0,1
+1654895902198,29,foo,200,OK,vertx 1-279,,true,,74,110,47,47,http://localhost/foo,29,0,0
+1654895901828,402,foo,408,Request Timeout,vertx 1-260,,false,,70,110,47,47,http://localhost/foo,402,0,1
+1654895901876,358,bar,200,OK,vertx 1-202,,true,,74,110,47,47,http://localhost/bar,358,0,0
+1654895901920,315,bar,200,OK,vertx 1-254,,true,,74,110,46,46,http://localhost/bar,315,0,0
+1654895902120,118,foo,200,OK,vertx 1-275,,true,,74,110,47,47,http://localhost/foo,118,0,0
+1654895901908,333,foo,200,OK,vertx 1-264,,true,,74,110,47,47,http://localhost/foo,333,0,0
+1654895902049,193,foo,200,OK,vertx 1-255,,true,,74,110,47,47,http://localhost/foo,193,0,0
+1654895902230,15,bar,200,OK,vertx 1-260,,true,,74,110,47,47,http://localhost/bar,15,0,0
+1654895901905,349,foo,200,OK,vertx 1-233,,true,,74,110,47,47,http://localhost/foo,348,0,1
+1654895902198,60,bar,200,OK,vertx 1-250,,true,,74,110,48,48,http://localhost/bar,60,0,1
+1654895901857,402,bar,408,Request Timeout,vertx 1-238,,false,,70,110,48,48,http://localhost/bar,402,0,1
+1654895901910,349,foo,200,OK,vertx 1-237,,true,,74,110,46,46,http://localhost/foo,348,0,1
+1654895901868,403,foo,408,Request Timeout,vertx 1-262,,false,,70,110,46,46,http://localhost/foo,403,0,1
+1654895901871,403,bar,408,Request Timeout,vertx 1-242,,false,,70,110,46,46,http://localhost/bar,403,0,1
+1654895901947,337,foo,200,OK,vertx 1-266,,true,,74,110,47,47,http://localhost/foo,337,0,0
+1654895902254,39,bar,200,OK,vertx 1-233,,true,,74,110,47,47,http://localhost/bar,39,0,0
+1654895902256,54,foo,200,OK,vertx 1-282,,true,,74,110,47,47,http://localhost/foo,53,0,0
+1654895901965,345,bar,200,OK,vertx 1-265,,true,,74,110,47,47,http://localhost/bar,345,0,0
+1654895902241,73,bar,200,OK,vertx 1-264,,true,,74,110,48,48,http://localhost/bar,73,0,0
+1654895901981,338,bar,200,OK,vertx 1-246,,true,,74,110,48,48,http://localhost/bar,338,0,0
+1654895902021,300,foo,200,OK,vertx 1-241,,true,,74,110,47,47,http://localhost/foo,300,0,0
+1654895902085,241,foo,200,OK,vertx 1-261,,true,,74,110,47,47,http://localhost/foo,241,0,0
+1654895901925,401,bar,408,Request Timeout,vertx 1-256,,false,,70,110,47,47,http://localhost/bar,401,0,0
+1654895902235,104,foo,200,OK,vertx 1-254,,true,,74,110,48,48,http://localhost/foo,104,0,0
+1654895902005,336,bar,200,OK,vertx 1-252,,true,,74,110,48,48,http://localhost/bar,336,0,0
+1654895901940,401,bar,408,Request Timeout,vertx 1-245,,false,,70,110,48,48,http://localhost/bar,401,0,0
+1654895901945,401,bar,408,Request Timeout,vertx 1-263,,false,,70,110,48,48,http://localhost/bar,401,0,1
+1654895902057,311,bar,200,OK,vertx 1-270,,true,,74,110,49,49,http://localhost/bar,311,0,0
+1654895902315,53,foo,200,OK,vertx 1-264,,true,,74,110,49,49,http://localhost/foo,53,0,1
+1654895901984,402,foo,408,Request Timeout,vertx 1-268,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895902352,34,foo,200,OK,vertx 1-287,,true,,74,110,50,50,http://localhost/foo,34,0,0
+1654895902128,262,bar,200,OK,vertx 1-219,,true,,74,110,50,50,http://localhost/bar,262,0,1
+1654895902275,119,foo,200,OK,vertx 1-283,,true,,74,110,50,50,http://localhost/foo,119,0,0
+1654895901993,402,bar,408,Request Timeout,vertx 1-244,,false,,70,110,50,50,http://localhost/bar,402,0,1
+1654895901999,401,bar,408,Request Timeout,vertx 1-221,,false,,70,110,49,49,http://localhost/bar,401,0,0
+1654895902042,362,foo,200,OK,vertx 1-271,,true,,74,110,48,48,http://localhost/foo,362,0,0
+1654895902123,281,bar,200,OK,vertx 1-232,,true,,74,110,48,48,http://localhost/bar,281,0,0
+1654895902342,62,foo,200,OK,vertx 1-245,,true,,74,110,48,48,http://localhost/foo,62,0,0
+1654895902284,125,bar,200,OK,vertx 1-266,,true,,74,110,47,47,http://localhost/bar,125,0,0
+1654895902327,84,foo,200,OK,vertx 1-256,,true,,74,110,48,48,http://localhost/foo,84,0,0
+1654895902165,249,bar,200,OK,vertx 1-267,,true,,74,110,48,48,http://localhost/bar,249,0,1
+1654895902411,6,bar,200,OK,vertx 1-256,,true,,74,110,48,48,http://localhost/bar,6,0,0
+1654895902100,324,foo,200,OK,vertx 1-274,,true,,74,110,47,47,http://localhost/foo,324,0,1
+1654895902341,85,foo,200,OK,vertx 1-252,,true,,74,110,47,47,http://localhost/foo,85,0,0
+1654895902368,60,bar,200,OK,vertx 1-264,,true,,74,110,47,47,http://localhost/bar,60,0,1
+1654895902095,339,bar,200,OK,vertx 1-259,,true,,74,110,47,47,http://localhost/bar,339,0,0
+1654895902326,119,bar,200,OK,vertx 1-261,,true,,74,110,47,47,http://localhost/bar,119,0,0
+1654895902140,307,foo,200,OK,vertx 1-276,,true,,74,110,46,46,http://localhost/foo,307,0,0
+1654895902048,402,bar,408,Request Timeout,vertx 1-249,,false,,70,110,47,47,http://localhost/bar,402,0,1
+1654895902052,401,bar,408,Request Timeout,vertx 1-251,,false,,70,110,46,46,http://localhost/bar,401,0,0
+1654895902059,402,foo,408,Request Timeout,vertx 1-247,,false,,70,110,46,46,http://localhost/foo,402,0,0
+1654895902332,130,foo,200,OK,vertx 1-286,,true,,74,110,46,46,http://localhost/foo,130,0,1
+1654895902227,240,bar,200,OK,vertx 1-279,,true,,74,110,46,46,http://localhost/bar,240,0,0
+1654895902315,153,foo,200,OK,vertx 1-285,,true,,74,110,46,46,http://localhost/foo,153,0,1
+1654895902081,402,foo,408,Request Timeout,vertx 1-273,,false,,70,110,47,47,http://localhost/foo,402,0,1
+1654895902094,402,bar,408,Request Timeout,vertx 1-253,,false,,70,110,48,48,http://localhost/bar,402,0,0
+1654895902272,227,bar,200,OK,vertx 1-262,,true,,74,110,48,48,http://localhost/bar,227,0,0
+1654895902386,115,bar,200,OK,vertx 1-268,,true,,74,110,48,48,http://localhost/bar,115,0,2
+1654895902221,281,bar,200,OK,vertx 1-248,,true,,74,110,48,48,http://localhost/bar,281,0,1
+1654895902409,100,foo,200,OK,vertx 1-266,,true,,74,110,48,48,http://localhost/foo,100,0,1
+1654895902205,311,bar,200,OK,vertx 1-230,,true,,74,110,48,48,http://localhost/bar,311,0,0
+1654895902372,145,foo,200,OK,vertx 1-288,,true,,74,110,47,47,http://localhost/foo,145,0,1
+1654895902173,352,bar,200,OK,vertx 1-257,,true,,74,110,47,47,http://localhost/bar,352,0,1
+1654895902146,402,bar,408,Request Timeout,vertx 1-272,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895902259,291,bar,200,OK,vertx 1-237,,true,,74,110,49,49,http://localhost/bar,290,0,0
+1654895902148,402,foo,408,Request Timeout,vertx 1-269,,false,,70,110,48,48,http://localhost/foo,402,0,0
+1654895902159,392,foo,200,OK,vertx 1-277,,true,,74,110,48,48,http://localhost/foo,392,0,0
+1654895902310,242,bar,200,OK,vertx 1-282,,true,,74,110,48,48,http://localhost/bar,241,0,1
+1654895902550,8,bar,200,OK,vertx 1-269,,true,,74,110,48,48,http://localhost/bar,8,0,1
+1654895902404,158,bar,200,OK,vertx 1-245,,true,,74,110,47,47,http://localhost/bar,158,0,1
+1654895902178,384,foo,200,OK,vertx 1-278,,true,,74,110,47,47,http://localhost/foo,384,0,0
+1654895902508,81,foo,200,OK,vertx 1-295,,true,,74,110,48,48,http://localhost/foo,81,0,1
+1654895902562,28,bar,200,OK,vertx 1-278,,true,,74,110,48,48,http://localhost/bar,28,0,1
+1654895902310,280,foo,200,OK,vertx 1-265,,true,,74,110,48,48,http://localhost/foo,280,0,1
+1654895902499,94,foo,200,OK,vertx 1-262,,true,,74,110,48,48,http://localhost/foo,94,0,0
+1654895902191,402,bar,408,Request Timeout,vertx 1-258,,false,,70,110,48,48,http://localhost/bar,402,0,1
+1654895902605,17,foo,200,OK,vertx 1-300,,true,,74,110,49,49,http://localhost/foo,17,0,1
+1654895902218,404,foo,408,Request Timeout,vertx 1-280,,false,,70,110,49,49,http://localhost/foo,404,0,0
+1654895902274,353,foo,200,OK,vertx 1-242,,true,,74,110,50,50,http://localhost/foo,352,0,0
+1654895902548,83,foo,200,OK,vertx 1-297,,true,,74,110,50,50,http://localhost/foo,83,0,1
+1654895902430,207,foo,200,OK,vertx 1-291,,true,,74,110,50,50,http://localhost/foo,207,0,0
+1654895902236,402,foo,408,Request Timeout,vertx 1-281,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895902468,172,bar,200,OK,vertx 1-285,,true,,74,110,50,50,http://localhost/bar,172,0,0
+1654895902238,402,bar,408,Request Timeout,vertx 1-275,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895902242,402,bar,408,Request Timeout,vertx 1-255,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895902517,128,bar,200,OK,vertx 1-288,,true,,74,110,50,50,http://localhost/bar,128,0,0
+1654895902631,14,bar,200,OK,vertx 1-297,,true,,74,110,50,50,http://localhost/bar,14,0,1
+1654895902245,402,foo,408,Request Timeout,vertx 1-260,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895902453,202,foo,200,OK,vertx 1-251,,true,,74,110,50,50,http://localhost/foo,202,0,0
+1654895902622,34,bar,200,OK,vertx 1-280,,true,,74,110,50,50,http://localhost/bar,34,0,1
+1654895902645,12,foo,200,OK,vertx 1-302,,true,,74,110,50,50,http://localhost/foo,12,0,0
+1654895902434,223,foo,200,OK,vertx 1-259,,true,,74,110,50,50,http://localhost/foo,223,0,0
+1654895902321,348,bar,200,OK,vertx 1-241,,true,,74,110,51,51,http://localhost/bar,348,0,1
+1654895902391,308,foo,200,OK,vertx 1-289,,true,,74,110,51,51,http://localhost/foo,307,0,1
+1654895902296,403,foo,408,Request Timeout,vertx 1-284,,false,,70,110,51,51,http://localhost/foo,403,0,1
+1654895902467,233,foo,200,OK,vertx 1-279,,true,,74,110,51,51,http://localhost/foo,233,0,0
+1654895902488,214,foo,200,OK,vertx 1-294,,true,,74,110,51,51,http://localhost/foo,214,0,1
+1654895902645,58,foo,200,OK,vertx 1-297,,true,,74,110,51,51,http://localhost/foo,58,0,1
+1654895902449,255,foo,200,OK,vertx 1-292,,true,,74,110,52,52,http://localhost/foo,255,0,1
+1654895902461,265,bar,200,OK,vertx 1-247,,true,,74,110,53,53,http://localhost/bar,265,0,0
+1654895902339,402,bar,408,Request Timeout,vertx 1-254,,false,,70,110,52,52,http://localhost/bar,402,0,1
+1654895902637,106,bar,200,OK,vertx 1-291,,true,,74,110,52,52,http://localhost/bar,106,0,0
+1654895902346,402,foo,408,Request Timeout,vertx 1-263,,false,,70,110,52,52,http://localhost/foo,402,0,1
+1654895902586,166,foo,200,OK,vertx 1-299,,true,,74,110,52,52,http://localhost/foo,166,0,1
+1654895902742,12,foo,200,OK,vertx 1-307,,true,,74,110,52,52,http://localhost/foo,12,0,1
+1654895902655,111,bar,200,OK,vertx 1-251,,true,,74,110,53,53,http://localhost/bar,111,0,0
+1654895902368,403,foo,408,Request Timeout,vertx 1-270,,false,,70,110,52,52,http://localhost/foo,403,0,1
+1654895902593,182,foo,200,OK,vertx 1-258,,true,,74,110,52,52,http://localhost/foo,182,0,0
+1654895902622,156,bar,200,OK,vertx 1-300,,true,,74,110,52,52,http://localhost/bar,156,0,1
+1654895902640,138,foo,200,OK,vertx 1-285,,true,,74,110,52,52,http://localhost/foo,138,0,0
+1654895902589,196,bar,200,OK,vertx 1-295,,true,,74,110,53,53,http://localhost/bar,196,0,0
+1654895902593,196,bar,200,OK,vertx 1-262,,true,,74,110,53,53,http://localhost/bar,196,0,0
+1654895902387,402,bar,408,Request Timeout,vertx 1-287,,false,,70,110,53,53,http://localhost/bar,402,0,1
+1654895902509,281,bar,200,OK,vertx 1-266,,true,,74,110,52,52,http://localhost/bar,281,0,1
+1654895902627,164,bar,200,OK,vertx 1-242,,true,,74,110,51,51,http://localhost/bar,164,0,0
+1654895902552,239,bar,200,OK,vertx 1-277,,true,,74,110,50,50,http://localhost/bar,239,0,0
+1654895902394,402,bar,408,Request Timeout,vertx 1-283,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895902684,114,foo,200,OK,vertx 1-304,,true,,74,110,50,50,http://localhost/foo,114,0,1
+1654895902404,402,bar,408,Request Timeout,vertx 1-271,,false,,70,110,51,51,http://localhost/bar,402,0,1
+1654895902447,361,bar,200,OK,vertx 1-276,,true,,74,110,51,51,http://localhost/bar,361,0,0
+1654895902410,401,foo,408,Request Timeout,vertx 1-290,,false,,70,110,51,51,http://localhost/foo,401,0,0
+1654895902414,402,foo,408,Request Timeout,vertx 1-267,,false,,70,110,51,51,http://localhost/foo,402,0,1
+1654895902699,118,bar,200,OK,vertx 1-289,,true,,74,110,51,51,http://localhost/bar,117,0,1
+1654895902424,402,bar,408,Request Timeout,vertx 1-274,,false,,70,110,52,52,http://localhost/bar,402,0,0
+1654895902426,401,bar,408,Request Timeout,vertx 1-252,,false,,70,110,52,52,http://localhost/bar,401,0,0
+1654895902552,284,foo,200,OK,vertx 1-282,,true,,74,110,51,51,http://localhost/foo,284,0,1
+1654895902469,370,foo,200,OK,vertx 1-293,,true,,74,110,52,52,http://localhost/foo,370,0,1
+1654895902826,28,foo,200,OK,vertx 1-274,,true,,74,110,52,52,http://localhost/foo,28,0,0
+1654895902527,334,foo,200,OK,vertx 1-296,,true,,74,110,53,53,http://localhost/foo,334,0,1
+1654895902462,401,bar,408,Request Timeout,vertx 1-286,,false,,70,110,53,53,http://localhost/bar,401,0,0
+1654895902483,382,bar,200,OK,vertx 1-273,,true,,74,110,53,53,http://localhost/bar,382,0,0
+1654895902861,14,bar,200,OK,vertx 1-296,,true,,74,110,53,53,http://localhost/bar,14,0,0
+1654895902548,327,foo,200,OK,vertx 1-272,,true,,74,110,53,53,http://localhost/foo,327,0,1
+1654895902748,128,bar,200,OK,vertx 1-263,,true,,74,110,53,53,http://localhost/bar,128,0,0
+1654895902839,37,bar,200,OK,vertx 1-293,,true,,74,110,52,52,http://localhost/bar,37,0,1
+1654895902625,252,foo,200,OK,vertx 1-301,,true,,74,110,52,52,http://localhost/foo,251,0,1
+1654895902640,240,foo,200,OK,vertx 1-275,,true,,74,110,53,53,http://localhost/foo,240,0,0
+1654895902778,105,foo,200,OK,vertx 1-300,,true,,74,110,53,53,http://localhost/foo,105,0,0
+1654895902876,14,bar,200,OK,vertx 1-272,,true,,74,110,53,53,http://localhost/bar,14,0,0
+1654895902567,328,foo,200,OK,vertx 1-298,,true,,74,110,52,52,http://localhost/foo,328,0,1
+1654895902496,402,foo,408,Request Timeout,vertx 1-253,,false,,70,110,53,53,http://localhost/foo,402,0,0
+1654895902501,402,foo,408,Request Timeout,vertx 1-268,,false,,70,110,53,53,http://localhost/foo,402,0,1
+1654895902781,123,foo,200,OK,vertx 1-309,,true,,74,110,53,53,http://localhost/foo,122,0,0
+1654895902525,390,foo,200,OK,vertx 1-257,,true,,74,110,53,53,http://localhost/foo,389,0,0
+1654895902854,64,bar,200,OK,vertx 1-274,,true,,74,110,54,54,http://localhost/bar,64,0,0
+1654895902762,156,foo,200,OK,vertx 1-308,,true,,74,110,54,54,http://localhost/foo,156,0,0
+1654895902865,53,foo,200,OK,vertx 1-273,,true,,74,110,53,53,http://localhost/foo,53,0,0
+1654895902880,39,bar,200,OK,vertx 1-275,,true,,74,110,53,53,http://localhost/bar,38,0,0
+1654895902836,84,bar,200,OK,vertx 1-282,,true,,74,110,52,52,http://localhost/bar,84,0,1
+1654895902771,160,bar,200,OK,vertx 1-270,,true,,74,110,51,51,http://localhost/bar,160,0,0
+1654895902699,244,bar,200,OK,vertx 1-284,,true,,74,110,51,51,http://localhost/bar,244,0,1
+1654895902875,74,foo,200,OK,vertx 1-296,,true,,74,110,51,51,http://localhost/foo,74,0,1
+1654895902791,160,foo,200,OK,vertx 1-277,,true,,74,110,51,51,http://localhost/foo,160,0,1
+1654895902754,199,bar,200,OK,vertx 1-307,,true,,74,110,51,51,http://localhost/bar,199,0,0
+1654895902590,370,bar,200,OK,vertx 1-265,,true,,74,110,51,51,http://localhost/bar,370,0,0
+1654895902645,339,foo,200,OK,vertx 1-288,,true,,74,110,52,52,http://localhost/foo,339,0,0
+1654895902801,186,foo,200,OK,vertx 1-310,,true,,74,110,52,52,http://localhost/foo,186,0,0
+1654895902789,201,foo,200,OK,vertx 1-287,,true,,74,110,52,52,http://localhost/foo,201,0,0
+1654895902895,96,bar,200,OK,vertx 1-298,,true,,74,110,52,52,http://localhost/bar,96,0,1
+1654895902590,401,foo,408,Request Timeout,vertx 1-278,,false,,70,110,52,52,http://localhost/foo,401,0,0
+1654895902723,269,foo,200,OK,vertx 1-306,,true,,74,110,52,52,http://localhost/foo,269,0,1
+1654895902704,289,bar,200,OK,vertx 1-292,,true,,74,110,52,52,http://localhost/bar,289,0,0
+1654895902876,119,foo,200,OK,vertx 1-293,,true,,74,110,52,52,http://localhost/foo,119,0,1
+1654895902752,247,bar,200,OK,vertx 1-299,,true,,74,110,52,52,http://localhost/bar,247,0,0
+1654895902657,343,foo,200,OK,vertx 1-280,,true,,74,110,53,53,http://localhost/foo,343,0,0
+1654895902778,226,bar,200,OK,vertx 1-285,,true,,74,110,53,53,http://localhost/bar,226,0,0
+1654895902647,360,bar,200,OK,vertx 1-260,,true,,74,110,52,52,http://localhost/bar,360,0,1
+1654895902702,306,bar,200,OK,vertx 1-294,,true,,74,110,51,51,http://localhost/bar,306,0,0
+1654895903000,20,foo,200,OK,vertx 1-320,,true,,74,110,52,52,http://localhost/foo,20,0,0
+1654895902798,227,bar,200,OK,vertx 1-304,,true,,74,110,52,52,http://localhost/bar,227,0,1
+1654895902743,287,foo,200,OK,vertx 1-291,,true,,74,110,52,52,http://localhost/foo,286,0,1
+1654895902664,369,foo,200,OK,vertx 1-303,,true,,74,110,52,52,http://localhost/foo,369,0,0
+1654895902915,120,bar,200,OK,vertx 1-257,,true,,74,110,52,52,http://localhost/bar,120,0,0
+1654895902638,401,bar,408,Request Timeout,vertx 1-281,,false,,70,110,52,52,http://localhost/bar,401,0,0
+1654895902700,342,bar,200,OK,vertx 1-279,,true,,74,110,52,52,http://localhost/bar,342,0,1
+1654895902703,344,foo,200,OK,vertx 1-305,,true,,74,110,51,51,http://localhost/foo,344,0,1
+1654895902898,149,bar,200,OK,vertx 1-253,,true,,74,110,51,51,http://localhost/bar,149,0,0
+1654895902877,175,bar,200,OK,vertx 1-301,,true,,74,110,50,50,http://localhost/bar,175,0,0
+1654895902999,58,foo,200,OK,vertx 1-299,,true,,74,110,50,50,http://localhost/foo,58,0,0
+1654895902658,401,bar,408,Request Timeout,vertx 1-302,,false,,70,110,51,51,http://localhost/bar,401,0,0
+1654895902658,401,bar,408,Request Timeout,vertx 1-259,,false,,70,110,51,51,http://localhost/bar,401,0,0
+1654895902858,227,foo,200,OK,vertx 1-313,,true,,74,110,51,51,http://localhost/foo,226,0,0
+1654895902703,389,bar,200,OK,vertx 1-297,,true,,74,110,51,51,http://localhost/bar,389,0,0
+1654895902993,113,foo,200,OK,vertx 1-292,,true,,74,110,51,51,http://localhost/foo,113,0,0
+1654895902839,273,foo,200,OK,vertx 1-312,,true,,74,110,51,51,http://localhost/foo,273,0,0
+1654895902863,253,foo,200,OK,vertx 1-286,,true,,74,110,51,51,http://localhost/foo,252,0,1
+1654895903019,97,foo,200,OK,vertx 1-321,,true,,74,110,51,51,http://localhost/foo,97,0,0
+1654895902951,167,bar,200,OK,vertx 1-277,,true,,74,110,52,52,http://localhost/bar,167,0,0
+1654895902992,152,bar,200,OK,vertx 1-278,,true,,74,110,52,52,http://localhost/bar,152,0,0
+1654895902984,160,bar,200,OK,vertx 1-288,,true,,74,110,51,51,http://localhost/bar,160,0,1
+1654895902897,248,foo,200,OK,vertx 1-315,,true,,74,110,50,50,http://localhost/foo,248,0,0
+1654895902811,335,bar,200,OK,vertx 1-290,,true,,74,110,50,50,http://localhost/bar,334,0,0
+1654895903020,126,bar,200,OK,vertx 1-320,,true,,74,110,50,50,http://localhost/bar,126,0,0
+1654895903030,123,bar,200,OK,vertx 1-291,,true,,74,110,50,50,http://localhost/bar,123,0,0
+1654895902992,163,bar,200,OK,vertx 1-306,,true,,74,110,49,49,http://localhost/bar,163,0,0
+1654895902796,362,foo,200,OK,vertx 1-283,,true,,74,110,50,50,http://localhost/foo,362,0,0
+1654895902785,376,foo,200,OK,vertx 1-295,,true,,74,110,50,50,http://localhost/foo,376,0,0
+1654895903000,166,bar,200,OK,vertx 1-280,,true,,74,110,50,50,http://localhost/bar,166,0,0
+1654895902991,177,foo,200,OK,vertx 1-298,,true,,74,110,49,49,http://localhost/foo,177,0,1
+1654895903085,88,bar,200,OK,vertx 1-313,,true,,74,110,49,49,http://localhost/bar,88,0,0
+1654895902775,402,bar,408,Request Timeout,vertx 1-258,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895902817,366,foo,200,OK,vertx 1-289,,true,,74,110,49,49,http://localhost/foo,366,0,1
+1654895903117,68,foo,200,OK,vertx 1-326,,true,,74,110,49,49,http://localhost/foo,68,0,1
+1654895903058,134,foo,200,OK,vertx 1-323,,true,,74,110,49,49,http://localhost/foo,134,0,0
+1654895902961,232,foo,200,OK,vertx 1-318,,true,,74,110,49,49,http://localhost/foo,232,0,0
+1654895903161,34,bar,200,OK,vertx 1-295,,true,,74,110,49,49,http://localhost/bar,34,0,0
+1654895902949,246,bar,200,OK,vertx 1-296,,true,,74,110,49,49,http://localhost/bar,246,0,0
+1654895902982,217,foo,200,OK,vertx 1-319,,true,,74,110,48,48,http://localhost/foo,217,0,1
+1654895902806,402,foo,408,Request Timeout,vertx 1-271,,false,,70,110,48,48,http://localhost/foo,402,0,0
+1654895902808,402,foo,408,Request Timeout,vertx 1-276,,false,,70,110,48,48,http://localhost/foo,402,0,0
+1654895903059,151,foo,200,OK,vertx 1-302,,true,,74,110,48,48,http://localhost/foo,151,0,0
+1654895902816,397,bar,200,OK,vertx 1-267,,true,,74,110,48,48,http://localhost/bar,396,0,1
+1654895902820,399,foo,200,OK,vertx 1-311,,true,,74,110,48,48,http://localhost/foo,399,0,0
+1654895903047,174,bar,200,OK,vertx 1-305,,true,,74,110,48,48,http://localhost/bar,174,0,0
+1654895902918,310,bar,200,OK,vertx 1-308,,true,,74,110,48,48,http://localhost/bar,309,0,0
+1654895903220,33,bar,200,OK,vertx 1-311,,true,,74,110,49,49,http://localhost/bar,32,0,0
+1654895903208,47,bar,200,OK,vertx 1-271,,true,,74,110,50,50,http://localhost/bar,47,0,0
+1654895903033,228,bar,200,OK,vertx 1-303,,true,,74,110,49,49,http://localhost/bar,227,0,0
+1654895902878,383,foo,200,OK,vertx 1-314,,true,,74,110,49,49,http://localhost/foo,383,0,0
+1654895903254,8,foo,200,OK,vertx 1-333,,true,,74,110,49,49,http://localhost/foo,8,0,1
+1654895902903,362,bar,200,OK,vertx 1-268,,true,,74,110,49,49,http://localhost/bar,362,0,0
+1654895903025,241,foo,200,OK,vertx 1-304,,true,,74,110,48,48,http://localhost/foo,241,0,0
+1654895903078,193,foo,200,OK,vertx 1-324,,true,,74,110,48,48,http://localhost/foo,193,0,1
+1654895902943,332,foo,200,OK,vertx 1-284,,true,,74,110,49,49,http://localhost/foo,332,0,0
+1654895903116,166,bar,200,OK,vertx 1-286,,true,,74,110,49,49,http://localhost/bar,166,0,0
+1654895902883,402,bar,408,Request Timeout,vertx 1-300,,false,,70,110,48,48,http://localhost/bar,402,0,1
+1654895902916,379,foo,200,OK,vertx 1-316,,true,,74,110,48,48,http://localhost/foo,379,0,0
+1654895903168,129,bar,200,OK,vertx 1-298,,true,,74,110,48,48,http://localhost/bar,129,0,0
+1654895902990,309,bar,200,OK,vertx 1-287,,true,,74,110,47,47,http://localhost/bar,309,0,0
+1654895902904,401,bar,408,Request Timeout,vertx 1-309,,false,,70,110,46,46,http://localhost/bar,401,0,0
+1654895903176,133,foo,200,OK,vertx 1-329,,true,,74,110,46,46,http://localhost/foo,133,0,0
+1654895903210,108,bar,200,OK,vertx 1-276,,true,,74,110,47,47,http://localhost/bar,108,0,0
+1654895902941,379,foo,200,OK,vertx 1-317,,true,,74,110,46,46,http://localhost/foo,379,0,1
+1654895902919,402,bar,408,Request Timeout,vertx 1-273,,false,,70,110,46,46,http://localhost/bar,402,0,0
+1654895903295,27,bar,200,OK,vertx 1-316,,true,,74,110,45,45,http://localhost/bar,27,0,1
+1654895903320,5,bar,200,OK,vertx 1-317,,true,,74,110,45,45,http://localhost/bar,5,0,1
+1654895903145,184,bar,200,OK,vertx 1-315,,true,,74,110,45,45,http://localhost/bar,184,0,1
+1654895903156,183,foo,200,OK,vertx 1-328,,true,,74,110,46,46,http://localhost/foo,183,0,1
+1654895903339,11,bar,200,OK,vertx 1-328,,true,,74,110,46,46,http://localhost/bar,11,0,0
+1654895903266,88,bar,200,OK,vertx 1-304,,true,,74,110,47,47,http://localhost/bar,88,0,0
+1654895902953,401,foo,408,Request Timeout,vertx 1-307,,false,,70,110,47,47,http://localhost/foo,401,0,0
+1654895902995,364,bar,200,OK,vertx 1-293,,true,,74,110,46,46,http://localhost/bar,364,0,0
+1654895903192,170,bar,200,OK,vertx 1-323,,true,,74,110,45,45,http://localhost/bar,170,0,0
+1654895903199,172,bar,200,OK,vertx 1-319,,true,,74,110,46,46,http://localhost/bar,172,0,0
+1654895903369,5,foo,200,OK,vertx 1-339,,true,,74,110,46,46,http://localhost/foo,5,0,1
+1654895903275,111,bar,200,OK,vertx 1-284,,true,,74,110,46,46,http://localhost/bar,111,0,0
+1654895903038,349,foo,200,OK,vertx 1-322,,true,,74,110,45,45,http://localhost/foo,348,0,1
+1654895902987,401,bar,408,Request Timeout,vertx 1-310,,false,,70,110,45,45,http://localhost/bar,401,0,1
+1654895903008,391,foo,200,OK,vertx 1-294,,true,,74,110,46,46,http://localhost/foo,391,0,0
+1654895903040,360,foo,200,OK,vertx 1-281,,true,,74,110,46,46,http://localhost/foo,360,0,0
+1654895903210,196,bar,200,OK,vertx 1-302,,true,,74,110,46,46,http://localhost/bar,196,0,1
+1654895903262,147,bar,200,OK,vertx 1-314,,true,,74,110,46,46,http://localhost/bar,147,0,0
+1654895903263,149,bar,200,OK,vertx 1-333,,true,,74,110,46,46,http://localhost/bar,149,0,0
+1654895903183,229,bar,200,OK,vertx 1-289,,true,,74,110,46,46,http://localhost/bar,229,0,0
+1654895903228,185,foo,200,OK,vertx 1-308,,true,,74,110,45,45,http://localhost/foo,185,0,0
+1654895903146,275,foo,200,OK,vertx 1-320,,true,,74,110,45,45,http://localhost/foo,275,0,1
+1654895903234,197,foo,200,OK,vertx 1-332,,true,,74,110,46,46,http://localhost/foo,197,0,0
+1654895903312,124,foo,200,OK,vertx 1-336,,true,,74,110,46,46,http://localhost/foo,123,0,0
+1654895903116,321,bar,200,OK,vertx 1-321,,true,,74,110,46,46,http://localhost/bar,321,0,0
+1654895903098,341,foo,200,OK,vertx 1-325,,true,,74,110,46,46,http://localhost/foo,341,0,0
+1654895903309,134,bar,200,OK,vertx 1-329,,true,,74,110,46,46,http://localhost/bar,134,0,1
+1654895903185,260,bar,200,OK,vertx 1-326,,true,,74,110,46,46,http://localhost/bar,260,0,0
+1654895903138,308,foo,200,OK,vertx 1-327,,true,,74,110,46,46,http://localhost/foo,308,0,1
+1654895903052,402,foo,408,Request Timeout,vertx 1-301,,false,,70,110,47,47,http://localhost/foo,402,0,0
+1654895903155,300,foo,200,OK,vertx 1-306,,true,,74,110,47,47,http://localhost/foo,300,0,1
+1654895903057,402,bar,408,Request Timeout,vertx 1-299,,false,,70,110,47,47,http://localhost/bar,402,0,0
+1654895903112,357,bar,200,OK,vertx 1-312,,true,,74,110,47,47,http://localhost/bar,357,0,0
+1654895903158,336,bar,200,OK,vertx 1-283,,true,,74,110,48,48,http://localhost/bar,335,0,1
+1654895903446,49,foo,200,OK,vertx 1-326,,true,,74,110,47,47,http://localhost/foo,49,0,0
+1654895903106,402,bar,408,Request Timeout,vertx 1-292,,false,,70,110,48,48,http://localhost/bar,402,0,1
+1654895903272,245,foo,200,OK,vertx 1-334,,true,,74,110,47,47,http://localhost/foo,245,0,0
+1654895903261,262,foo,200,OK,vertx 1-303,,true,,74,110,47,47,http://localhost/foo,261,0,0
+1654895903371,165,foo,200,OK,vertx 1-319,,true,,74,110,48,48,http://localhost/foo,165,0,0
+1654895903146,402,foo,408,Request Timeout,vertx 1-290,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895903193,358,bar,200,OK,vertx 1-318,,true,,74,110,49,49,http://localhost/bar,358,0,0
+1654895903362,201,foo,200,OK,vertx 1-323,,true,,74,110,49,49,http://localhost/foo,201,0,1
+1654895903536,28,bar,200,OK,vertx 1-319,,true,,74,110,50,50,http://localhost/bar,28,0,0
+1654895903431,133,bar,200,OK,vertx 1-332,,true,,74,110,49,49,http://localhost/bar,133,0,1
+1654895903173,403,foo,408,Request Timeout,vertx 1-313,,false,,70,110,49,49,http://localhost/foo,403,0,1
+1654895903354,225,bar,200,OK,vertx 1-307,,true,,74,110,49,49,http://localhost/bar,225,0,0
+1654895903427,155,foo,200,OK,vertx 1-342,,true,,74,110,48,48,http://localhost/foo,155,0,1
+1654895903454,131,bar,200,OK,vertx 1-301,,true,,74,110,49,49,http://localhost/bar,131,0,0
+1654895903447,143,foo,200,OK,vertx 1-343,,true,,74,110,48,48,http://localhost/foo,143,0,0
+1654895903195,402,foo,408,Request Timeout,vertx 1-330,,false,,70,110,48,48,http://localhost/foo,402,0,1
+1654895903576,25,bar,200,OK,vertx 1-313,,true,,74,110,48,48,http://localhost/bar,25,0,0
+1654895903525,89,foo,200,OK,vertx 1-347,,true,,74,110,48,48,http://localhost/foo,89,0,0
+1654895903437,178,foo,200,OK,vertx 1-321,,true,,74,110,48,48,http://localhost/foo,178,0,0
+1654895903215,401,foo,408,Request Timeout,vertx 1-331,,false,,70,110,48,48,http://localhost/foo,401,0,0
+1654895903305,312,foo,200,OK,vertx 1-309,,true,,74,110,48,48,http://localhost/foo,312,0,1
+1654895903523,97,bar,200,OK,vertx 1-303,,true,,74,110,48,48,http://localhost/bar,96,0,0
+1654895903222,401,foo,408,Request Timeout,vertx 1-305,,false,,70,110,48,48,http://localhost/foo,401,0,0
+1654895903387,236,bar,200,OK,vertx 1-322,,true,,74,110,48,48,http://localhost/bar,236,0,0
+1654895903623,11,bar,200,OK,vertx 1-305,,true,,74,110,48,48,http://localhost/bar,11,0,0
+1654895903517,118,bar,200,OK,vertx 1-334,,true,,74,110,47,47,http://localhost/bar,118,0,1
+1654895903436,207,bar,200,OK,vertx 1-336,,true,,74,110,48,48,http://localhost/bar,207,0,0
+1654895903352,293,foo,200,OK,vertx 1-338,,true,,74,110,48,48,http://localhost/foo,292,0,0
+1654895903253,402,foo,408,Request Timeout,vertx 1-311,,false,,70,110,48,48,http://localhost/foo,402,0,0
+1654895903486,171,foo,200,OK,vertx 1-345,,true,,74,110,48,48,http://localhost/foo,171,0,1
+1654895903545,112,foo,200,OK,vertx 1-348,,true,,74,110,48,48,http://localhost/foo,112,0,1
+1654895903322,337,foo,200,OK,vertx 1-316,,true,,74,110,48,48,http://localhost/foo,337,0,1
+1654895903507,152,foo,200,OK,vertx 1-346,,true,,74,110,48,48,http://localhost/foo,152,0,1
+1654895903659,1,bar,200,OK,vertx 1-316,,true,,74,110,48,48,http://localhost/bar,1,0,0
+1654895903331,339,foo,200,OK,vertx 1-337,,true,,74,110,48,48,http://localhost/foo,339,0,0
+1654895903444,227,foo,200,OK,vertx 1-329,,true,,74,110,48,48,http://localhost/foo,226,0,0
+1654895903271,402,bar,408,Request Timeout,vertx 1-324,,false,,70,110,48,48,http://localhost/bar,402,0,0
+1654895903413,265,bar,200,OK,vertx 1-308,,true,,74,110,48,48,http://localhost/bar,264,0,0
+1654895903439,242,bar,200,OK,vertx 1-325,,true,,74,110,48,48,http://localhost/bar,242,0,0
+1654895903412,276,foo,200,OK,vertx 1-333,,true,,74,110,48,48,http://localhost/foo,276,0,0
+1654895903291,402,foo,408,Request Timeout,vertx 1-335,,false,,70,110,48,48,http://localhost/foo,402,0,1
+1654895903329,367,foo,200,OK,vertx 1-315,,true,,74,110,48,48,http://localhost/foo,367,0,1
+1654895903622,76,foo,200,OK,vertx 1-352,,true,,74,110,48,48,http://localhost/foo,76,0,0
+1654895903467,235,foo,200,OK,vertx 1-344,,true,,74,110,49,49,http://localhost/foo,235,0,0
+1654895903446,256,bar,200,OK,vertx 1-327,,true,,74,110,49,49,http://localhost/bar,256,0,0
+1654895903350,354,foo,200,OK,vertx 1-328,,true,,74,110,49,49,http://localhost/foo,354,0,1
+1654895903597,108,bar,200,OK,vertx 1-330,,true,,74,110,49,49,http://localhost/bar,108,0,0
+1654895903374,337,bar,200,OK,vertx 1-339,,true,,74,110,49,49,http://localhost/bar,337,0,1
+1654895903389,322,foo,200,OK,vertx 1-340,,true,,74,110,49,49,http://localhost/foo,322,0,0
+1654895903693,20,bar,200,OK,vertx 1-335,,true,,74,110,49,49,http://localhost/bar,20,0,0
+1654895903469,248,foo,200,OK,vertx 1-312,,true,,74,110,49,49,http://localhost/foo,248,0,0
+1654895903325,403,foo,408,Request Timeout,vertx 1-317,,false,,70,110,50,50,http://localhost/foo,403,0,1
+1654895903551,184,foo,200,OK,vertx 1-318,,true,,74,110,50,50,http://localhost/foo,184,0,1
+1654895903735,6,bar,200,OK,vertx 1-318,,true,,74,110,51,51,http://localhost/bar,6,0,0
+1654895903455,291,bar,200,OK,vertx 1-306,,true,,74,110,50,50,http://localhost/bar,291,0,0
+1654895903718,33,bar,200,OK,vertx 1-312,,true,,74,110,49,49,http://localhost/bar,33,0,0
+1654895903496,258,bar,200,OK,vertx 1-326,,true,,74,110,48,48,http://localhost/bar,258,0,0
+1654895903590,176,bar,200,OK,vertx 1-343,,true,,74,110,48,48,http://localhost/bar,176,0,1
+1654895903705,63,foo,200,OK,vertx 1-330,,true,,74,110,48,48,http://localhost/foo,63,0,0
+1654895903711,58,foo,200,OK,vertx 1-339,,true,,74,110,48,48,http://localhost/foo,58,0,0
+1654895903410,360,foo,200,OK,vertx 1-341,,true,,74,110,48,48,http://localhost/foo,360,0,0
+1654895903614,157,bar,200,OK,vertx 1-347,,true,,74,110,48,48,http://localhost/bar,157,0,0
+1654895903388,402,foo,408,Request Timeout,vertx 1-310,,false,,70,110,49,49,http://localhost/foo,402,0,1
+1654895903421,380,bar,200,OK,vertx 1-320,,true,,74,110,50,50,http://localhost/bar,380,0,0
+1654895903399,402,bar,408,Request Timeout,vertx 1-294,,false,,70,110,49,49,http://localhost/bar,402,0,1
+1654895903400,402,bar,408,Request Timeout,vertx 1-281,,false,,70,110,48,48,http://localhost/bar,402,0,0
+1654895903641,161,foo,200,OK,vertx 1-353,,true,,74,110,48,48,http://localhost/foo,160,0,0
+1654895903616,192,bar,200,OK,vertx 1-331,,true,,74,110,47,47,http://localhost/bar,192,0,0
+1654895903738,72,foo,200,OK,vertx 1-358,,true,,74,110,47,47,http://localhost/foo,71,0,0
+1654895903670,141,bar,200,OK,vertx 1-337,,true,,74,110,47,47,http://localhost/bar,140,0,1
+1654895903410,401,foo,408,Request Timeout,vertx 1-314,,false,,70,110,47,47,http://localhost/foo,401,0,0
+1654895903704,133,bar,200,OK,vertx 1-328,,true,,74,110,49,49,http://localhost/bar,133,0,0
+1654895903645,195,bar,200,OK,vertx 1-338,,true,,74,110,48,48,http://localhost/bar,195,0,0
+1654895903657,186,bar,200,OK,vertx 1-345,,true,,74,110,48,48,http://localhost/bar,186,0,1
+1654895903643,209,foo,200,OK,vertx 1-336,,true,,74,110,48,48,http://localhost/foo,209,0,0
+1654895903564,293,foo,200,OK,vertx 1-349,,true,,74,110,49,49,http://localhost/foo,293,0,0
+1654895903583,287,foo,200,OK,vertx 1-350,,true,,74,110,49,49,http://localhost/foo,287,0,0
+1654895903618,254,bar,200,OK,vertx 1-309,,true,,74,110,49,49,http://localhost/bar,254,0,0
+1654895903564,319,foo,200,OK,vertx 1-332,,true,,74,110,49,49,http://localhost/foo,319,0,0
+1654895903835,49,foo,200,OK,vertx 1-363,,true,,74,110,49,49,http://localhost/foo,49,0,1
+1654895903661,225,foo,200,OK,vertx 1-354,,true,,74,110,49,49,http://localhost/foo,225,0,0
+1654895903769,118,bar,200,OK,vertx 1-339,,true,,74,110,49,49,http://localhost/bar,118,0,1
+1654895903563,347,bar,200,OK,vertx 1-323,,true,,74,110,49,49,http://localhost/bar,347,0,1
+1654895903673,239,foo,200,OK,vertx 1-324,,true,,74,110,48,48,http://localhost/foo,239,0,1
+1654895903688,236,bar,200,OK,vertx 1-333,,true,,74,110,49,49,http://localhost/bar,236,0,0
+1654895903728,205,bar,200,OK,vertx 1-317,,true,,74,110,49,49,http://localhost/bar,205,0,1
+1654895903700,236,foo,200,OK,vertx 1-356,,true,,74,110,48,48,http://localhost/foo,236,0,0
+1654895903711,226,bar,200,OK,vertx 1-340,,true,,74,110,48,48,http://localhost/bar,226,0,1
+1654895903680,260,foo,200,OK,vertx 1-355,,true,,74,110,48,48,http://localhost/foo,260,0,0
+1654895903702,241,foo,200,OK,vertx 1-327,,true,,74,110,48,48,http://localhost/foo,241,0,1
+1654895903548,402,bar,408,Request Timeout,vertx 1-290,,false,,70,110,48,48,http://localhost/bar,402,0,1
+1654895903655,298,bar,200,OK,vertx 1-311,,true,,74,110,48,48,http://localhost/bar,298,0,1
+1654895903874,79,foo,200,OK,vertx 1-365,,true,,74,110,47,47,http://localhost/foo,79,0,0
+1654895903840,127,foo,200,OK,vertx 1-338,,true,,74,110,47,47,http://localhost/foo,127,0,0
+1654895903932,37,foo,200,OK,vertx 1-368,,true,,74,110,47,47,http://localhost/foo,37,0,0
+1654895903624,357,foo,200,OK,vertx 1-322,,true,,74,110,48,48,http://localhost/foo,357,0,0
+1654895903582,403,bar,408,Request Timeout,vertx 1-342,,false,,70,110,48,48,http://localhost/bar,403,0,1
+1654895903681,307,foo,200,OK,vertx 1-325,,true,,74,110,48,48,http://localhost/foo,306,0,1
+1654895903699,290,bar,200,OK,vertx 1-352,,true,,74,110,48,48,http://localhost/bar,289,0,0
+1654895903602,401,foo,200,OK,vertx 1-351,,true,,74,110,49,49,http://localhost/foo,401,0,0
+1654895903884,120,bar,200,OK,vertx 1-363,,true,,74,110,49,49,http://localhost/bar,120,0,0
+1654895903816,195,foo,200,OK,vertx 1-362,,true,,74,110,50,50,http://localhost/foo,195,0,0
+1654895903615,401,bar,200,OK,vertx 1-321,,true,,74,110,50,50,http://localhost/bar,401,0,0
+1654895903660,358,bar,200,OK,vertx 1-346,,true,,74,110,49,49,http://localhost/bar,358,0,0
+1654895903991,31,foo,200,OK,vertx 1-371,,true,,74,110,49,49,http://localhost/foo,30,0,1
+1654895903635,403,foo,408,Request Timeout,vertx 1-334,,false,,70,110,50,50,http://localhost/foo,403,0,1
+1654895903770,288,bar,200,OK,vertx 1-341,,true,,74,110,51,51,http://localhost/bar,288,0,0
+1654895903657,402,bar,408,Request Timeout,vertx 1-348,,false,,70,110,51,51,http://localhost/bar,402,0,1
+1654895903811,255,foo,200,OK,vertx 1-337,,true,,74,110,51,51,http://localhost/foo,255,0,0
+1654895903971,97,foo,200,OK,vertx 1-370,,true,,74,110,51,51,http://localhost/foo,97,0,0
+1654895903857,212,bar,200,OK,vertx 1-349,,true,,74,110,52,52,http://localhost/bar,212,0,1
+1654895903671,401,bar,408,Request Timeout,vertx 1-329,,false,,70,110,52,52,http://localhost/bar,401,0,0
+1654895903757,318,foo,200,OK,vertx 1-359,,true,,74,110,51,51,http://localhost/foo,318,0,1
+1654895903696,381,bar,200,OK,vertx 1-315,,true,,74,110,51,51,http://localhost/bar,381,0,1
+1654895903808,271,foo,200,OK,vertx 1-331,,true,,74,110,50,50,http://localhost/foo,271,0,0
+1654895903989,109,foo,200,OK,vertx 1-352,,true,,74,110,51,51,http://localhost/foo,109,0,0
+1654895903852,247,bar,200,OK,vertx 1-336,,true,,74,110,51,51,http://localhost/bar,247,0,1
+1654895903702,402,bar,408,Request Timeout,vertx 1-344,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895903810,296,bar,200,OK,vertx 1-358,,true,,74,110,50,50,http://localhost/bar,296,0,0
+1654895903797,317,foo,200,OK,vertx 1-361,,true,,74,110,51,51,http://localhost/foo,317,0,1
+1654895903937,177,foo,200,OK,vertx 1-340,,true,,74,110,51,51,http://localhost/foo,177,0,0
+1654895903713,401,foo,408,Request Timeout,vertx 1-335,,false,,70,110,51,51,http://localhost/foo,401,0,1
+1654895903719,403,foo,408,Request Timeout,vertx 1-357,,false,,70,110,51,51,http://localhost/foo,403,0,1
+1654895903768,354,bar,200,OK,vertx 1-330,,true,,74,110,51,51,http://localhost/bar,354,0,1
+1654895904038,99,bar,200,OK,vertx 1-334,,true,,74,110,51,51,http://localhost/bar,99,0,0
+1654895903843,298,foo,200,OK,vertx 1-345,,true,,74,110,50,50,http://localhost/foo,298,0,1
+1654895904058,99,foo,200,OK,vertx 1-341,,true,,74,110,51,51,http://localhost/foo,99,0,0
+1654895903883,276,bar,200,OK,vertx 1-332,,true,,74,110,51,51,http://localhost/bar,276,0,0
+1654895903766,402,foo,408,Request Timeout,vertx 1-343,,false,,70,110,51,51,http://localhost/foo,402,0,1
+1654895903771,402,foo,408,Request Timeout,vertx 1-347,,false,,70,110,51,51,http://localhost/foo,402,0,0
+1654895904011,165,bar,200,OK,vertx 1-362,,true,,74,110,51,51,http://localhost/bar,165,0,0
+1654895903776,401,foo,408,Request Timeout,vertx 1-360,,false,,70,110,51,51,http://localhost/foo,401,0,1
+1654895903870,316,bar,200,OK,vertx 1-350,,true,,74,110,52,52,http://localhost/bar,316,0,0
+1654895903802,386,bar,200,OK,vertx 1-353,,true,,74,110,52,52,http://localhost/bar,386,0,0
+1654895903790,402,bar,408,Request Timeout,vertx 1-310,,false,,70,110,52,52,http://localhost/bar,402,0,1
+1654895904079,122,bar,200,OK,vertx 1-331,,true,,74,110,51,51,http://localhost/bar,122,0,0
+1654895904059,148,foo,200,OK,vertx 1-348,,true,,74,110,51,51,http://localhost/foo,148,0,0
+1654895904177,32,bar,200,OK,vertx 1-360,,true,,74,110,51,51,http://localhost/bar,32,0,1
+1654895904075,137,bar,200,OK,vertx 1-359,,true,,74,110,51,51,http://localhost/bar,137,0,0
+1654895903811,402,bar,408,Request Timeout,vertx 1-314,,false,,70,110,51,51,http://localhost/bar,402,0,1
+1654895903985,229,foo,200,OK,vertx 1-342,,true,,74,110,50,50,http://localhost/foo,229,0,0
+1654895903967,252,bar,200,OK,vertx 1-338,,true,,74,110,50,50,http://localhost/bar,252,0,0
+1654895904186,40,foo,200,OK,vertx 1-350,,true,,74,110,50,50,http://localhost/foo,39,0,0
+1654895904209,27,foo,200,OK,vertx 1-360,,true,,74,110,50,50,http://localhost/foo,27,0,0
+1654895903893,348,foo,200,OK,vertx 1-366,,true,,74,110,50,50,http://localhost/foo,348,0,0
+1654895904004,238,foo,200,OK,vertx 1-363,,true,,74,110,50,50,http://localhost/foo,238,0,0
+1654895904157,89,bar,200,OK,vertx 1-341,,true,,74,110,51,51,http://localhost/bar,89,0,0
+1654895903855,402,foo,408,Request Timeout,vertx 1-364,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895903913,347,bar,200,OK,vertx 1-324,,true,,74,110,50,50,http://localhost/bar,347,0,0
+1654895904257,7,bar,200,OK,vertx 1-364,,true,,74,110,50,50,http://localhost/bar,7,0,0
+1654895904069,203,foo,200,OK,vertx 1-349,,true,,74,110,50,50,http://localhost/foo,203,0,0
+1654895904098,177,bar,200,OK,vertx 1-352,,true,,74,110,50,50,http://localhost/bar,177,0,1
+1654895903988,298,bar,200,OK,vertx 1-325,,true,,74,110,50,50,http://localhost/bar,298,0,0
+1654895903886,403,bar,408,Request Timeout,vertx 1-354,,false,,70,110,49,49,http://localhost/bar,403,0,0
+1654895904010,289,foo,200,OK,vertx 1-372,,true,,74,110,49,49,http://localhost/foo,289,0,0
+1654895904022,278,bar,200,OK,vertx 1-371,,true,,74,110,49,49,http://localhost/bar,278,0,0
+1654895904066,240,bar,200,OK,vertx 1-337,,true,,74,110,50,50,http://localhost/bar,240,0,0
+1654895904176,140,foo,200,OK,vertx 1-362,,true,,74,110,49,49,http://localhost/foo,139,0,1
+1654895903913,403,foo,408,Request Timeout,vertx 1-367,,false,,70,110,49,49,http://localhost/foo,403,0,1
+1654895904141,180,bar,200,OK,vertx 1-345,,true,,74,110,50,50,http://localhost/bar,180,0,1
+1654895903953,368,bar,200,OK,vertx 1-365,,true,,74,110,50,50,http://localhost/bar,368,0,1
+1654895904087,251,foo,200,OK,vertx 1-376,,true,,74,110,49,49,http://localhost/foo,251,0,0
+1654895903936,402,bar,408,Request Timeout,vertx 1-356,,false,,70,110,49,49,http://localhost/bar,402,0,1
+1654895904166,175,foo,200,OK,vertx 1-380,,true,,74,110,49,49,http://localhost/foo,175,0,1
+1654895903940,402,bar,408,Request Timeout,vertx 1-355,,false,,70,110,49,49,http://localhost/bar,402,0,1
+1654895903943,402,bar,408,Request Timeout,vertx 1-327,,false,,70,110,49,49,http://localhost/bar,402,0,1
+1654895903981,368,bar,200,OK,vertx 1-322,,true,,74,110,48,48,http://localhost/bar,368,0,0
+1654895903952,402,foo,408,Request Timeout,vertx 1-369,,false,,70,110,47,47,http://localhost/foo,402,0,0
+1654895904068,288,bar,200,OK,vertx 1-370,,true,,74,110,48,48,http://localhost/bar,288,0,0
+1654895904244,126,foo,200,OK,vertx 1-384,,true,,74,110,48,48,http://localhost/foo,125,0,0
+1654895903969,402,bar,408,Request Timeout,vertx 1-368,,false,,70,110,48,48,http://localhost/bar,402,0,1
+1654895904214,163,bar,200,OK,vertx 1-342,,true,,74,110,49,49,http://localhost/bar,163,0,0
+1654895904188,193,foo,200,OK,vertx 1-353,,true,,74,110,48,48,http://localhost/foo,193,0,0
+1654895904114,273,bar,200,OK,vertx 1-361,,true,,74,110,48,48,http://localhost/bar,273,0,0
+1654895904029,367,foo,200,OK,vertx 1-373,,true,,74,110,49,49,http://localhost/foo,367,0,0
+1654895904396,4,bar,200,OK,vertx 1-373,,true,,74,110,49,49,http://localhost/bar,4,0,0
+1654895904003,402,bar,408,Request Timeout,vertx 1-351,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895904338,75,bar,200,OK,vertx 1-376,,true,,74,110,50,50,http://localhost/bar,75,0,1
+1654895904316,103,bar,200,OK,vertx 1-367,,true,,74,110,50,50,http://localhost/bar,103,0,0
+1654895904018,401,foo,408,Request Timeout,vertx 1-346,,false,,70,110,50,50,http://localhost/foo,401,0,0
+1654895904126,296,foo,200,OK,vertx 1-378,,true,,74,110,50,50,http://localhost/foo,296,0,0
+1654895904205,220,foo,200,OK,vertx 1-382,,true,,74,110,50,50,http://localhost/foo,220,0,1
+1654895904114,315,bar,200,OK,vertx 1-335,,true,,74,110,50,50,http://localhost/bar,315,0,1
+1654895904242,188,bar,200,OK,vertx 1-363,,true,,74,110,49,49,http://localhost/bar,188,0,0
+1654895904226,207,bar,200,OK,vertx 1-350,,true,,74,110,49,49,http://localhost/bar,207,0,0
+1654895904283,151,foo,200,OK,vertx 1-386,,true,,74,110,48,48,http://localhost/foo,151,0,0
+1654895904419,20,bar,200,OK,vertx 1-346,,true,,74,110,48,48,http://localhost/bar,20,0,1
+1654895904049,401,foo,408,Request Timeout,vertx 1-374,,false,,70,110,47,47,http://localhost/foo,401,0,0
+1654895904104,349,foo,200,OK,vertx 1-344,,true,,74,110,48,48,http://localhost/foo,349,0,1
+1654895904114,340,bar,200,OK,vertx 1-340,,true,,74,110,48,48,http://localhost/bar,340,0,0
+1654895904068,403,foo,408,Request Timeout,vertx 1-375,,false,,70,110,48,48,http://localhost/foo,403,0,1
+1654895904241,238,bar,200,OK,vertx 1-366,,true,,74,110,48,48,http://localhost/bar,238,0,0
+1654895904272,207,bar,200,OK,vertx 1-349,,true,,74,110,48,48,http://localhost/bar,207,0,0
+1654895904316,163,bar,200,OK,vertx 1-362,,true,,74,110,48,48,http://localhost/bar,163,0,0
+1654895904106,394,foo,200,OK,vertx 1-358,,true,,74,110,47,47,http://localhost/foo,394,0,0
+1654895904174,328,bar,200,OK,vertx 1-347,,true,,74,110,47,47,http://localhost/bar,328,0,0
+1654895904107,397,foo,200,OK,vertx 1-377,,true,,74,110,46,46,http://localhost/foo,397,0,1
+1654895904381,127,bar,200,OK,vertx 1-353,,true,,74,110,46,46,http://localhost/bar,127,0,0
+1654895904338,177,foo,200,OK,vertx 1-356,,true,,74,110,46,46,http://localhost/foo,177,0,1
+1654895904122,401,bar,408,Request Timeout,vertx 1-357,,false,,70,110,46,46,http://localhost/bar,401,0,0
+1654895904236,288,bar,200,OK,vertx 1-360,,true,,74,110,46,46,http://localhost/bar,288,0,0
+1654895904146,380,foo,200,OK,vertx 1-379,,true,,74,110,45,45,http://localhost/foo,380,0,0
+1654895904207,327,bar,200,OK,vertx 1-348,,true,,74,110,46,46,http://localhost/bar,327,0,0
+1654895904185,352,foo,200,OK,vertx 1-381,,true,,74,110,45,45,http://localhost/foo,352,0,0
+1654895904527,10,bar,200,OK,vertx 1-379,,true,,74,110,45,45,http://localhost/bar,10,0,0
+1654895904405,155,foo,200,OK,vertx 1-351,,true,,74,110,46,46,http://localhost/foo,155,0,0
+1654895904289,274,foo,200,OK,vertx 1-354,,true,,74,110,46,46,http://localhost/foo,274,0,1
+1654895904168,403,bar,408,Request Timeout,vertx 1-343,,false,,70,110,47,47,http://localhost/bar,403,0,1
+1654895904224,348,foo,200,OK,vertx 1-383,,true,,74,110,46,46,http://localhost/foo,348,0,0
+1654895904341,239,bar,200,OK,vertx 1-380,,true,,74,110,46,46,http://localhost/bar,239,0,1
+1654895904471,109,bar,200,OK,vertx 1-375,,true,,74,110,46,46,http://localhost/bar,109,0,0
+1654895904515,65,bar,200,OK,vertx 1-356,,true,,74,110,46,46,http://localhost/bar,65,0,0
+1654895904453,134,bar,200,OK,vertx 1-344,,true,,74,110,46,46,http://localhost/bar,134,0,1
+1654895904356,241,foo,200,OK,vertx 1-370,,true,,74,110,45,45,http://localhost/foo,241,0,1
+1654895904373,228,foo,200,OK,vertx 1-390,,true,,74,110,45,45,http://localhost/foo,228,0,1
+1654895904299,305,bar,200,OK,vertx 1-372,,true,,74,110,45,45,http://localhost/bar,305,0,1
+1654895904212,402,foo,408,Request Timeout,vertx 1-359,,false,,70,110,46,46,http://localhost/foo,402,0,0
+1654895904601,14,bar,200,OK,vertx 1-390,,true,,74,110,46,46,http://localhost/bar,14,0,1
+1654895904264,352,foo,200,OK,vertx 1-364,,true,,74,110,46,46,http://localhost/foo,352,0,1
+1654895904411,209,foo,200,OK,vertx 1-392,,true,,74,110,46,46,http://localhost/foo,209,0,1
+1654895904388,246,foo,200,OK,vertx 1-361,,true,,74,110,47,47,http://localhost/foo,246,0,0
+1654895904302,336,foo,200,OK,vertx 1-387,,true,,74,110,47,47,http://localhost/foo,336,0,0
+1654895904419,219,foo,200,OK,vertx 1-367,,true,,74,110,47,47,http://localhost/foo,219,0,1
+1654895904264,396,foo,200,OK,vertx 1-385,,true,,74,110,48,48,http://localhost/foo,396,0,0
+1654895904470,210,foo,200,OK,vertx 1-395,,true,,74,110,49,49,http://localhost/foo,210,0,0
+1654895904432,252,foo,200,OK,vertx 1-393,,true,,74,110,50,50,http://localhost/foo,252,0,0
+1654895904605,81,foo,200,OK,vertx 1-402,,true,,74,110,50,50,http://localhost/foo,81,0,1
+1654895904342,345,foo,200,OK,vertx 1-355,,true,,74,110,50,50,http://localhost/foo,344,0,1
+1654895904300,402,foo,408,Request Timeout,vertx 1-371,,false,,70,110,51,51,http://localhost/foo,402,0,1
+1654895904508,195,foo,200,OK,vertx 1-397,,true,,74,110,51,51,http://localhost/foo,195,0,1
+1654895904321,391,foo,200,OK,vertx 1-365,,true,,74,110,51,51,http://localhost/foo,391,0,1
+1654895904400,316,foo,200,OK,vertx 1-373,,true,,74,110,51,51,http://localhost/foo,316,0,1
+1654895904687,30,bar,200,OK,vertx 1-402,,true,,74,110,51,51,http://localhost/bar,30,0,0
+1654895904320,401,foo,408,Request Timeout,vertx 1-388,,false,,70,110,52,52,http://localhost/foo,401,0,0
+1654895904354,371,foo,200,OK,vertx 1-389,,true,,74,110,52,52,http://localhost/foo,371,0,1
+1654895904370,355,bar,200,OK,vertx 1-384,,true,,74,110,52,52,http://localhost/bar,355,0,0
+1654895904604,123,foo,200,OK,vertx 1-372,,true,,74,110,52,52,http://localhost/foo,123,0,1
+1654895904354,386,bar,200,OK,vertx 1-369,,true,,74,110,53,53,http://localhost/bar,386,0,0
+1654895904504,236,bar,200,OK,vertx 1-377,,true,,74,110,53,53,http://localhost/bar,236,0,1
+1654895904422,321,bar,200,OK,vertx 1-378,,true,,74,110,53,53,http://localhost/bar,321,0,0
+1654895904740,6,foo,200,OK,vertx 1-369,,true,,74,110,53,53,http://localhost/foo,6,0,0
+1654895904660,99,bar,200,OK,vertx 1-385,,true,,74,110,54,54,http://localhost/bar,99,0,0
+1654895904580,186,foo,200,OK,vertx 1-380,,true,,74,110,54,54,http://localhost/foo,186,0,1
+1654895904371,401,foo,408,Request Timeout,vertx 1-368,,false,,70,110,54,54,http://localhost/foo,401,0,0
+1654895904725,49,bar,200,OK,vertx 1-389,,true,,74,110,54,54,http://localhost/bar,49,0,0
+1654895904425,354,bar,200,OK,vertx 1-382,,true,,74,110,55,55,http://localhost/bar,354,0,0
+1654895904563,221,bar,200,OK,vertx 1-354,,true,,74,110,55,55,http://localhost/bar,221,0,0
+1654895904413,376,foo,200,OK,vertx 1-376,,true,,74,110,54,54,http://localhost/foo,375,0,0
+1654895904739,51,foo,200,OK,vertx 1-409,,true,,74,110,54,54,http://localhost/foo,51,0,0
+1654895904524,267,foo,200,OK,vertx 1-357,,true,,74,110,54,54,http://localhost/foo,267,0,0
+1654895904766,26,bar,200,OK,vertx 1-380,,true,,74,110,54,54,http://localhost/bar,26,0,0
+1654895904393,403,foo,408,Request Timeout,vertx 1-391,,false,,70,110,53,53,http://localhost/foo,403,0,0
+1654895904702,96,bar,200,OK,vertx 1-371,,true,,74,110,54,54,http://localhost/bar,96,0,0
+1654895904638,165,bar,200,OK,vertx 1-387,,true,,74,110,53,53,http://localhost/bar,165,0,0
+1654895904682,124,foo,200,OK,vertx 1-406,,true,,74,110,53,53,http://localhost/foo,124,0,0
+1654895904528,279,foo,200,OK,vertx 1-398,,true,,74,110,53,53,http://localhost/foo,279,0,1
+1654895904720,91,foo,200,OK,vertx 1-408,,true,,74,110,53,53,http://localhost/foo,91,0,0
+1654895904717,98,foo,200,OK,vertx 1-402,,true,,74,110,53,53,http://localhost/foo,98,0,0
+1654895904620,195,bar,200,OK,vertx 1-392,,true,,74,110,53,53,http://localhost/bar,195,0,0
+1654895904779,38,foo,200,OK,vertx 1-382,,true,,74,110,54,54,http://localhost/foo,38,0,1
+1654895904616,213,bar,200,OK,vertx 1-364,,true,,74,110,54,54,http://localhost/bar,213,0,1
+1654895904434,402,bar,408,Request Timeout,vertx 1-386,,false,,70,110,53,53,http://localhost/bar,402,0,0
+1654895904644,196,foo,200,OK,vertx 1-404,,true,,74,110,54,54,http://localhost/foo,196,0,0
+1654895904450,402,bar,408,Request Timeout,vertx 1-374,,false,,70,110,54,54,http://localhost/bar,402,0,1
+1654895904451,401,foo,408,Request Timeout,vertx 1-394,,false,,70,110,54,54,http://localhost/foo,401,0,0
+1654895904815,39,bar,200,OK,vertx 1-402,,true,,74,110,54,54,http://localhost/bar,39,0,0
+1654895904759,108,foo,200,OK,vertx 1-385,,true,,74,110,54,54,http://localhost/foo,108,0,0
+1654895904703,169,bar,200,OK,vertx 1-397,,true,,74,110,54,54,http://localhost/bar,169,0,0
+1654895904561,313,bar,200,OK,vertx 1-351,,true,,74,110,54,54,http://localhost/bar,313,0,1
+1654895904479,401,foo,408,Request Timeout,vertx 1-366,,false,,70,110,54,54,http://localhost/foo,401,0,1
+1654895904634,251,bar,200,OK,vertx 1-361,,true,,74,110,54,54,http://localhost/bar,250,0,1
+1654895904489,402,foo,408,Request Timeout,vertx 1-396,,false,,70,110,53,53,http://localhost/foo,402,0,0
+1654895904500,402,bar,408,Request Timeout,vertx 1-358,,false,,70,110,54,54,http://localhost/bar,402,0,0
+1654895904872,33,foo,200,OK,vertx 1-397,,true,,74,110,53,53,http://localhost/foo,33,0,1
+1654895904725,181,foo,200,OK,vertx 1-384,,true,,74,110,53,53,http://localhost/foo,181,0,0
+1654895904537,370,foo,200,OK,vertx 1-379,,true,,74,110,53,53,http://localhost/foo,370,0,1
+1654895904772,138,bar,200,OK,vertx 1-368,,true,,74,110,53,53,http://localhost/bar,138,0,1
+1654895904836,88,foo,200,OK,vertx 1-386,,true,,74,110,53,53,http://localhost/foo,88,0,0
+1654895904741,185,foo,200,OK,vertx 1-377,,true,,74,110,53,53,http://localhost/foo,185,0,0
+1654895904537,392,bar,200,OK,vertx 1-381,,true,,74,110,53,53,http://localhost/bar,392,0,1
+1654895904803,135,foo,200,OK,vertx 1-387,,true,,74,110,54,54,http://localhost/foo,135,0,0
+1654895904547,402,foo,408,Request Timeout,vertx 1-399,,false,,70,110,54,54,http://localhost/foo,402,0,0
+1654895904638,324,bar,200,OK,vertx 1-367,,true,,74,110,55,55,http://localhost/bar,324,0,0
+1654895904566,402,foo,408,Request Timeout,vertx 1-400,,false,,70,110,54,54,http://localhost/foo,402,0,1
+1654895904815,153,foo,200,OK,vertx 1-392,,true,,74,110,54,54,http://localhost/foo,153,0,1
+1654895904701,269,foo,200,OK,vertx 1-407,,true,,74,110,54,54,http://localhost/foo,269,0,0
+1654895904586,385,foo,200,OK,vertx 1-401,,true,,74,110,55,55,http://localhost/foo,385,0,0
+1654895904572,402,bar,408,Request Timeout,vertx 1-383,,false,,70,110,55,55,http://localhost/bar,402,0,0
+1654895904727,249,bar,200,OK,vertx 1-372,,true,,74,110,55,55,http://localhost/bar,249,0,0
+1654895904759,220,foo,200,OK,vertx 1-410,,true,,74,110,54,54,http://localhost/foo,220,0,0
+1654895904580,402,foo,408,Request Timeout,vertx 1-375,,false,,70,110,54,54,http://localhost/foo,402,0,1
+1654895904684,298,bar,200,OK,vertx 1-393,,true,,74,110,54,54,http://localhost/bar,298,0,1
+1654895904817,166,bar,200,OK,vertx 1-382,,true,,74,110,54,54,http://localhost/bar,166,0,1
+1654895904790,195,bar,200,OK,vertx 1-409,,true,,74,110,53,53,http://localhost/bar,195,0,1
+1654895904721,273,bar,200,OK,vertx 1-388,,true,,74,110,54,54,http://localhost/bar,273,0,0
+1654895904597,401,bar,408,Request Timeout,vertx 1-370,,false,,70,110,54,54,http://localhost/bar,401,0,1
+1654895904614,402,bar,408,Request Timeout,vertx 1-359,,false,,70,110,54,54,http://localhost/bar,402,0,0
+1654895904615,403,foo,408,Request Timeout,vertx 1-390,,false,,70,110,53,53,http://localhost/foo,403,0,1
+1654895904840,180,bar,200,OK,vertx 1-404,,true,,74,110,53,53,http://localhost/bar,180,0,0
+1654895904624,402,foo,408,Request Timeout,vertx 1-403,,false,,70,110,53,53,http://localhost/foo,402,0,0
+1654895904743,291,foo,200,OK,vertx 1-378,,true,,74,110,54,54,http://localhost/foo,291,0,0
+1654895905018,17,bar,200,OK,vertx 1-390,,true,,74,110,54,54,http://localhost/bar,17,0,1
+1654895904806,251,bar,200,OK,vertx 1-406,,true,,74,110,54,54,http://localhost/bar,251,0,0
+1654895904712,347,bar,200,OK,vertx 1-365,,true,,74,110,54,54,http://localhost/bar,347,0,0
+1654895904774,287,foo,200,OK,vertx 1-389,,true,,74,110,53,53,http://localhost/foo,287,0,1
+1654895905009,55,foo,200,OK,vertx 1-423,,true,,74,110,53,53,http://localhost/foo,55,0,1
+1654895904662,403,foo,408,Request Timeout,vertx 1-405,,false,,70,110,53,53,http://localhost/foo,403,0,1
+1654895904807,262,bar,200,OK,vertx 1-398,,true,,74,110,54,54,http://localhost/bar,262,0,0
+1654895904811,259,bar,200,OK,vertx 1-408,,true,,74,110,54,54,http://localhost/bar,259,0,0
+1654895904680,402,bar,408,Request Timeout,vertx 1-395,,false,,70,110,54,54,http://localhost/bar,402,0,0
+1654895904687,401,bar,408,Request Timeout,vertx 1-355,,false,,70,110,55,55,http://localhost/bar,401,0,0
+1654895904778,315,foo,200,OK,vertx 1-411,,true,,74,110,54,54,http://localhost/foo,315,0,0
+1654895904982,120,bar,200,OK,vertx 1-375,,true,,74,110,54,54,http://localhost/bar,120,0,1
+1654895904875,234,foo,200,OK,vertx 1-416,,true,,74,110,54,54,http://localhost/foo,234,0,0
+1654895904907,203,bar,200,OK,vertx 1-384,,true,,74,110,54,54,http://localhost/bar,202,0,0
+1654895905082,34,foo,200,OK,vertx 1-395,,true,,74,110,53,53,http://localhost/foo,34,0,0
+1654895904716,401,bar,408,Request Timeout,vertx 1-373,,false,,70,110,53,53,http://localhost/bar,401,0,0
+1654895904789,330,bar,200,OK,vertx 1-376,,true,,74,110,52,52,http://localhost/bar,330,0,0
+1654895905065,64,bar,200,OK,vertx 1-423,,true,,74,110,52,52,http://localhost/bar,64,0,0
+1654895905020,118,foo,200,OK,vertx 1-404,,true,,74,110,52,52,http://localhost/foo,118,0,1
+1654895904746,402,bar,408,Request Timeout,vertx 1-369,,false,,70,110,53,53,http://localhost/bar,402,0,0
+1654895904791,359,bar,200,OK,vertx 1-357,,true,,74,110,52,52,http://localhost/bar,359,0,1
+1654895904868,284,bar,200,OK,vertx 1-385,,true,,74,110,51,51,http://localhost/bar,284,0,0
+1654895905057,97,foo,200,OK,vertx 1-406,,true,,74,110,50,50,http://localhost/foo,97,0,1
+1654895904796,359,bar,200,OK,vertx 1-391,,true,,74,110,50,50,http://localhost/bar,359,0,0
+1654895905034,128,bar,200,OK,vertx 1-378,,true,,74,110,50,50,http://localhost/bar,128,0,0
+1654895905106,60,foo,200,OK,vertx 1-428,,true,,74,110,50,50,http://localhost/foo,60,0,1
+1654895904929,249,foo,200,OK,vertx 1-381,,true,,74,110,50,50,http://localhost/foo,249,0,0
+1654895904817,372,foo,200,OK,vertx 1-413,,true,,74,110,51,51,http://localhost/foo,372,0,0
+1654895904926,268,bar,200,OK,vertx 1-377,,true,,74,110,51,51,http://localhost/bar,268,0,0
+1654895904797,402,foo,408,Request Timeout,vertx 1-412,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895905094,107,bar,200,OK,vertx 1-411,,true,,74,110,50,50,http://localhost/bar,107,0,1
+1654895904837,370,foo,200,OK,vertx 1-414,,true,,74,110,51,51,http://localhost/foo,370,0,0
+1654895905207,10,bar,200,OK,vertx 1-414,,true,,74,110,51,51,http://localhost/bar,10,0,0
+1654895905145,76,foo,200,OK,vertx 1-430,,true,,74,110,51,51,http://localhost/foo,76,0,0
+1654895904949,279,bar,200,OK,vertx 1-399,,true,,74,110,52,52,http://localhost/bar,279,0,0
+1654895905026,204,bar,200,OK,vertx 1-403,,true,,74,110,52,52,http://localhost/bar,204,0,1
+1654895904968,263,bar,200,OK,vertx 1-400,,true,,74,110,52,52,http://localhost/bar,263,0,1
+1654895905061,173,bar,200,OK,vertx 1-389,,true,,74,110,52,52,http://localhost/bar,173,0,1
+1654895904938,306,bar,200,OK,vertx 1-387,,true,,74,110,52,52,http://localhost/bar,306,0,0
+1654895904907,345,bar,200,OK,vertx 1-379,,true,,74,110,51,51,http://localhost/bar,345,0,1
+1654895904974,280,foo,200,OK,vertx 1-383,,true,,74,110,50,50,http://localhost/foo,280,0,0
+1654895904852,402,foo,408,Request Timeout,vertx 1-374,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895904852,402,bar,408,Request Timeout,vertx 1-394,,false,,70,110,50,50,http://localhost/bar,402,0,1
+1654895904913,342,foo,200,OK,vertx 1-418,,true,,74,110,50,50,http://localhost/foo,342,0,0
+1654895904855,401,foo,408,Request Timeout,vertx 1-415,,false,,70,110,50,50,http://localhost/foo,401,0,1
+1654895904971,289,bar,200,OK,vertx 1-401,,true,,74,110,50,50,http://localhost/bar,289,0,1
+1654895905088,173,foo,200,OK,vertx 1-427,,true,,74,110,50,50,http://localhost/foo,173,0,0
+1654895904990,279,foo,200,OK,vertx 1-422,,true,,74,110,51,51,http://localhost/foo,279,0,0
+1654895904881,392,bar,200,OK,vertx 1-366,,true,,74,110,51,51,http://localhost/bar,392,0,0
+1654895904892,388,bar,200,OK,vertx 1-396,,true,,74,110,50,50,http://localhost/bar,388,0,0
+1654895905178,108,bar,200,OK,vertx 1-381,,true,,74,110,51,51,http://localhost/bar,108,0,0
+1654895905282,12,foo,200,OK,vertx 1-437,,true,,74,110,50,50,http://localhost/foo,12,0,1
+1654895904894,401,foo,408,Request Timeout,vertx 1-417,,false,,70,110,50,50,http://localhost/foo,401,0,0
+1654895905255,43,foo,200,OK,vertx 1-394,,true,,74,110,50,50,http://localhost/foo,43,0,0
+1654895905125,173,foo,200,OK,vertx 1-429,,true,,74,110,50,50,http://localhost/foo,173,0,0
+1654895905138,162,bar,200,OK,vertx 1-404,,true,,74,110,50,50,http://localhost/bar,162,0,0
+1654895904924,376,bar,200,OK,vertx 1-386,,true,,74,110,50,50,http://localhost/bar,376,0,0
+1654895905204,97,foo,200,OK,vertx 1-433,,true,,74,110,48,48,http://localhost/foo,97,0,0
+1654895905217,87,foo,200,OK,vertx 1-414,,true,,74,110,49,49,http://localhost/foo,87,0,0
+1654895905254,51,bar,200,OK,vertx 1-374,,true,,74,110,49,49,http://localhost/bar,51,0,1
+1654895904906,401,bar,408,Request Timeout,vertx 1-397,,false,,70,110,48,48,http://localhost/bar,401,0,0
+1654895905221,96,bar,200,OK,vertx 1-430,,true,,74,110,47,47,http://localhost/bar,96,0,1
+1654895904985,335,foo,200,OK,vertx 1-409,,true,,74,110,47,47,http://localhost/foo,335,0,0
+1654895905154,169,bar,200,OK,vertx 1-406,,true,,74,110,48,48,http://localhost/bar,169,0,0
+1654895905223,109,foo,200,OK,vertx 1-434,,true,,74,110,47,47,http://localhost/foo,109,0,0
+1654895904932,402,foo,408,Request Timeout,vertx 1-419,,false,,70,110,47,47,http://localhost/foo,402,0,0
+1654895905048,288,foo,200,OK,vertx 1-425,,true,,74,110,47,47,http://localhost/foo,288,0,0
+1654895905129,207,foo,200,OK,vertx 1-423,,true,,74,110,47,47,http://localhost/foo,207,0,1
+1654895905184,162,foo,200,OK,vertx 1-432,,true,,74,110,48,48,http://localhost/foo,162,0,0
+1654895904951,399,foo,200,OK,vertx 1-420,,true,,74,110,48,48,http://localhost/foo,399,0,0
+1654895905155,212,foo,200,OK,vertx 1-391,,true,,74,110,49,49,http://localhost/foo,212,0,1
+1654895904968,400,bar,200,OK,vertx 1-392,,true,,74,110,49,49,http://localhost/bar,400,0,1
+1654895904970,402,bar,408,Request Timeout,vertx 1-407,,false,,70,110,48,48,http://localhost/bar,402,0,1
+1654895904971,402,foo,408,Request Timeout,vertx 1-421,,false,,70,110,48,48,http://localhost/foo,402,0,0
+1654895904982,395,foo,200,OK,vertx 1-393,,true,,74,110,48,48,http://localhost/foo,395,0,1
+1654895904979,401,bar,408,Request Timeout,vertx 1-410,,false,,70,110,49,49,http://localhost/bar,401,0,0
+1654895905199,191,bar,200,OK,vertx 1-412,,true,,74,110,49,49,http://localhost/bar,191,0,1
+1654895905201,191,foo,200,OK,vertx 1-411,,true,,74,110,49,49,http://localhost/foo,191,0,1
+1654895904995,402,foo,408,Request Timeout,vertx 1-388,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895905295,104,bar,200,OK,vertx 1-417,,true,,74,110,49,49,http://localhost/bar,104,0,0
+1654895905068,335,foo,200,OK,vertx 1-426,,true,,74,110,50,50,http://localhost/foo,335,0,0
+1654895905336,74,bar,200,OK,vertx 1-425,,true,,74,110,50,50,http://localhost/bar,74,0,0
+1654895905029,385,foo,200,OK,vertx 1-424,,true,,74,110,50,50,http://localhost/foo,384,0,0
+1654895905069,345,foo,200,OK,vertx 1-398,,true,,74,110,50,50,http://localhost/foo,345,0,0
+1654895905392,32,bar,200,OK,vertx 1-411,,true,,74,110,51,51,http://localhost/bar,31,0,0
+1654895905411,25,foo,200,OK,vertx 1-425,,true,,74,110,50,50,http://localhost/foo,25,0,0
+1654895905230,214,foo,200,OK,vertx 1-403,,true,,74,110,51,51,http://localhost/foo,214,0,0
+1654895905301,151,bar,200,OK,vertx 1-433,,true,,74,110,51,51,http://localhost/bar,151,0,0
+1654895905242,215,foo,200,OK,vertx 1-435,,true,,74,110,51,51,http://localhost/foo,215,0,1
+1654895905444,16,bar,200,OK,vertx 1-403,,true,,74,110,52,52,http://localhost/bar,16,0,0
+1654895905254,207,bar,200,OK,vertx 1-383,,true,,74,110,51,51,http://localhost/bar,207,0,0
+1654895905065,403,bar,408,Request Timeout,vertx 1-405,,false,,70,110,50,50,http://localhost/bar,403,0,0
+1654895905070,402,foo,408,Request Timeout,vertx 1-408,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895905109,365,bar,200,OK,vertx 1-416,,true,,74,110,50,50,http://localhost/bar,365,0,0
+1654895905166,312,foo,200,OK,vertx 1-431,,true,,74,110,51,51,http://localhost/foo,312,0,0
+1654895905390,89,foo,200,OK,vertx 1-412,,true,,74,110,51,51,http://localhost/foo,89,0,0
+1654895905262,224,foo,200,OK,vertx 1-436,,true,,74,110,51,51,http://localhost/foo,224,0,0
+1654895905320,167,bar,200,OK,vertx 1-409,,true,,74,110,51,51,http://localhost/bar,166,0,0
+1654895905116,393,bar,200,OK,vertx 1-395,,true,,74,110,51,51,http://localhost/bar,393,0,0
+1654895905336,173,bar,200,OK,vertx 1-423,,true,,74,110,51,51,http://localhost/bar,173,0,0
+1654895905261,253,bar,200,OK,vertx 1-427,,true,,74,110,49,49,http://localhost/bar,253,0,0
+1654895905260,255,foo,200,OK,vertx 1-401,,true,,74,110,49,49,http://localhost/foo,255,0,0
+1654895905535,1,foo,200,OK,vertx 1-450,,true,,74,110,51,51,http://localhost/foo,1,0,1
+1654895905302,235,foo,200,OK,vertx 1-438,,true,,74,110,51,51,http://localhost/foo,235,0,0
+1654895905317,220,foo,200,OK,vertx 1-430,,true,,74,110,51,51,http://localhost/foo,220,0,1
+1654895905457,109,bar,200,OK,vertx 1-435,,true,,74,110,52,52,http://localhost/bar,108,0,0
+1654895905566,1,foo,200,OK,vertx 1-435,,true,,74,110,52,52,http://localhost/foo,1,0,0
+1654895905189,378,bar,200,OK,vertx 1-413,,true,,74,110,52,52,http://localhost/bar,378,0,0
+1654895905167,401,bar,408,Request Timeout,vertx 1-428,,false,,70,110,52,52,http://localhost/bar,401,0,0
+1654895905472,99,bar,200,OK,vertx 1-408,,true,,74,110,52,52,http://localhost/bar,98,0,0
+1654895905340,243,foo,200,OK,vertx 1-440,,true,,74,110,52,52,http://localhost/foo,243,0,0
+1654895905555,29,foo,200,OK,vertx 1-451,,true,,74,110,52,52,http://localhost/foo,29,0,0
+1654895905404,185,bar,200,OK,vertx 1-426,,true,,74,110,52,52,http://localhost/bar,185,0,0
+1654895905568,23,foo,200,OK,vertx 1-413,,true,,74,110,52,52,http://localhost/foo,23,0,0
+1654895905256,344,bar,200,OK,vertx 1-415,,true,,74,110,53,53,http://localhost/bar,344,0,0
+1654895905304,300,bar,200,OK,vertx 1-414,,true,,74,110,53,53,http://localhost/bar,300,0,0
+1654895905228,384,foo,200,OK,vertx 1-399,,true,,74,110,52,52,http://localhost/foo,384,0,0
+1654895905294,321,bar,200,OK,vertx 1-437,,true,,74,110,53,53,http://localhost/bar,321,0,0
+1654895905584,32,bar,200,OK,vertx 1-451,,true,,74,110,53,53,http://localhost/bar,32,0,1
+1654895905255,362,bar,200,OK,vertx 1-418,,true,,74,110,53,53,http://localhost/bar,362,0,0
+1654895905514,113,foo,200,OK,vertx 1-427,,true,,74,110,53,53,http://localhost/foo,113,0,1
+1654895905280,352,foo,200,OK,vertx 1-396,,true,,74,110,54,54,http://localhost/foo,352,0,1
+1654895905231,401,foo,408,Request Timeout,vertx 1-400,,false,,70,110,54,54,http://localhost/foo,401,0,0
+1654895905269,371,bar,200,OK,vertx 1-422,,true,,74,110,54,54,http://localhost/bar,371,0,0
+1654895905568,72,foo,200,OK,vertx 1-428,,true,,74,110,54,54,http://localhost/foo,72,0,0
+1654895905334,307,bar,200,OK,vertx 1-419,,true,,74,110,54,54,http://localhost/bar,307,0,0
+1654895905380,261,foo,200,OK,vertx 1-410,,true,,74,110,54,54,http://localhost/foo,261,0,0
+1654895905377,268,bar,200,OK,vertx 1-393,,true,,74,110,54,54,http://localhost/bar,268,0,0
+1654895905632,26,bar,200,OK,vertx 1-396,,true,,74,110,54,54,http://localhost/bar,26,0,0
+1654895905641,20,bar,200,OK,vertx 1-410,,true,,74,110,53,53,http://localhost/bar,20,0,0
+1654895905641,22,foo,200,OK,vertx 1-419,,true,,74,110,52,52,http://localhost/foo,22,0,0
+1654895905615,54,foo,200,OK,vertx 1-437,,true,,74,110,52,52,http://localhost/foo,54,0,0
+1654895905400,270,foo,200,OK,vertx 1-443,,true,,74,110,53,53,http://localhost/foo,270,0,0
+1654895905346,330,bar,200,OK,vertx 1-432,,true,,74,110,53,53,http://localhost/bar,330,0,0
+1654895905438,243,foo,200,OK,vertx 1-445,,true,,74,110,53,53,http://localhost/foo,243,0,1
+1654895905612,73,bar,200,OK,vertx 1-399,,true,,74,110,53,53,http://localhost/bar,73,0,0
+1654895905298,392,bar,200,OK,vertx 1-394,,true,,74,110,53,53,http://localhost/bar,392,0,0
+1654895905379,316,foo,200,OK,vertx 1-442,,true,,74,110,52,52,http://localhost/foo,316,0,1
+1654895905414,282,bar,200,OK,vertx 1-424,,true,,74,110,52,52,http://localhost/bar,282,0,0
+1654895905298,402,bar,408,Request Timeout,vertx 1-429,,false,,70,110,52,52,http://localhost/bar,402,0,0
+1654895905372,330,foo,200,OK,vertx 1-407,,true,,74,110,52,52,http://localhost/foo,330,0,0
+1654895905681,21,bar,200,OK,vertx 1-445,,true,,74,110,52,52,http://localhost/bar,21,0,1
+1654895905617,90,foo,200,OK,vertx 1-418,,true,,74,110,52,52,http://localhost/foo,90,0,0
+1654895905332,378,bar,200,OK,vertx 1-434,,true,,74,110,53,53,http://localhost/bar,378,0,0
+1654895905321,390,foo,200,OK,vertx 1-439,,true,,74,110,53,53,http://localhost/foo,390,0,0
+1654895905419,297,foo,200,OK,vertx 1-444,,true,,74,110,53,53,http://localhost/foo,297,0,0
+1654895905709,13,foo,200,OK,vertx 1-459,,true,,74,110,53,53,http://localhost/foo,13,0,1
+1654895905613,111,foo,200,OK,vertx 1-454,,true,,74,110,53,53,http://localhost/foo,111,0,0
+1654895905537,194,bar,200,OK,vertx 1-438,,true,,74,110,54,54,http://localhost/bar,194,0,0
+1654895905574,167,foo,200,OK,vertx 1-452,,true,,74,110,54,54,http://localhost/foo,167,0,0
+1654895905496,246,foo,200,OK,vertx 1-448,,true,,74,110,54,54,http://localhost/foo,246,0,1
+1654895905399,348,foo,200,OK,vertx 1-417,,true,,74,110,54,54,http://localhost/foo,348,0,0
+1654895905350,402,bar,408,Request Timeout,vertx 1-420,,false,,70,110,55,55,http://localhost/bar,402,0,0
+1654895905702,56,foo,200,OK,vertx 1-445,,true,,74,110,55,55,http://localhost/foo,56,0,0
+1654895905670,92,foo,200,OK,vertx 1-457,,true,,74,110,55,55,http://localhost/foo,92,0,0
+1654895905360,402,foo,408,Request Timeout,vertx 1-441,,false,,70,110,55,55,http://localhost/foo,402,0,1
+1654895905367,401,bar,408,Request Timeout,vertx 1-391,,false,,70,110,56,56,http://localhost/bar,401,0,0
+1654895905414,356,bar,200,OK,vertx 1-398,,true,,74,110,55,55,http://localhost/bar,356,0,1
+1654895905758,15,bar,200,OK,vertx 1-445,,true,,74,110,54,54,http://localhost/bar,15,0,0
+1654895905373,402,bar,408,Request Timeout,vertx 1-421,,false,,70,110,53,53,http://localhost/bar,402,0,0
+1654895905748,37,foo,200,OK,vertx 1-461,,true,,74,110,53,53,http://localhost/foo,37,0,0
+1654895905632,158,bar,200,OK,vertx 1-400,,true,,74,110,54,54,http://localhost/bar,158,0,0
+1654895905397,402,bar,408,Request Timeout,vertx 1-388,,false,,70,110,53,53,http://localhost/bar,402,0,0
+1654895905452,350,foo,200,OK,vertx 1-433,,true,,74,110,52,52,http://localhost/foo,350,0,0
+1654895905670,140,bar,200,OK,vertx 1-443,,true,,74,110,53,53,http://localhost/bar,140,0,1
+1654895905584,230,bar,200,OK,vertx 1-440,,true,,74,110,53,53,http://localhost/bar,229,0,0
+1654895905478,337,bar,200,OK,vertx 1-431,,true,,74,110,53,53,http://localhost/bar,337,0,0
+1654895905627,200,bar,200,OK,vertx 1-427,,true,,74,110,54,54,http://localhost/bar,200,0,0
+1654895905669,162,bar,200,OK,vertx 1-437,,true,,74,110,53,53,http://localhost/bar,162,0,0
+1654895905436,402,bar,408,Request Timeout,vertx 1-425,,false,,70,110,52,52,http://localhost/bar,402,0,0
+1654895905468,370,foo,200,OK,vertx 1-405,,true,,74,110,51,51,http://localhost/foo,370,0,0
+1654895905537,307,bar,200,OK,vertx 1-430,,true,,74,110,51,51,http://localhost/bar,307,0,1
+1654895905631,214,foo,200,OK,vertx 1-455,,true,,74,110,51,51,http://localhost/foo,214,0,0
+1654895905724,128,bar,200,OK,vertx 1-454,,true,,74,110,51,51,http://localhost/bar,128,0,0
+1654895905826,29,foo,200,OK,vertx 1-465,,true,,74,110,51,51,http://localhost/foo,29,0,0
+1654895905457,400,foo,200,OK,vertx 1-446,,true,,74,110,51,51,http://localhost/foo,400,0,1
+1654895905589,270,foo,200,OK,vertx 1-426,,true,,74,110,51,51,http://localhost/foo,270,0,0
+1654895905486,374,bar,200,OK,vertx 1-436,,true,,74,110,51,51,http://localhost/bar,374,0,1
+1654895905762,105,bar,200,OK,vertx 1-441,,true,,74,110,52,52,http://localhost/bar,105,0,0
+1654895905640,234,bar,200,OK,vertx 1-428,,true,,74,110,52,52,http://localhost/bar,234,0,0
+1654895905476,399,foo,200,OK,vertx 1-447,,true,,74,110,51,51,http://localhost/foo,399,0,1
+1654895905474,401,foo,408,Request Timeout,vertx 1-416,,false,,70,110,51,51,http://localhost/foo,401,0,0
+1654895905479,401,bar,408,Request Timeout,vertx 1-412,,false,,70,110,51,51,http://localhost/bar,401,0,0
+1654895905707,184,bar,200,OK,vertx 1-418,,true,,74,110,51,51,http://localhost/bar,184,0,0
+1654895905762,132,bar,200,OK,vertx 1-457,,true,,74,110,50,50,http://localhost/bar,132,0,0
+1654895905852,44,foo,200,OK,vertx 1-454,,true,,74,110,50,50,http://localhost/foo,44,0,1
+1654895905695,207,bar,200,OK,vertx 1-442,,true,,74,110,50,50,http://localhost/bar,207,0,0
+1654895905875,34,bar,200,OK,vertx 1-447,,true,,74,110,51,51,http://localhost/bar,34,0,0
+1654895905663,250,bar,200,OK,vertx 1-419,,true,,74,110,51,51,http://localhost/bar,250,0,0
+1654895905567,346,bar,200,OK,vertx 1-435,,true,,74,110,50,50,http://localhost/bar,346,0,1
+1654895905593,321,foo,200,OK,vertx 1-453,,true,,74,110,49,49,http://localhost/foo,321,0,0
+1654895905515,402,bar,408,Request Timeout,vertx 1-401,,false,,70,110,49,49,http://localhost/bar,402,0,1
+1654895905517,402,foo,408,Request Timeout,vertx 1-449,,false,,70,110,48,48,http://localhost/foo,402,0,0
+1654895905867,55,foo,200,OK,vertx 1-441,,true,,74,110,49,49,http://localhost/foo,55,0,0
+1654895905775,152,foo,200,OK,vertx 1-421,,true,,74,110,49,49,http://localhost/foo,152,0,0
+1654895905921,8,foo,200,OK,vertx 1-470,,true,,74,110,49,49,http://localhost/foo,8,0,1
+1654895905537,402,bar,408,Request Timeout,vertx 1-450,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895905696,244,foo,200,OK,vertx 1-424,,true,,74,110,49,49,http://localhost/foo,244,0,0
+1654895905616,327,foo,200,OK,vertx 1-451,,true,,74,110,50,50,http://localhost/foo,327,0,0
+1654895905742,203,bar,200,OK,vertx 1-452,,true,,74,110,50,50,http://localhost/bar,203,0,0
+1654895905786,160,foo,200,OK,vertx 1-463,,true,,74,110,50,50,http://localhost/foo,160,0,0
+1654895905855,117,bar,200,OK,vertx 1-465,,true,,74,110,51,51,http://localhost/bar,117,0,1
+1654895905838,135,bar,200,OK,vertx 1-405,,true,,74,110,51,51,http://localhost/bar,135,0,1
+1654895905927,52,bar,200,OK,vertx 1-421,,true,,74,110,50,50,http://localhost/bar,51,0,0
+1654895905752,234,foo,200,OK,vertx 1-420,,true,,74,110,50,50,http://localhost/foo,233,0,1
+1654895905591,401,bar,408,Request Timeout,vertx 1-413,,false,,70,110,50,50,http://localhost/bar,401,0,0
+1654895905785,214,bar,200,OK,vertx 1-461,,true,,74,110,50,50,http://localhost/bar,214,0,0
+1654895905600,401,foo,408,Request Timeout,vertx 1-415,,false,,70,110,50,50,http://localhost/foo,401,0,0
+1654895905945,61,foo,200,OK,vertx 1-452,,true,,74,110,50,50,http://localhost/foo,60,0,0
+1654895905700,311,foo,200,OK,vertx 1-429,,true,,74,110,50,50,http://localhost/foo,311,0,0
+1654895905747,268,bar,200,OK,vertx 1-417,,true,,74,110,50,50,http://localhost/bar,268,0,0
+1654895905864,152,foo,200,OK,vertx 1-467,,true,,74,110,49,49,http://localhost/foo,152,0,0
+1654895906016,5,bar,200,OK,vertx 1-467,,true,,74,110,50,50,http://localhost/bar,4,0,1
+1654895905802,219,bar,200,OK,vertx 1-433,,true,,74,110,50,50,http://localhost/bar,219,0,1
+1654895906001,24,bar,200,OK,vertx 1-415,,true,,74,110,49,49,http://localhost/bar,23,0,0
+1654895905640,392,foo,200,OK,vertx 1-422,,true,,74,110,48,48,http://localhost/foo,391,0,0
+1654895905875,167,bar,200,OK,vertx 1-416,,true,,74,110,49,49,http://localhost/bar,167,0,1
+1654895905811,235,foo,200,OK,vertx 1-443,,true,,74,110,48,48,http://localhost/foo,235,0,0
+1654895905902,145,foo,200,OK,vertx 1-469,,true,,74,110,48,48,http://localhost/foo,144,0,1
+1654895905860,190,foo,200,OK,vertx 1-436,,true,,74,110,48,48,http://localhost/foo,190,0,0
+1654895905650,400,foo,200,OK,vertx 1-456,,true,,74,110,48,48,http://localhost/foo,400,0,1
+1654895905999,57,foo,200,OK,vertx 1-474,,true,,74,110,48,48,http://localhost/foo,57,0,0
+1654895905859,200,bar,200,OK,vertx 1-426,,true,,74,110,49,49,http://localhost/bar,200,0,0
+1654895905742,318,bar,200,OK,vertx 1-448,,true,,74,110,48,48,http://localhost/bar,317,0,0
+1654895905807,261,foo,200,OK,vertx 1-464,,true,,74,110,48,48,http://localhost/foo,261,0,1
+1654895905716,353,bar,200,OK,vertx 1-444,,true,,74,110,48,48,http://localhost/bar,353,0,0
+1654895905676,401,foo,408,Request Timeout,vertx 1-432,,false,,70,110,49,49,http://localhost/foo,401,0,0
+1654895905941,140,foo,200,OK,vertx 1-471,,true,,74,110,49,49,http://localhost/foo,140,0,0
+1654895905943,139,bar,200,OK,vertx 1-451,,true,,74,110,49,49,http://localhost/bar,139,0,0
+1654895906000,88,foo,200,OK,vertx 1-461,,true,,74,110,48,48,http://localhost/foo,88,0,0
+1654895905689,402,foo,408,Request Timeout,vertx 1-458,,false,,70,110,48,48,http://localhost/foo,402,0,1
+1654895905711,392,bar,200,OK,vertx 1-439,,true,,74,110,49,49,http://localhost/bar,392,0,0
+1654895905702,402,bar,408,Request Timeout,vertx 1-407,,false,,70,110,49,49,http://localhost/bar,402,0,0
+1654895905940,168,bar,200,OK,vertx 1-424,,true,,74,110,48,48,http://localhost/bar,168,0,0
+1654895905710,402,foo,408,Request Timeout,vertx 1-434,,false,,70,110,47,47,http://localhost/foo,402,0,0
+1654895905902,219,foo,200,OK,vertx 1-442,,true,,74,110,48,48,http://localhost/foo,219,0,0
+1654895905722,401,bar,408,Request Timeout,vertx 1-459,,false,,70,110,48,48,http://localhost/bar,401,0,0
+1654895905729,402,foo,200,OK,vertx 1-460,,true,,74,110,48,48,http://localhost/foo,402,0,0
+1654895905731,402,foo,408,Request Timeout,vertx 1-438,,false,,70,110,48,48,http://localhost/foo,402,0,1
+1654895906057,79,foo,200,OK,vertx 1-477,,true,,74,110,49,49,http://localhost/foo,79,0,0
+1654895905919,219,bar,200,OK,vertx 1-449,,true,,74,110,49,49,http://localhost/bar,219,0,0
+1654895906088,51,bar,200,OK,vertx 1-461,,true,,74,110,49,49,http://localhost/bar,51,0,0
+1654895905767,388,foo,200,OK,vertx 1-462,,true,,74,110,49,49,http://localhost/foo,388,0,0
+1654895905815,355,foo,200,OK,vertx 1-431,,true,,74,110,49,49,http://localhost/foo,355,0,1
+1654895905896,288,bar,200,OK,vertx 1-454,,true,,74,110,50,50,http://localhost/bar,288,0,0
+1654895905980,204,foo,200,OK,vertx 1-473,,true,,74,110,49,49,http://localhost/foo,204,0,1
+1654895905857,336,bar,200,OK,vertx 1-446,,true,,74,110,49,49,http://localhost/bar,336,0,1
+1654895906060,139,foo,200,OK,vertx 1-448,,true,,74,110,50,50,http://localhost/foo,139,0,0
+1654895905922,278,bar,200,OK,vertx 1-441,,true,,74,110,50,50,http://localhost/bar,278,0,1
+1654895905846,357,bar,200,OK,vertx 1-455,,true,,74,110,49,49,http://localhost/bar,357,0,0
+1654895905972,231,foo,200,OK,vertx 1-465,,true,,74,110,49,49,http://localhost/foo,231,0,1
+1654895906047,162,bar,200,OK,vertx 1-469,,true,,74,110,49,49,http://localhost/bar,162,0,0
+1654895906037,172,foo,200,OK,vertx 1-476,,true,,74,110,49,49,http://localhost/foo,172,0,1
+1654895905814,403,foo,408,Request Timeout,vertx 1-440,,false,,70,110,50,50,http://localhost/foo,403,0,0
+1654895905946,273,bar,200,OK,vertx 1-463,,true,,74,110,50,50,http://localhost/bar,272,0,1
+1654895906138,84,foo,200,OK,vertx 1-449,,true,,74,110,50,50,http://localhost/foo,83,0,1
+1654895906021,212,foo,200,OK,vertx 1-467,,true,,74,110,51,51,http://localhost/foo,212,0,0
+1654895905846,401,foo,408,Request Timeout,vertx 1-466,,false,,70,110,51,51,http://localhost/foo,401,0,0
+1654895906056,197,bar,200,OK,vertx 1-474,,true,,74,110,52,52,http://localhost/bar,197,0,0
+1654895906112,149,bar,200,OK,vertx 1-434,,true,,74,110,52,52,http://localhost/bar,149,0,0
+1654895905986,278,bar,200,OK,vertx 1-420,,true,,74,110,51,51,http://localhost/bar,278,0,0
+1654895906209,57,bar,200,OK,vertx 1-476,,true,,74,110,50,50,http://localhost/bar,57,0,0
+1654895905914,354,bar,200,OK,vertx 1-453,,true,,74,110,50,50,http://localhost/bar,354,0,0
+1654895906046,224,bar,200,OK,vertx 1-443,,true,,74,110,50,50,http://localhost/bar,224,0,1
+1654895906271,3,foo,200,OK,vertx 1-488,,true,,74,110,50,50,http://localhost/foo,3,0,1
+1654895906266,12,foo,200,OK,vertx 1-476,,true,,74,110,50,50,http://localhost/foo,12,0,1
+1654895905883,402,foo,408,Request Timeout,vertx 1-468,,false,,70,110,50,50,http://localhost/foo,402,0,0
+1654895905894,402,foo,408,Request Timeout,vertx 1-457,,false,,70,110,51,51,http://localhost/foo,402,0,0
+1654895906213,95,foo,200,OK,vertx 1-485,,true,,74,110,51,51,http://localhost/foo,95,0,0
+1654895905909,403,foo,408,Request Timeout,vertx 1-447,,false,,70,110,52,52,http://localhost/foo,403,0,0
+1654895906050,264,bar,200,OK,vertx 1-456,,true,,74,110,52,52,http://localhost/bar,264,0,1
+1654895906006,316,bar,200,OK,vertx 1-452,,true,,74,110,52,52,http://localhost/bar,316,0,0
+1654895906133,193,bar,200,OK,vertx 1-438,,true,,74,110,51,51,http://localhost/bar,193,0,0
+1654895906019,308,foo,200,OK,vertx 1-475,,true,,74,110,50,50,http://localhost/foo,308,0,0
+1654895905929,401,bar,408,Request Timeout,vertx 1-470,,false,,70,110,50,50,http://localhost/bar,401,0,0
+1654895906203,130,bar,200,OK,vertx 1-465,,true,,74,110,51,51,http://localhost/bar,130,0,1
+1654895905939,402,foo,408,Request Timeout,vertx 1-450,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895906077,281,bar,200,OK,vertx 1-432,,true,,74,110,51,51,http://localhost/bar,281,0,0
+1654895906136,222,bar,200,OK,vertx 1-477,,true,,74,110,51,51,http://localhost/bar,222,0,1
+1654895906274,88,bar,200,OK,vertx 1-488,,true,,74,110,50,50,http://localhost/bar,88,0,0
+1654895905960,402,foo,408,Request Timeout,vertx 1-472,,false,,70,110,50,50,http://localhost/foo,402,0,1
+1654895906123,244,foo,200,OK,vertx 1-459,,true,,74,110,50,50,http://localhost/foo,244,0,1
+1654895906194,173,foo,200,OK,vertx 1-484,,true,,74,110,50,50,http://localhost/foo,173,0,1
+1654895906285,95,bar,200,OK,vertx 1-468,,true,,74,110,51,51,http://localhost/bar,95,0,0
+1654895906253,128,foo,200,OK,vertx 1-474,,true,,74,110,51,51,http://localhost/foo,128,0,1
+1654895906203,179,foo,200,OK,vertx 1-455,,true,,74,110,51,51,http://localhost/foo,179,0,1
+1654895906193,195,foo,200,OK,vertx 1-446,,true,,74,110,52,52,http://localhost/foo,195,0,0
+1654895906121,276,bar,200,OK,vertx 1-442,,true,,74,110,52,52,http://localhost/bar,276,0,1
+1654895906170,227,bar,200,OK,vertx 1-431,,true,,74,110,52,52,http://localhost/bar,227,0,1
+1654895906135,275,foo,200,OK,vertx 1-481,,true,,74,110,51,51,http://localhost/foo,275,0,0
+1654895906011,402,bar,408,Request Timeout,vertx 1-429,,false,,70,110,51,51,http://localhost/bar,402,0,0
+1654895906032,384,bar,200,OK,vertx 1-422,,true,,74,110,50,50,http://localhost/bar,384,0,0
+1654895906296,124,bar,200,OK,vertx 1-457,,true,,74,110,49,49,http://localhost/bar,124,0,0
+1654895906184,239,bar,200,OK,vertx 1-473,,true,,74,110,48,48,http://localhost/bar,239,0,1
+1654895906341,82,bar,200,OK,vertx 1-450,,true,,74,110,48,48,http://localhost/bar,82,0,0
+1654895906131,305,bar,200,OK,vertx 1-460,,true,,74,110,48,48,http://localhost/bar,305,0,0
+1654895906175,274,foo,200,OK,vertx 1-483,,true,,74,110,48,48,http://localhost/foo,274,0,2
+1654895906050,402,bar,408,Request Timeout,vertx 1-436,,false,,70,110,48,48,http://localhost/bar,402,0,0
+1654895906209,248,foo,200,OK,vertx 1-469,,true,,74,110,47,47,http://localhost/foo,248,0,0
+1654895906155,302,bar,200,OK,vertx 1-462,,true,,74,110,47,47,http://localhost/bar,302,0,0
+1654895906457,3,foo,200,OK,vertx 1-462,,true,,74,110,48,48,http://localhost/foo,3,0,1
+1654895906081,388,bar,200,OK,vertx 1-471,,true,,74,110,48,48,http://localhost/bar,387,0,0
+1654895906068,401,bar,408,Request Timeout,vertx 1-464,,false,,70,110,48,48,http://localhost/bar,401,0,0
+1654895906069,401,foo,408,Request Timeout,vertx 1-444,,false,,70,110,48,48,http://localhost/foo,401,0,0
+1654895906076,402,foo,408,Request Timeout,vertx 1-478,,false,,70,110,49,49,http://localhost/foo,402,0,0
+1654895906362,121,foo,200,OK,vertx 1-488,,true,,74,110,49,49,http://localhost/foo,121,0,1
+1654895906091,402,bar,408,Request Timeout,vertx 1-458,,false,,70,110,50,50,http://localhost/bar,402,0,0
+1654895906095,402,foo,408,Request Timeout,vertx 1-479,,false,,70,110,50,50,http://localhost/foo,402,0,0
+1654895906217,285,bar,200,OK,vertx 1-440,,true,,74,110,50,50,http://localhost/bar,285,0,1
+1654895906315,188,foo,200,OK,vertx 1-456,,true,,74,110,49,49,http://localhost/foo,188,0,0
+1654895906103,403,foo,408,Request Timeout,vertx 1-439,,false,,70,110,50,50,http://localhost/foo,403,0,0
+1654895906426,81,foo,200,OK,vertx 1-496,,true,,74,110,50,50,http://localhost/foo,81,0,1
+1654895906154,363,foo,200,OK,vertx 1-482,,true,,74,110,50,50,http://localhost/foo,363,0,0
+1654895906115,402,foo,408,Request Timeout,vertx 1-480,,false,,70,110,50,50,http://localhost/foo,402,0,0
+1654895906199,320,bar,200,OK,vertx 1-448,,true,,74,110,50,50,http://localhost/bar,320,0,1
+1654895906222,300,bar,200,OK,vertx 1-449,,true,,74,110,49,49,http://localhost/bar,300,0,0
+1654895906493,39,foo,200,OK,vertx 1-458,,true,,74,110,48,48,http://localhost/foo,39,0,0
+1654895906505,40,foo,200,OK,vertx 1-500,,true,,74,110,48,48,http://localhost/foo,40,0,0
+1654895906311,237,foo,200,OK,vertx 1-490,,true,,74,110,48,48,http://localhost/foo,237,0,0
+1654895906327,222,bar,200,OK,vertx 1-475,,true,,74,110,48,48,http://localhost/bar,222,0,0
+1654895906388,168,bar,200,OK,vertx 1-446,,true,,74,110,48,48,http://localhost/bar,168,0,1
+1654895906367,192,bar,200,OK,vertx 1-459,,true,,74,110,47,47,http://localhost/bar,192,0,0
+1654895906369,191,foo,200,OK,vertx 1-493,,true,,74,110,46,46,http://localhost/foo,190,0,1
+1654895906507,61,bar,200,OK,vertx 1-496,,true,,74,110,46,46,http://localhost/bar,60,0,0
+1654895906407,168,foo,200,OK,vertx 1-495,,true,,74,110,46,46,http://localhost/foo,167,0,0
+1654895906545,46,bar,200,OK,vertx 1-500,,true,,74,110,46,46,http://localhost/bar,46,0,1
+1654895906470,125,foo,200,OK,vertx 1-464,,true,,74,110,46,46,http://localhost/foo,125,0,0
+1654895906549,47,foo,200,OK,vertx 1-475,,true,,74,110,46,46,http://localhost/foo,47,0,1
+1654895906219,379,foo,200,OK,vertx 1-463,,true,,74,110,46,46,http://localhost/foo,379,0,0
+1654895906598,5,bar,200,OK,vertx 1-463,,true,,74,110,46,46,http://localhost/bar,5,0,0
+1654895906517,88,bar,200,OK,vertx 1-480,,true,,74,110,45,45,http://localhost/bar,87,0,0
+1654895906568,45,foo,200,OK,vertx 1-496,,true,,74,110,45,45,http://localhost/foo,45,0,0
+1654895906268,348,foo,200,OK,vertx 1-453,,true,,74,110,45,45,http://localhost/foo,348,0,0
+1654895906291,328,foo,200,OK,vertx 1-489,,true,,74,110,45,45,http://localhost/foo,328,0,0
+1654895906560,59,bar,200,OK,vertx 1-493,,true,,74,110,45,45,http://localhost/bar,59,0,1
+1654895906382,238,bar,200,OK,vertx 1-455,,true,,74,110,45,45,http://localhost/bar,238,0,0
+1654895906362,266,bar,200,OK,vertx 1-472,,true,,74,110,44,44,http://localhost/bar,266,0,1
+1654895906595,34,bar,200,OK,vertx 1-464,,true,,74,110,44,44,http://localhost/bar,34,0,0
+1654895906278,354,bar,200,OK,vertx 1-476,,true,,74,110,43,43,http://localhost/bar,354,0,0
+1654895906330,303,foo,200,OK,vertx 1-491,,true,,74,110,42,42,http://localhost/foo,303,0,0
+1654895906233,402,foo,408,Request Timeout,vertx 1-486,,false,,70,110,42,42,http://localhost/foo,402,0,1
+1654895906234,401,bar,408,Request Timeout,vertx 1-467,,false,,70,110,42,42,http://localhost/bar,401,0,0
+1654895906253,383,foo,200,OK,vertx 1-487,,true,,74,110,41,41,http://localhost/foo,383,0,0
+1654895906548,94,bar,200,OK,vertx 1-490,,true,,74,110,41,41,http://localhost/bar,94,0,1
+1654895906460,184,foo,200,OK,vertx 1-497,,true,,74,110,41,41,http://localhost/foo,184,0,0
+1654895906247,403,bar,408,Request Timeout,vertx 1-466,,false,,70,110,41,41,http://localhost/bar,403,0,1
+1654895906380,275,foo,200,OK,vertx 1-468,,true,,74,110,41,41,http://localhost/foo,275,0,0
+1654895906308,401,bar,408,Request Timeout,vertx 1-485,,false,,70,110,41,41,http://localhost/bar,401,0,0
+1654895906312,401,bar,408,Request Timeout,vertx 1-447,,false,,70,110,41,41,http://localhost/bar,401,0,0
+1654895906635,80,bar,200,OK,vertx 1-486,,true,,74,110,40,40,http://localhost/bar,80,0,0
+1654895906636,83,bar,200,OK,vertx 1-487,,true,,74,110,40,40,http://localhost/bar,83,0,0
+1654895906475,247,foo,200,OK,vertx 1-498,,true,,74,110,40,40,http://localhost/foo,247,0,0
+1654895906330,401,foo,408,Request Timeout,vertx 1-470,,false,,70,110,40,40,http://localhost/foo,401,0,0
+1654895906410,325,bar,200,OK,vertx 1-481,,true,,74,110,40,40,http://localhost/bar,325,0,1
+1654895906719,18,foo,200,OK,vertx 1-487,,true,,74,110,40,40,http://localhost/foo,18,0,0
+1654895906642,96,foo,200,OK,vertx 1-490,,true,,74,110,40,40,http://localhost/foo,96,0,0
+1654895906504,236,bar,200,OK,vertx 1-456,,true,,74,110,40,40,http://localhost/bar,236,0,0
+1654895906423,319,foo,200,OK,vertx 1-473,,true,,74,110,39,39,http://localhost/foo,319,0,1
+1654895906710,37,foo,200,OK,vertx 1-485,,true,,74,110,39,39,http://localhost/foo,37,0,0
+1654895906737,14,bar,200,OK,vertx 1-487,,true,,74,110,39,39,http://localhost/bar,14,0,0
+1654895906470,281,bar,200,OK,vertx 1-444,,true,,74,110,38,38,http://localhost/bar,281,0,1
+1654895906350,403,foo,408,Request Timeout,vertx 1-492,,false,,70,110,37,37,http://localhost/foo,403,0,1
+1654895906359,401,foo,200,OK,vertx 1-477,,true,,74,110,37,37,http://localhost/foo,401,0,0
+1654895906457,308,bar,200,OK,vertx 1-469,,true,,74,110,37,37,http://localhost/bar,308,0,1
+1654895906367,403,bar,408,Request Timeout,vertx 1-484,,false,,70,110,36,36,http://localhost/bar,403,0,0
+1654895906715,67,foo,200,OK,vertx 1-486,,true,,74,110,36,36,http://localhost/foo,66,0,0
+1654895906381,402,bar,408,Request Timeout,vertx 1-474,,false,,70,110,36,36,http://localhost/bar,402,0,0
+1654895906388,403,foo,408,Request Timeout,vertx 1-494,,false,,70,110,35,35,http://localhost/foo,403,0,0
+1654895906753,39,bar,200,OK,vertx 1-492,,true,,74,110,35,35,http://localhost/bar,39,0,1
+1654895906497,313,bar,200,OK,vertx 1-479,,true,,74,110,35,35,http://localhost/bar,313,0,0
+1654895906460,353,bar,200,OK,vertx 1-462,,true,,74,110,35,35,http://localhost/bar,353,0,0
+1654895906517,304,bar,200,OK,vertx 1-482,,true,,74,110,34,34,http://localhost/bar,304,0,0
+1654895906619,205,bar,200,OK,vertx 1-489,,true,,74,110,34,34,http://localhost/bar,205,0,0
+1654895906506,321,bar,200,OK,vertx 1-439,,true,,74,110,34,34,http://localhost/bar,321,0,0
+1654895906436,403,foo,408,Request Timeout,vertx 1-460,,false,,70,110,33,33,http://localhost/foo,403,0,0
+1654895906490,361,foo,200,OK,vertx 1-499,,true,,74,110,33,33,http://localhost/foo,361,0,1
+1654895906449,402,bar,408,Request Timeout,vertx 1-483,,false,,70,110,33,33,http://localhost/bar,402,0,0
+1654895906742,117,bar,200,OK,vertx 1-473,,true,,74,110,33,33,http://localhost/bar,117,0,0
+1654895906469,401,foo,408,Request Timeout,vertx 1-471,,false,,70,110,32,32,http://localhost/foo,401,0,0
+1654895906478,403,bar,408,Request Timeout,vertx 1-478,,false,,70,110,32,32,http://localhost/bar,403,0,0
+1654895906483,402,bar,408,Request Timeout,vertx 1-488,,false,,70,110,32,32,http://localhost/bar,402,0,1
+1654895906591,296,foo,200,OK,vertx 1-500,,true,,74,110,31,31,http://localhost/foo,296,0,0
+1654895906747,152,bar,200,OK,vertx 1-485,,true,,74,110,31,31,http://localhost/bar,152,0,0
+1654895906810,94,foo,200,OK,vertx 1-479,,true,,74,110,30,30,http://localhost/foo,94,0,1
+1654895906532,394,bar,200,OK,vertx 1-458,,true,,74,110,30,30,http://localhost/bar,393,0,1
+1654895906793,143,foo,200,OK,vertx 1-492,,true,,74,110,29,29,http://localhost/foo,143,0,0
+1654895906628,339,foo,200,OK,vertx 1-472,,true,,74,110,29,29,http://localhost/foo,338,0,0
+1654895906575,398,bar,200,OK,vertx 1-495,,true,,74,110,29,29,http://localhost/bar,398,0,0
+1654895906616,369,bar,200,OK,vertx 1-453,,true,,74,110,29,29,http://localhost/bar,369,0,0
+1654895906596,401,bar,408,Request Timeout,vertx 1-475,,false,,70,110,28,28,http://localhost/bar,401,0,0
+1654895906605,401,foo,408,Request Timeout,vertx 1-480,,false,,70,110,27,27,http://localhost/foo,401,0,0
+1654895906613,396,bar,200,OK,vertx 1-496,,true,,74,110,27,27,http://localhost/bar,396,0,0
+1654895906619,395,foo,200,OK,vertx 1-493,,true,,74,110,26,26,http://localhost/foo,395,0,0
+1654895906822,204,foo,200,OK,vertx 1-482,,true,,74,110,26,26,http://localhost/foo,204,0,0
+1654895906735,293,foo,200,OK,vertx 1-481,,true,,74,110,26,26,http://localhost/foo,293,0,0
+1654895906770,262,foo,200,OK,vertx 1-484,,true,,74,110,26,26,http://localhost/foo,262,0,0
+1654895906633,401,bar,408,Request Timeout,vertx 1-491,,false,,70,110,26,26,http://localhost/bar,401,0,0
+1654895906973,63,foo,200,OK,vertx 1-495,,true,,74,110,26,26,http://localhost/foo,62,0,1
+1654895907032,11,bar,200,OK,vertx 1-484,,true,,74,110,26,26,http://localhost/bar,11,0,1
+1654895906644,402,bar,408,Request Timeout,vertx 1-497,,false,,70,110,25,25,http://localhost/bar,402,0,0
+1654895906851,198,foo,200,OK,vertx 1-483,,true,,74,110,25,25,http://localhost/foo,197,0,1
+1654895906650,401,foo,408,Request Timeout,vertx 1-466,,false,,70,110,25,25,http://localhost/foo,401,0,0
+1654895906655,396,bar,200,OK,vertx 1-468,,true,,74,110,25,25,http://localhost/bar,396,0,0
+1654895907028,41,bar,200,OK,vertx 1-481,,true,,74,110,24,24,http://localhost/bar,41,0,1
+1654895906782,294,bar,200,OK,vertx 1-486,,true,,74,110,23,23,http://localhost/bar,294,0,0
+1654895906791,297,bar,200,OK,vertx 1-494,,true,,74,110,22,22,http://localhost/bar,296,0,1
+1654895906967,149,bar,200,OK,vertx 1-472,,true,,74,110,22,22,http://localhost/bar,149,0,1
+1654895907088,30,foo,200,OK,vertx 1-494,,true,,74,110,21,21,http://localhost/foo,30,0,1
+1654895906824,297,foo,200,OK,vertx 1-489,,true,,74,110,21,21,http://localhost/foo,297,0,0
+1654895906722,402,bar,408,Request Timeout,vertx 1-498,,false,,70,110,21,21,http://localhost/bar,402,0,1
+1654895906904,227,bar,200,OK,vertx 1-479,,true,,74,110,21,21,http://localhost/bar,226,0,1
+1654895906731,402,bar,408,Request Timeout,vertx 1-470,,false,,70,110,20,20,http://localhost/bar,402,0,0
+1654895906738,402,bar,408,Request Timeout,vertx 1-490,,false,,70,110,19,19,http://localhost/bar,402,0,0
+1654895906839,302,bar,200,OK,vertx 1-460,,true,,74,110,18,18,http://localhost/bar,302,0,0
+1654895906870,275,bar,200,OK,vertx 1-471,,true,,74,110,17,17,http://localhost/bar,275,0,1
+1654895906760,401,bar,200,OK,vertx 1-477,,true,,74,110,16,16,http://localhost/bar,400,0,1
+1654895907118,43,bar,200,OK,vertx 1-494,,true,,74,110,16,16,http://localhost/bar,43,0,0
+1654895906937,248,bar,200,OK,vertx 1-492,,true,,74,110,14,14,http://localhost/bar,248,0,0
+1654895907014,214,bar,200,OK,vertx 1-493,,true,,74,110,13,13,http://localhost/bar,214,0,1
+1654895906887,363,bar,200,OK,vertx 1-500,,true,,74,110,12,12,http://localhost/bar,363,0,1
+1654895906851,402,bar,408,Request Timeout,vertx 1-499,,false,,70,110,11,11,http://localhost/bar,402,0,1
+1654895907036,246,bar,200,OK,vertx 1-495,,true,,74,110,11,11,http://localhost/bar,245,0,0
+1654895906881,402,foo,408,Request Timeout,vertx 1-478,,false,,70,110,10,10,http://localhost/foo,402,0,1
+1654895907034,265,foo,200,OK,vertx 1-491,,true,,74,110,10,10,http://localhost/foo,265,0,1
+1654895907121,180,bar,200,OK,vertx 1-489,,true,,74,110,10,10,http://localhost/bar,180,0,1
+1654895907124,221,foo,200,OK,vertx 1-498,,true,,74,110,9,9,http://localhost/foo,220,0,1
+1654895907026,364,bar,200,OK,vertx 1-482,,true,,74,110,9,9,http://localhost/bar,364,0,1
+1654895907006,403,bar,408,Request Timeout,vertx 1-480,,false,,70,110,8,8,http://localhost/bar,403,0,0
+1654895907253,159,foo,200,OK,vertx 1-499,,true,,74,110,7,7,http://localhost/foo,159,0,1
+1654895907049,366,bar,200,OK,vertx 1-483,,true,,74,110,7,7,http://localhost/bar,366,0,0
+1654895907299,141,bar,200,OK,vertx 1-491,,true,,74,110,6,6,http://localhost/bar,141,0,1
+1654895907046,404,foo,408,Request Timeout,vertx 1-497,,false,,70,110,5,5,http://localhost/foo,404,0,1
+1654895907051,402,bar,408,Request Timeout,vertx 1-466,,false,,70,110,5,5,http://localhost/bar,402,0,0
+1654895907450,29,bar,200,OK,vertx 1-497,,true,,74,110,4,4,http://localhost/bar,29,0,1
+1654895907283,357,bar,200,OK,vertx 1-478,,true,,74,110,3,3,http://localhost/bar,356,0,1
+1654895907413,333,bar,200,OK,vertx 1-499,,true,,74,110,2,2,http://localhost/bar,333,0,1
+1654895907345,404,bar,408,Request Timeout,vertx 1-498,,false,,70,110,1,1,http://localhost/bar,404,0,1
