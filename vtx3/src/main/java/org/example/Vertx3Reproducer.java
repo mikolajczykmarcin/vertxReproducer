@@ -17,8 +17,8 @@ import java.util.Random;
 
 public class Vertx3Reproducer {
 
-    private static final int TIMEOUT_HANDLER_TIMEOUT = 1000;
-    private static final int DELIVERY_OPTS_SEND_TIMEOUT = 400;
+    private static final int TIMEOUT_HANDLER_TIMEOUT = 100;
+    private static final int DELIVERY_OPTS_SEND_TIMEOUT = 100;
     private static final int HANDLER_SLEEP_MODULO = 500;
     private static final int VERTX_WORKER_POOL_SIZE = 128;
     Logger logger = LogManager.getLogger();
@@ -63,12 +63,13 @@ public class Vertx3Reproducer {
                     vertx.eventBus().send(name, new JsonObject(), opts, result -> {
                         if (result.failed()) {
                             logger.error(opts.getHeaders().get("id") + " " + name + " failed" + result.cause().getMessage());
-                            if (!context.response().headWritten()) {
-                                logger.info(opts.getHeaders().get("id") + " " + name + " head not written");
+                            if (!context.response().ended()) {
+                                logger.info(opts.getHeaders().get("id") + " " + name + " not ended");
                                 context.response().setStatusCode(408).end();
+                                logger.info(opts.getHeaders().get("id") + " " + name + " ended");
                                 return;
                             } else {
-                                logger.info(opts.getHeaders().get("id") + " " + name + " head written with status " + context.response().getStatusCode());
+                                logger.info(opts.getHeaders().get("id") + " " + name + " ended with status " + context.response().getStatusCode());
                                 return;
                             }
                         }

@@ -17,8 +17,8 @@ import java.util.Random;
 
 public class Vertx4Reproducer {
 
-    private static final int TIMEOUT_HANDLER_TIMEOUT = 1000;
-    private static final int DELIVERY_OPTS_SEND_TIMEOUT = 400;
+    private static final int TIMEOUT_HANDLER_TIMEOUT = 105;
+    private static final int DELIVERY_OPTS_SEND_TIMEOUT = 100;
     private static final int HANDLER_SLEEP_MODULO = 500;
     private static final int VERTX_WORKER_POOL_SIZE = 128;
     private static final int NUMBER_OF_VERTICLE_INSTANCES = 128;
@@ -80,7 +80,7 @@ public class Vertx4Reproducer {
                             logger.info(result.result().headers().get("id") + " " + name + " already ended");
                         }
                     });
-                }, false)
+                }, true)
                 .failureHandler(fail -> {
                     logger.error(name + " router failure handler " + fail.failure());
                     fail.response().setStatusCode(503).end();
